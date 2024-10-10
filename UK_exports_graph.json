@@ -1,0 +1,54 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "UK Exports",
+      "anchor": "start",
+      "subtitle": "Total trade, £ million GBP | Source: ONS through ECO API",
+      "fontSize": "20",
+      "subtitleFontSize": "12",
+      "color": "yellow",
+      "subtitleColor": "greenyellow"
+    },
+    "height": "250",
+    "width": "500",
+    "autosize": {
+      "type": "fit",
+      "contains": "padding"
+    },
+    "background": "red",
+    "view": {
+      "fill": "white",
+      "strokeOpacity": 0
+    },
+    "data": {
+      "url": "https://api.economicsobservatory.com/gbr/expo?vega",
+      "format": {
+        "type": "json"
+      }
+    },
+    "mark": {
+      "type": "line",
+      "color": "blue",
+      "strokeWidth": "4"
+    },
+    "encoding": {
+      "x": {
+        "field": "date",
+        "type": "temporal",
+        "axis": {
+          "title": "here is the X axis - years",
+          "titleColor": "#122B39",
+          "grid": false
+        }
+      },
+      "y": {
+        "field": "value",
+        "type": "quantitative",
+        "axis": {
+          "title": "Here is the y axis - trade volume",
+          "titleColor": "#122B39",
+          "grid": false
+        }
+      }
+    }
+  }

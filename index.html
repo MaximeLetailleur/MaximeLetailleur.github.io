@@ -98,6 +98,26 @@
         <figure id="Location4"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
     </section>
 
+    <section>
+        <div class="chart-description">
+            <h2>Section 5: An imported chart from the Economics Observatory</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                Here's another from the Economics Observatory. it's about the evolution of German exports. Could we say that the little spike experienced in 2006 is due to the WC hosted there?
+            </p>
+        </div>
+        <figure id="Germany_exports"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+
+    <section>
+        <div class="chart-description">
+            <h2>Section 6: Yet again imported chart from the Economics Observatory</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                I'm truly sorry for the colours, they are a bit agressive. I'm still beginning in graphic design.
+            </p>
+        </div>
+        <figure id="UK_exports"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+
     <!-- Do you want to add more sections? -->
         <!-- Try copying pasting the section above -->
         <!-- You'll need to change the id of the figure "<figure id="Location3"... -->
@@ -112,6 +132,8 @@
         let figure_2_spec = "declining_population.json";
         let figure_3_spec = "richardchart1.json";
         let figure_4_spec = "EOchart1.json";
+        let figure_5_spec = "Germany_exports_graph.json";
+        let figure_6_spec = "UK_exports_graph.json";
                                                                                                                     // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
 
         vegaEmbed('#Location1', figure_1_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_1
@@ -125,6 +147,8 @@
         vegaEmbed('#Location2', figure_2_spec)
         vegaEmbed('#Location3', figure_3_spec)
         vegaEmbed('#Location4', figure_4_spec)
+        vegaEmbed('#Germany_exports', figure_5_spec)
+        vegaEmbed('#UK_exports', figure_6_spec)
 
 
     </script>
