@@ -40,7 +40,6 @@
     </style>
 </head>
 
-    
 <body> 
 <!-- The body tag contains the elements that visitors to our page will see. -->
     <h1 class="big" style="margin-bottom: 0px;"> <!-- We have added a class to the header called "big" which we can use to style it in the CSS -->
@@ -55,8 +54,7 @@
     <h3 class="small"> <!-- We have added a class to the header called "small" which we can use to style it in the CSS -->
         This page acts as your portfolio of charts. You can use it as a good starting point to display your work but make sure to customise it to make it your own, or even start from scratch.  
     </h3>
-
-    <h2>PORTFOLIO TASKS  - CC1 - HOSTING</h2>
+<h2> PORTFOLIO TASKS - CC1 - HOSTING</h2>
     <!-- We're organising the page into sections, with each section containing a chart, title and a description -->
     <section>
         <div class="chart-description">
@@ -100,6 +98,8 @@
         <figure id="Location4"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
     </section>
 
+    <h2> PORTFOLIO TASKS - CC2 - BUILDING</h2>
+
     <section>
         <div class="chart-description">
             <h2>Section 5: An imported chart from the Economics Observatory</h2>
@@ -120,6 +120,56 @@
         <figure id="UK_exports"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
     </section>
 
+    <h2> PORTFOLIO TASKS - CC3 - DEBATING</h2>
+
+
+    <section>
+        <div class="chart-description">
+            <h2>UK growth in numbers</h2>
+            <p> At the Festival of Economics, Russell Jones made a case for the "Half a Century of British Economic Decline"
+            </p>
+            <h3>UK Real GDP 1960-2020</h3>
+        </div>
+        <figure id="UK_growth"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+        <p>This point is debattable, especially when confronted with the real evolution of the UK economy over that period. British GDP
+        has risen steadily in the latter part of the 20th century and early 21st century</p>
+    </section>
+    
+    <section>
+        <div class="chart-description">
+            <h2>UK productivity</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                At the Festival, a panel was held to discuss sluggish UK productivity since the Great Recession. Is that an observable phenomenon?
+            </p>
+            <h3>UK productivity, 1975-2024</h3>
+        </div>
+        <figure id="UK_productivity"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+        <p>We can indeed observe a shift in the productivity trend after the 2008 financial crisis. Productivity grows at a lower rate 
+            during the 2010s, supporting the point made by the panelists
+        </p>
+    </section>
+
+    <section>
+        <div class="chart-description">
+            <h2>PYTHON CHART</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                I'm truly sorry for the colours, they are a bit agressive. I'm still beginning in graphic design.
+            </p>
+        </div>
+        <figure id="python_chart"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+
+    <section>
+        <div class="chart-description">
+            <h2>Best chart by far</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                Important coding for charts: how to include a slider, attribute colours to countries, change size of bubbles based
+                on population, and how to manage the tooltip (mouse over a bubble to have the info)
+            </p>
+        </div>
+        <figure id="slider_graph"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+
     <!-- Do you want to add more sections? -->
         <!-- Try copying pasting the section above -->
         <!-- You'll need to change the id of the figure "<figure id="Location3"... -->
@@ -136,6 +186,10 @@
         let figure_4_spec = "EOchart1.json";
         let figure_5_spec = "Germany_exports_graph.json";
         let figure_6_spec = "UK_exports_graph.json";
+        let figure_7_spec = "goods_services.json";
+        let figure_8_spec = "cool_graph_slider.json";
+        let figure_9_spec = "CC3_task_graph1.json";
+        let figure_10_spec = "UK_prod.json";
                                                                                                                     // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
 
         vegaEmbed('#Location1', figure_1_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_1
@@ -151,6 +205,10 @@
         vegaEmbed('#Location4', figure_4_spec)
         vegaEmbed('#Germany_exports', figure_5_spec)
         vegaEmbed('#UK_exports', figure_6_spec)
+        vegaEmbed('#python_chart', figure_7_spec)
+        vegaEmbed('#slider_graph', figure_8_spec)
+        vegaEmbed('#UK_growth', figure_9_spec)
+        vegaEmbed('#UK_productivity', figure_10_spec)
 
 
     </script>
