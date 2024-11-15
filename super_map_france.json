@@ -1,0 +1,45 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 600,
+    "height": 600,
+    "title": {
+      "text":"Demographic changes by department, 2013-2018 ",
+      "fontSize": 18
+    },
+    
+     "data": {
+      "url": "https://france-geojson.gregoiredavid.fr/repo/departements.geojson",
+      "format": {"property": "features"}
+     },
+  
+    "mark":{
+      "type":"geoshape" , "stroke": "white", "strokeWidth": 0.5
+    },
+  
+    "encoding": {
+      "tooltip":[
+        { "field":"properties.nom", "title": "Departements"},
+        {"field": "Variation", "title": "% change pop"}
+      ],
+      "color": {
+        "field": "Variation",
+        "type": "quantitative",
+        "legend": {"title": "", "format": "d"},
+        "scale": {"scheme": "redblue", "reverse": false}
+      }
+    },
+    "transform": [
+      {
+        "lookup": "properties.code",
+        "from": {
+          "key": "DEP",
+          "fields": ["DEP", "Variation"],
+          "data": {
+            "url": "https://raw.githubusercontent.com/MaximeLetailleur/MaximeLetailleur.github.io/refs/heads/main/FPORSOC21-F41%20(3).csv"
+          }
+        }
+      }
+    ]
+  
+  }
+  
