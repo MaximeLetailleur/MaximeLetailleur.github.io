@@ -1,0 +1,25 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 600,
+    "height": 600,
+   
+   "layer":[
+    {
+    "data": {
+      "url": "https://france-geojson.gregoiredavid.fr/repo/departements.geojson",
+      "format": {"property": "features"}
+    },
+    "mark":{
+      "type":"geoshape" 
+    },
+    "encoding": {
+      "tooltip":[
+        {
+          "field":"properties.nom"
+        }
+      ]
+    }
+    }
+   ]
+  }
+  
