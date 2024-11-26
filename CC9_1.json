@@ -1,0 +1,42 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",  
+    "title": {
+      "text": "Price evolution of frozen beef over time",
+      "subtitle":"Data from Store 1",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+    },
+    
+    "data": 
+      {
+        "url": "https://raw.githubusercontent.com/MaximeLetailleur/MaximeLetailleur.github.io/refs/heads/main/monthlyfrozenbeefprices_store1.csv"
+      },
+    
+    "height": 300,
+    "width": 300,
+    
+    "mark": {
+      "type": "line",
+      "color": "limegreen"
+    },
+    
+    "encoding": {
+    
+      "x": {
+        "field": "Monthly",
+        "type": "temporal"
+      },
+  
+      "y": {
+        "field": "average_price",
+        "type": "quantitative",
+        "scale": {
+                "type": "linear",
+                "domain": [3,5]}
+
+      }
+    }
+  }
+

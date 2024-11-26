@@ -1,0 +1,57 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",  
+    "title": {
+      "text": "Maximum, minimum and spread prices of frozen beef",
+      "subtitle":"Data from all stores 1-6",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+    },
+    
+    "data": 
+      {
+        "url": "https://raw.githubusercontent.com/MaximeLetailleur/MaximeLetailleur.github.io/refs/heads/main/beef_min_max_%26_spread_prices_all_stores.csv"
+      },
+    
+    "height": 300,
+    "width": 600,
+    
+    "mark": {
+      "type": "bar",
+      "color": "limegreen"
+    },
+    
+    "encoding": {
+    
+      "x": {
+        "field": "store_id",
+        "type": "nominal"},
+
+      "xOffset": {
+      "field": "price_type",
+      "type": "nominal",
+      "title": "Price Type"}, 
+  
+      "y": {
+        "field": "price",
+        "type": "quantitative",
+        "scale": {
+                "type": "linear",
+                "domain": [0,10]}
+
+      },
+      "color": {
+      "field": "price_type",
+      "type": "nominal",
+      "title": "Price Type",
+      "scale": {
+        "domain": ["min_price", "max_price", "price_spread"],
+        "range": ["#1f77b4", "#ff7f0e", "#2ca02c"]
+      }
+    },
+    "tooltip":[{"field": "price_type", "title": "Price type"},
+    {"field": "price", "title": "Price", "format": "$"}]
+    }
+  }
+
