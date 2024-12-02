@@ -230,6 +230,17 @@
         <figure id="CC9_1"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
     </section>
 
+    <section>
+        <div class="chart-description">
+            <h2>Goal Difference Evolution Among the Big 6 Teams</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                The Premier League Big 6 teams are known for scoaring loads and defending stubbornly. Has it always been the case? here we are interested in
+                the evolution of goal difference values (goals scored - goals taken) for the big 6 teams over the existence of the Premier League (1993-2024)
+            </p>
+        </div>
+        <figure id="CC9_2"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+
     <!-- Do you want to add more sections? -->
         <!-- Try copying pasting the section above -->
         <!-- You'll need to change the id of the figure "<figure id="Location3"... -->
@@ -255,6 +266,7 @@
         let figure_13_spec = "CC8_1.json";
         let figure_14_spec = "CC8_2.json";
         let figure_15_spec = "CC9_1.json";
+        let figure_16_spec = "CC9_2.json";
                                                                                                                     // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
 
         vegaEmbed('#Location1', figure_1_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_1
@@ -279,6 +291,7 @@
         vegaEmbed('#CC8_1', figure_13_spec)
         vegaEmbed('#CC8_2', figure_14_spec)
         vegaEmbed('#CC9_1', figure_15_spec)
+        vegaEmbed('#CC9_2', figure_16_spec)
 
 
     </script>

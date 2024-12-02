@@ -1,57 +1,67 @@
-{
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",  
-    "title": {
-      "text": "Maximum, minimum and spread prices of frozen beef",
-      "subtitle":"Data from all stores 1-6",
-      "subtitleFontStyle":"italic",
-      "subtitleFontSize":10,
-      "anchor": "start",
-      "color": "black"
-    },
-    
-    "data": 
-      {
-        "url": "https://raw.githubusercontent.com/MaximeLetailleur/MaximeLetailleur.github.io/refs/heads/main/beef_min_max_%26_spread_prices_all_stores.csv"
-      },
-    
-    "height": 300,
-    "width": 600,
-    
-    "mark": {
-      "type": "bar",
-      "color": "limegreen"
-    },
-    
-    "encoding": {
-    
-      "x": {
-        "field": "store_id",
-        "type": "nominal"},
+{  
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
-      "xOffset": {
-      "field": "price_type",
-      "type": "nominal",
-      "title": "Price Type"}, 
-  
-      "y": {
-        "field": "price",
-        "type": "quantitative",
-        "scale": {
-                "type": "linear",
-                "domain": [0,10]}
+  "height": 300,
+  "width": 300,
 
-      },
-      "color": {
-      "field": "price_type",
-      "type": "nominal",
-      "title": "Price Type",
-      "scale": {
-        "domain": ["min_price", "max_price", "price_spread"],
-        "range": ["#1f77b4", "#ff7f0e", "#2ca02c"]
-      }
-    },
-    "tooltip":[{"field": "price_type", "title": "Price type"},
-    {"field": "price", "title": "Price", "format": "$"}]
+ "title": {
+    "text":"Goal Difference Evolution Among the Big 6 Teams",
+    "subtitle": "Goals scored minus goals taken in the Premier Leagure for Arsenal, Chelsea, Liverpool, Man City, Man Utd and Tottenham, 1993-2024",
+    "subtitleFontStyle":"Italic"},
+
+ "data":{
+  "url": "https://raw.githubusercontent.com/MaximeLetailleur/MaximeLetailleur.github.io/refs/heads/main/pl-tables-1993-2024.csv",
+  "format": {"type": "csv"}
+ },
+  "transform": [
+    {
+      "filter": "datum.team == 'Chelsea'|| datum.team =='Tottenham'||datum.team =='Arsenal'|| datum.team =='Manchester City'|| datum.team =='Liverpool'|| datum.team =='Manchester Utd'"
     }
-  }
+  ],
 
+ "mark": {
+      "type":"bar",
+      "color":"rgb(0,47,167)",
+      "point":true,
+      "size":10
+},
+"params": [
+    {
+      "name": "hover",
+      "select": {
+        "type": "point",
+        "on": "pointerover"
+      }
+    }
+  ],
+ "encoding":{
+  "x": {
+    "field": "season_end_year",
+    "type": "quantitative",
+    "scale":{"domain": [1992,2024]},
+    "title": "Season",
+    "axis": {"format": "d"}
+  },
+  "y":{
+    "field": "gd",
+    "type": "quantitative"
+  },
+ "facet": {
+      "field": "team",
+      "type": "nominal",
+      "columns": 3,
+      "title": null
+    },
+  "tooltip":[{"field":"season_end_year", "title":"Season"},
+  {"field":"gd", "title":"Goal Difference"}],
+  "color": {
+      "condition": {
+        "param": "hover",
+        "value": "#125ca4",
+        "empty": false
+      },
+      "value": "#206fb2"
+    }
+  },
+    "resolve": {"scale": {"y": "independent"}}
+}
