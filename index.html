@@ -190,7 +190,7 @@
         </div>
         <figure id="super_map_france"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
     </section>
-    <h2> PORTFOLIO TASKS - CC9 - BIG DATA</h2>
+    <h2> PORTFOLIO TASKS - CC8 - BIG DATA</h2>
 
     <section>
         <div class="chart-description">
@@ -201,12 +201,12 @@
                 observations into daily, then monthly averages, I ended up with a handful of datapoints for this product that i could chart in a clear and readable way.
             </p>
         </div>
-        <figure id="CC9_1"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+        <figure id="CC8_1"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
     </section>
 
     <section>
         <div class="chart-description">
-            <h2>Graph of the prive evolution of frozen beef patties</h2>
+            <h2>Graph of the price evolution of frozen beef patties</h2>
             <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
                 Here is the 2nd graph for the CC9 coding challenge. This one displays the maximum and minimum prices for each of the 6 stores
                 where there is information on the frozen beef patties (no information from store 2), along with the price spread for each store
@@ -215,7 +215,19 @@
                 NB: I don't have a tile to write the pounds symbol on my keyboard, so it's a dollar sign instead.
             </p>
         </div>
-        <figure id="CC9_2"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+        <figure id="CC8_2"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+
+    <section>
+        <div class="chart-description">
+            <h2>The Premier League has Become More Competitive</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                Since the 1990s, the EPL has become more competitive, with the League winners and runners-up accumulating more and more points.
+                In 1997, it only took Man Utd 75 points to lift that expensive piece of silverware. In 2020, Liverpool reached a grand total of 99 points to take home the first (and only) Prem trophy of the Klopp era.
+                Up the Reds!
+            </p>
+        </div>
+        <figure id="CC9_1"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
     </section>
 
     <!-- Do you want to add more sections? -->
@@ -240,8 +252,9 @@
         let figure_10_spec = "UK_prod.json";
         let figure_11_spec = "map_france.json";
         let figure_12_spec = "super_map_france.json";
-        let figure_13_spec = "CC9_1.json";
-        let figure_14_spec = "CC9_2.json";
+        let figure_13_spec = "CC8_1.json";
+        let figure_14_spec = "CC8_2.json";
+        let figure_15_spec = "CC9_1.json";
                                                                                                                     // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
 
         vegaEmbed('#Location1', figure_1_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_1
@@ -263,8 +276,9 @@
         vegaEmbed('#UK_productivity', figure_10_spec)
         vegaEmbed('#map_france', figure_11_spec)
         vegaEmbed('#super_map_france', figure_12_spec)
-        vegaEmbed('#CC9_1', figure_13_spec)
-        vegaEmbed('#CC9_2', figure_14_spec)
+        vegaEmbed('#CC8_1', figure_13_spec)
+        vegaEmbed('#CC8_2', figure_14_spec)
+        vegaEmbed('#CC9_1', figure_15_spec)
 
 
     </script>
