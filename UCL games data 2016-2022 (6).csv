@@ -1,0 +1,745 @@
+MATCH_ID,SEASON,DATE_TIME,YEAR,HOME_TEAM,AWAY_TEAM,STADIUM,Cities,HOME_TEAM_SCORE,AWAY_TEAM_SCORE,Winner,PENALTY_SHOOT_OUT,ATTENDANCE,-22,-21,-20,-19,-18,-17,-16
+mt1,2021-2022,15-SEP-21 08.00.00.000000000 PM,2021,Manchester City,RB Leipzig,Etihad Stadium,Manchester,6,3,Home,0,38062,0,1,0,0,0,0,0
+mt2,2021-2022,15-SEP-21 08.00.00.000000000 PM,2021,Club Brugge KV,Paris Saint-Germain,Jan Breydel Stadion,Brugge,1,1,Draw,0,27546,0,1,0,0,0,0,0
+mt3,2021-2022,28-SEP-21 08.00.00.000000000 PM,2021,Paris Saint-Germain,Manchester City,Parc des Princes,Paris,2,0,Home,0,37350,0,1,0,0,0,0,0
+mt4,2021-2022,28-SEP-21 08.00.00.000000000 PM,2021,RB Leipzig,Club Brugge KV,Red Bull Arena,Leipzig,1,2,Away,0,23500,0,1,0,0,0,0,0
+mt5,2021-2022,19-OCT-21 05.45.00.000000000 PM,2021,Club Brugge KV,Manchester City,Jan Breydel Stadion,Brugge,1,5,Away,0,24915,0,1,0,0,0,0,0
+mt6,2021-2022,19-OCT-21 08.00.00.000000000 PM,2021,Paris Saint-Germain,RB Leipzig,Parc des Princes,Paris,3,2,Home,0,47359,0,1,0,0,0,0,0
+mt7,2021-2022,03-NOV-21 08.00.00.000000000 PM,2021,RB Leipzig,Paris Saint-Germain,Red Bull Arena,Leipzig,2,2,Draw,0,39794,0,1,0,0,0,0,0
+mt8,2021-2022,03-NOV-21 08.00.00.000000000 PM,2021,Manchester City,Club Brugge KV,Etihad Stadium,Manchester,4,1,Home,0,50228,0,1,0,0,0,0,0
+mt9,2021-2022,24-NOV-21 08.00.00.000000000 PM,2021,Manchester City,Paris Saint-Germain,Etihad Stadium,Manchester,2,1,Home,0,52030,0,1,0,0,0,0,0
+mt10,2021-2022,24-NOV-21 08.00.00.000000000 PM,2021,Club Brugge KV,RB Leipzig,Jan Breydel Stadion,Brugge,0,5,Away,0,24072,0,1,0,0,0,0,0
+mt11,2021-2022,07-DEC-21 05.45.00.000000000 PM,2021,RB Leipzig,Manchester City,Red Bull Arena,Leipzig,2,1,Home,0,0,0,1,0,0,0,0,0
+mt12,2021-2022,07-DEC-21 05.45.00.000000000 PM,2021,Paris Saint-Germain,Club Brugge KV,Parc des Princes,Paris,4,1,Home,0,47492,0,1,0,0,0,0,0
+mt13,2021-2022,15-SEP-21 08.00.00.000000000 PM,2021,Atlético Madrid,FC Porto,Wanda Metropolitano,Madrid,0,0,Draw,0,40098,0,1,0,0,0,0,0
+mt14,2021-2022,15-SEP-21 08.00.00.000000000 PM,2021,Liverpool FC,AC Milan,Anfield,Liverpool,3,2,Home,0,51445,0,1,0,0,0,0,0
+mt15,2021-2022,28-SEP-21 08.00.00.000000000 PM,2021,FC Porto,Liverpool FC,Estádio do Dragão,Porto,1,5,Away,0,23520,0,1,0,0,0,0,0
+mt16,2021-2022,28-SEP-21 08.00.00.000000000 PM,2021,AC Milan,Atlético Madrid,Giuseppe Meazza,Milano,1,2,Away,0,35374,0,1,0,0,0,0,0
+mt17,2021-2022,19-OCT-21 08.00.00.000000000 PM,2021,Atlético Madrid,Liverpool FC,Wanda Metropolitano,Madrid,2,3,Away,0,60725,0,1,0,0,0,0,0
+mt18,2021-2022,19-OCT-21 08.00.00.000000000 PM,2021,FC Porto,AC Milan,Estádio do Dragão,Porto,1,0,Home,0,32130,0,1,0,0,0,0,0
+mt19,2021-2022,03-NOV-21 05.45.00.000000000 PM,2021,AC Milan,FC Porto,Giuseppe Meazza,Milano,1,1,Draw,0,39675,0,1,0,0,0,0,0
+mt20,2021-2022,03-NOV-21 08.00.00.000000000 PM,2021,Liverpool FC,Atlético Madrid,Anfield,Liverpool,2,0,Home,0,51347,0,1,0,0,0,0,0
+mt21,2021-2022,24-NOV-21 08.00.00.000000000 PM,2021,Liverpool FC,FC Porto,Anfield,Liverpool,2,0,Home,0,52209,0,1,0,0,0,0,0
+mt22,2021-2022,24-NOV-21 08.00.00.000000000 PM,2021,Atlético Madrid,AC Milan,Wanda Metropolitano,Madrid,0,1,Away,0,61019,0,1,0,0,0,0,0
+mt23,2021-2022,07-DEC-21 08.00.00.000000000 PM,2021,FC Porto,Atlético Madrid,Estádio do Dragão,Porto,1,3,Away,0,38830,0,1,0,0,0,0,0
+mt24,2021-2022,07-DEC-21 08.00.00.000000000 PM,2021,AC Milan,Liverpool FC,Giuseppe Meazza,Milano,1,2,Away,0,56237,0,1,0,0,0,0,0
+mt25,2021-2022,15-SEP-21 05.45.00.000000000 PM,2021,Beşiktaş,Borussia Dortmund,Vodafone Park,Istanbul,1,2,Away,0,22445,0,1,0,0,0,0,0
+mt26,2021-2022,15-SEP-21 08.00.00.000000000 PM,2021,Sporting CP,AFC Ajax,Estádio José Alvalade,Lisboa,1,5,Away,0,20382,0,1,0,0,0,0,0
+mt27,2021-2022,28-SEP-21 05.45.00.000000000 PM,2021,AFC Ajax,Beşiktaş,Johan Cruijff ArenA,Amsterdam,2,0,Home,0,52628,0,1,0,0,0,0,0
+mt28,2021-2022,28-SEP-21 08.00.00.000000000 PM,2021,Borussia Dortmund,Sporting CP,Signal Iduna Park,Dortmund,1,0,Home,0,25000,0,1,0,0,0,0,0
+mt29,2021-2022,19-OCT-21 05.45.00.000000000 PM,2021,Beşiktaş,Sporting CP,Vodafone Park,Istanbul,1,4,Away,0,22936,0,1,0,0,0,0,0
+mt30,2021-2022,19-OCT-21 08.00.00.000000000 PM,2021,AFC Ajax,Borussia Dortmund,Johan Cruijff ArenA,Amsterdam,4,0,Home,0,54029,0,1,0,0,0,0,0
+mt31,2021-2022,03-NOV-21 08.00.00.000000000 PM,2021,Borussia Dortmund,AFC Ajax,Signal Iduna Park,Dortmund,1,3,Away,0,54820,0,1,0,0,0,0,0
+mt32,2021-2022,03-NOV-21 08.00.00.000000000 PM,2021,Sporting CP,Beşiktaş,Estádio José Alvalade,Lisboa,4,0,Home,0,40835,0,1,0,0,0,0,0
+mt33,2021-2022,24-NOV-21 05.45.00.000000000 PM,2021,Beşiktaş,AFC Ajax,Vodafone Park,Istanbul,1,2,Away,0,11712,0,1,0,0,0,0,0
+mt34,2021-2022,24-NOV-21 08.00.00.000000000 PM,2021,Sporting CP,Borussia Dortmund,Estádio José Alvalade,Lisboa,3,1,Home,0,41341,0,1,0,0,0,0,0
+mt35,2021-2022,07-DEC-21 08.00.00.000000000 PM,2021,AFC Ajax,Sporting CP,Johan Cruijff ArenA,Amsterdam,4,2,Home,0,0,0,1,0,0,0,0,0
+mt36,2021-2022,07-DEC-21 08.00.00.000000000 PM,2021,Borussia Dortmund,Beşiktaş,Signal Iduna Park,Dortmund,5,0,Home,0,15000,0,1,0,0,0,0,0
+mt37,2021-2022,15-SEP-21 05.45.00.000000000 PM,2021,FC Sheriff,Shakhtar Donetsk,Sheriff Stadium,Tiraspol,2,0,Home,0,5205,0,1,0,0,0,0,0
+mt38,2021-2022,15-SEP-21 08.00.00.000000000 PM,2021,Inter,Real Madrid,Giuseppe Meazza,Milano,0,1,Away,0,37082,0,1,0,0,0,0,0
+mt39,2021-2022,28-SEP-21 05.45.00.000000000 PM,2021,Shakhtar Donetsk,Inter,Olimpiyskyi,Kiev,0,0,Draw,0,26170,0,1,0,0,0,0,0
+mt40,2021-2022,28-SEP-21 08.00.00.000000000 PM,2021,Real Madrid,FC Sheriff,Santiago Bernabéu,Madrid,1,2,Away,0,24522,0,1,0,0,0,0,0
+mt41,2021-2022,19-OCT-21 08.00.00.000000000 PM,2021,Shakhtar Donetsk,Real Madrid,Olimpiyskyi,Kiev,0,5,Away,0,34037,0,1,0,0,0,0,0
+mt42,2021-2022,19-OCT-21 08.00.00.000000000 PM,2021,Inter,FC Sheriff,Giuseppe Meazza,Milano,3,1,Home,0,43305,0,1,0,0,0,0,0
+mt43,2021-2022,03-NOV-21 05.45.00.000000000 PM,2021,Real Madrid,Shakhtar Donetsk,Santiago Bernabéu,Madrid,2,1,Home,0,38105,0,1,0,0,0,0,0
+mt44,2021-2022,03-NOV-21 08.00.00.000000000 PM,2021,FC Sheriff,Inter,Sheriff Stadium,Tiraspol,1,3,Away,0,5930,0,1,0,0,0,0,0
+mt45,2021-2022,24-NOV-21 05.45.00.000000000 PM,2021,Inter,Shakhtar Donetsk,Giuseppe Meazza,Milano,2,0,Home,0,46225,0,1,0,0,0,0,0
+mt46,2021-2022,24-NOV-21 08.00.00.000000000 PM,2021,FC Sheriff,Real Madrid,Sheriff Stadium,Tiraspol,0,3,Away,0,5932,0,1,0,0,0,0,0
+mt47,2021-2022,07-DEC-21 08.00.00.000000000 PM,2021,Real Madrid,Inter,Santiago Bernabéu,Madrid,2,0,Home,0,46887,0,1,0,0,0,0,0
+mt48,2021-2022,07-DEC-21 08.00.00.000000000 PM,2021,Shakhtar Donetsk,FC Sheriff,Olimpiyskyi,Kiev,1,1,Draw,0,6841,0,1,0,0,0,0,0
+mt49,2021-2022,14-SEP-21 08.00.00.000000000 PM,2021,FC Barcelona,Bayern München,Spotify Camp Nou,Barcelona,0,3,Away,0,39737,0,1,0,0,0,0,0
+mt50,2021-2022,14-SEP-21 08.00.00.000000000 PM,2021,Dinamo Kiev,SL Benfica,Olimpiyskyi,Kiev,0,0,Draw,0,21657,0,1,0,0,0,0,0
+mt51,2021-2022,29-SEP-21 08.00.00.000000000 PM,2021,SL Benfica,FC Barcelona,Estádio da Luz,Lisboa,3,0,Home,0,29454,0,1,0,0,0,0,0
+mt52,2021-2022,29-SEP-21 08.00.00.000000000 PM,2021,Bayern München,Dinamo Kiev,Allianz Arena,München,5,0,Home,0,25000,0,1,0,0,0,0,0
+mt53,2021-2022,20-OCT-21 05.45.00.000000000 PM,2021,FC Barcelona,Dinamo Kiev,Spotify Camp Nou,Barcelona,1,0,Home,0,45968,0,1,0,0,0,0,0
+mt54,2021-2022,20-OCT-21 08.00.00.000000000 PM,2021,SL Benfica,Bayern München,Estádio da Luz,Lisboa,0,4,Away,0,50000,0,1,0,0,0,0,0
+mt55,2021-2022,02-NOV-21 08.00.00.000000000 PM,2021,Bayern München,SL Benfica,Allianz Arena,München,5,2,Home,0,50000,0,1,0,0,0,0,0
+mt56,2021-2022,02-NOV-21 08.00.00.000000000 PM,2021,Dinamo Kiev,FC Barcelona,Olimpiyskyi,Kiev,0,1,Away,0,31378,0,1,0,0,0,0,0
+mt57,2021-2022,23-NOV-21 05.45.00.000000000 PM,2021,Dinamo Kiev,Bayern München,Olimpiyskyi,Kiev,1,2,Away,0,28732,0,1,0,0,0,0,0
+mt58,2021-2022,23-NOV-21 08.00.00.000000000 PM,2021,FC Barcelona,SL Benfica,Spotify Camp Nou,Barcelona,0,0,Draw,0,49572,0,1,0,0,0,0,0
+mt59,2021-2022,08-DEC-21 08.00.00.000000000 PM,2021,Bayern München,FC Barcelona,Allianz Arena,München,3,0,Home,0,0,0,1,0,0,0,0,0
+mt60,2021-2022,08-DEC-21 08.00.00.000000000 PM,2021,SL Benfica,Dinamo Kiev,Estádio da Luz,Lisboa,2,0,Home,0,37000,0,1,0,0,0,0,0
+mt61,2021-2022,14-SEP-21 05.45.00.000000000 PM,2021,BSC Young Boys,Manchester United,Stadion Wankdorf,Bern,2,1,Home,0,31120,0,1,0,0,0,0,0
+mt62,2021-2022,14-SEP-21 08.00.00.000000000 PM,2021,Villarreal CF,Atalanta,Estadio de la Cerámica,Villarreal,2,2,Draw,0,12916,0,1,0,0,0,0,0
+mt63,2021-2022,29-SEP-21 05.45.00.000000000 PM,2021,Atalanta,BSC Young Boys,Gewiss Stadium,Bergamo,1,0,Home,0,8536,0,1,0,0,0,0,0
+mt64,2021-2022,29-SEP-21 08.00.00.000000000 PM,2021,Manchester United,Villarreal CF,Old Trafford,Manchester,2,1,Home,0,73130,0,1,0,0,0,0,0
+mt65,2021-2022,20-OCT-21 08.00.00.000000000 PM,2021,Manchester United,Atalanta,Old Trafford,Manchester,3,2,Home,0,72279,0,1,0,0,0,0,0
+mt66,2021-2022,20-OCT-21 08.00.00.000000000 PM,2021,BSC Young Boys,Villarreal CF,Stadion Wankdorf,Bern,1,4,Away,0,27398,0,1,0,0,0,0,0
+mt67,2021-2022,02-NOV-21 08.00.00.000000000 PM,2021,Atalanta,Manchester United,Gewiss Stadium,Bergamo,2,2,Draw,0,14443,0,1,0,0,0,0,0
+mt68,2021-2022,02-NOV-21 08.00.00.000000000 PM,2021,Villarreal CF,BSC Young Boys,Estadio de la Cerámica,Villarreal,2,0,Home,0,14890,0,1,0,0,0,0,0
+mt69,2021-2022,23-NOV-21 05.45.00.000000000 PM,2021,Villarreal CF,Manchester United,Estadio de la Cerámica,Villarreal,0,2,Away,0,20875,0,1,0,0,0,0,0
+mt70,2021-2022,23-NOV-21 08.00.00.000000000 PM,2021,BSC Young Boys,Atalanta,Stadion Wankdorf,Bern,3,3,Draw,0,31120,0,1,0,0,0,0,0
+mt71,2021-2022,08-DEC-21 08.00.00.000000000 PM,2021,Manchester United,BSC Young Boys,Old Trafford,Manchester,1,1,Draw,0,73156,0,1,0,0,0,0,0
+mt72,2021-2022,09-DEC-21 06.00.00.000000000 PM,2021,Atalanta,Villarreal CF,Gewiss Stadium,Bergamo,2,3,Away,0,11690,0,1,0,0,0,0,0
+mt73,2021-2022,14-SEP-21 05.45.00.000000000 PM,2021,Sevilla FC,RB Salzburg,Ramón Sánchez Pizjuán,Sevilla,1,1,Draw,0,18373,0,1,0,0,0,0,0
+mt74,2021-2022,14-SEP-21 08.00.00.000000000 PM,2021,Lille OSC,VfL Wolfsburg,Stade Pierre Mauroy,Villeneuve D’Ascq,0,0,Draw,0,34314,0,1,0,0,0,0,0
+mt75,2021-2022,29-SEP-21 08.00.00.000000000 PM,2021,RB Salzburg,Lille OSC,Red Bull Arena,Leipzig,2,1,Home,0,24207,0,1,0,0,0,0,0
+mt76,2021-2022,29-SEP-21 08.00.00.000000000 PM,2021,VfL Wolfsburg,Sevilla FC,Volkswagen Arena,Wolfsburg,1,1,Draw,0,11733,0,1,0,0,0,0,0
+mt77,2021-2022,20-OCT-21 05.45.00.000000000 PM,2021,RB Salzburg,VfL Wolfsburg,Red Bull Arena,Leipzig,3,1,Home,0,27500,0,1,0,0,0,0,0
+mt78,2021-2022,20-OCT-21 08.00.00.000000000 PM,2021,Lille OSC,Sevilla FC,Stade Pierre Mauroy,Villeneuve D’Ascq,0,0,Draw,0,34362,0,1,0,0,0,0,0
+mt79,2021-2022,02-NOV-21 05.45.00.000000000 PM,2021,VfL Wolfsburg,RB Salzburg,Volkswagen Arena,Wolfsburg,2,1,Home,0,16112,0,1,0,0,0,0,0
+mt80,2021-2022,02-NOV-21 08.00.00.000000000 PM,2021,Sevilla FC,Lille OSC,Ramón Sánchez Pizjuán,Sevilla,1,2,Away,0,29369,0,1,0,0,0,0,0
+mt81,2021-2022,23-NOV-21 08.00.00.000000000 PM,2021,Lille OSC,RB Salzburg,Stade Pierre Mauroy,Villeneuve D’Ascq,1,0,Home,0,33573,0,1,0,0,0,0,0
+mt82,2021-2022,23-NOV-21 08.00.00.000000000 PM,2021,Sevilla FC,VfL Wolfsburg,Ramón Sánchez Pizjuán,Sevilla,2,0,Home,0,28663,0,1,0,0,0,0,0
+mt83,2021-2022,08-DEC-21 08.00.00.000000000 PM,2021,RB Salzburg,Sevilla FC,Red Bull Arena,Leipzig,1,0,Home,0,0,0,1,0,0,0,0,0
+mt84,2021-2022,08-DEC-21 08.00.00.000000000 PM,2021,VfL Wolfsburg,Lille OSC,Volkswagen Arena,Wolfsburg,1,3,Away,0,6544,0,1,0,0,0,0,0
+mt85,2021-2022,14-SEP-21 08.00.00.000000000 PM,2021,Chelsea FC,Zenit St. Petersburg,Stamford Bridge,London,1,0,Home,0,39252,0,1,0,0,0,0,0
+mt86,2021-2022,14-SEP-21 08.00.00.000000000 PM,2021,Malmö FF,Juventus,Nya Malmö Stadion,Malmö,0,3,Away,0,5832,0,1,0,0,0,0,0
+mt87,2021-2022,29-SEP-21 05.45.00.000000000 PM,2021,Zenit St. Petersburg,Malmö FF,Gazprom Arena,St. Petersburg,4,0,Home,0,15339,0,1,0,0,0,0,0
+mt88,2021-2022,29-SEP-21 08.00.00.000000000 PM,2021,Juventus,Chelsea FC,Allianz Stadium,Torino,1,0,Home,0,19934,0,1,0,0,0,0,0
+mt89,2021-2022,20-OCT-21 08.00.00.000000000 PM,2021,Zenit St. Petersburg,Juventus,Gazprom Arena,St. Petersburg,0,1,Away,0,18717,0,1,0,0,0,0,0
+mt90,2021-2022,20-OCT-21 08.00.00.000000000 PM,2021,Chelsea FC,Malmö FF,Stamford Bridge,London,4,0,Home,0,39095,0,1,0,0,0,0,0
+mt91,2021-2022,02-NOV-21 05.45.00.000000000 PM,2021,Malmö FF,Chelsea FC,Nya Malmö Stadion,Malmö,0,1,Away,0,19551,0,1,0,0,0,0,0
+mt92,2021-2022,02-NOV-21 08.00.00.000000000 PM,2021,Juventus,Zenit St. Petersburg,Allianz Stadium,Torino,4,2,Home,0,20053,0,1,0,0,0,0,0
+mt93,2021-2022,23-NOV-21 08.00.00.000000000 PM,2021,Chelsea FC,Juventus,Stamford Bridge,London,4,0,Home,0,39513,0,1,0,0,0,0,0
+mt94,2021-2022,23-NOV-21 08.00.00.000000000 PM,2021,Malmö FF,Zenit St. Petersburg,Nya Malmö Stadion,Malmö,1,1,Draw,0,19551,0,1,0,0,0,0,0
+mt95,2021-2022,08-DEC-21 05.45.00.000000000 PM,2021,Zenit St. Petersburg,Chelsea FC,Gazprom Arena,St. Petersburg,3,3,Draw,0,29349,0,1,0,0,0,0,0
+mt96,2021-2022,08-DEC-21 05.45.00.000000000 PM,2021,Juventus,Malmö FF,Allianz Stadium,Torino,1,0,Home,0,17501,0,1,0,0,0,0,0
+mt97,2021-2022,15-FEB-22 08.00.00.000000000 PM,2022,Sporting CP,Manchester City,Estádio José Alvalade,Lisboa,0,5,Away,0,48129,1,0,0,0,0,0,0
+mt98,2021-2022,15-FEB-22 08.00.00.000000000 PM,2022,Paris Saint-Germain,Real Madrid,Parc des Princes,Paris,1,0,Home,0,47443,1,0,0,0,0,0,0
+mt99,2021-2022,16-FEB-22 08.00.00.000000000 PM,2022,RB Salzburg,Bayern München,Red Bull Arena,Leipzig,1,1,Draw,0,29520,1,0,0,0,0,0,0
+mt100,2021-2022,16-FEB-22 08.00.00.000000000 PM,2022,Inter,Liverpool FC,Giuseppe Meazza,Milano,0,2,Away,0,37918,1,0,0,0,0,0,0
+mt101,2021-2022,22-FEB-22 08.00.00.000000000 PM,2022,Chelsea FC,Lille OSC,Stamford Bridge,London,2,0,Home,0,38832,1,0,0,0,0,0,0
+mt102,2021-2022,22-FEB-22 08.00.00.000000000 PM,2022,Villarreal CF,Juventus,Estadio de la Cerámica,Villarreal,1,1,Draw,0,17686,1,0,0,0,0,0,0
+mt103,2021-2022,23-FEB-22 08.00.00.000000000 PM,2022,SL Benfica,AFC Ajax,Estádio da Luz,Lisboa,2,2,Draw,0,54760,1,0,0,0,0,0,0
+mt104,2021-2022,23-FEB-22 08.00.00.000000000 PM,2022,Atlético Madrid,Manchester United,Wanda Metropolitano,Madrid,1,1,Draw,0,63273,1,0,0,0,0,0,0
+mt105,2021-2022,08-MAR-22 08.00.00.000000000 PM,2022,Bayern München,RB Salzburg,Allianz Arena,München,7,1,Home,0,25000,1,0,0,0,0,0,0
+mt106,2021-2022,08-MAR-22 08.00.00.000000000 PM,2022,Liverpool FC,Inter,Anfield,Liverpool,0,1,Away,0,51747,1,0,0,0,0,0,0
+mt107,2021-2022,09-MAR-22 08.00.00.000000000 PM,2022,Manchester City,Sporting CP,Etihad Stadium,Manchester,0,0,Draw,0,51213,1,0,0,0,0,0,0
+mt108,2021-2022,09-MAR-22 08.00.00.000000000 PM,2022,Real Madrid,Paris Saint-Germain,Santiago Bernabéu,Madrid,3,1,Home,0,59895,1,0,0,0,0,0,0
+mt109,2021-2022,15-MAR-22 08.00.00.000000000 PM,2022,AFC Ajax,SL Benfica,Johan Cruijff ArenA,Amsterdam,0,1,Away,0,54066,1,0,0,0,0,0,0
+mt110,2021-2022,15-MAR-22 08.00.00.000000000 PM,2022,Manchester United,Atlético Madrid,Old Trafford,Manchester,0,1,Away,0,73008,1,0,0,0,0,0,0
+mt111,2021-2022,16-MAR-22 08.00.00.000000000 PM,2022,Lille OSC,Chelsea FC,Stade Pierre Mauroy,Villeneuve D’Ascq,1,2,Away,0,49048,1,0,0,0,0,0,0
+mt112,2021-2022,16-MAR-22 08.00.00.000000000 PM,2022,Juventus,Villarreal CF,Allianz Stadium,Torino,0,3,Away,0,30385,1,0,0,0,0,0,0
+mt113,2021-2022,05-APR-22 08.00.00.000000000 PM,2022,Manchester City,Atlético Madrid,Etihad Stadium,Manchester,1,0,Home,0,52018,1,0,0,0,0,0,0
+mt114,2021-2022,05-APR-22 08.00.00.000000000 PM,2022,SL Benfica,Liverpool FC,Estádio da Luz,Lisboa,1,3,Away,0,59633,1,0,0,0,0,0,0
+mt115,2021-2022,06-APR-22 08.00.00.000000000 PM,2022,Chelsea FC,Real Madrid,Stamford Bridge,London,1,3,Away,0,38689,1,0,0,0,0,0,0
+mt116,2021-2022,06-APR-22 08.00.00.000000000 PM,2022,Villarreal CF,Bayern München,Estadio de la Cerámica,Villarreal,1,0,Home,0,21626,1,0,0,0,0,0,0
+mt117,2021-2022,12-APR-22 08.00.00.000000000 PM,2022,Real Madrid,Chelsea FC,Santiago Bernabéu,Madrid,2,3,Away,0,59839,1,0,0,0,0,0,0
+mt118,2021-2022,12-APR-22 08.00.00.000000000 PM,2022,Bayern München,Villarreal CF,Allianz Arena,München,1,1,Draw,0,70000,1,0,0,0,0,0,0
+mt119,2021-2022,13-APR-22 08.00.00.000000000 PM,2022,Atlético Madrid,Manchester City,Wanda Metropolitano,Madrid,0,0,Draw,0,65675,1,0,0,0,0,0,0
+mt120,2021-2022,13-APR-22 08.00.00.000000000 PM,2022,Liverpool FC,SL Benfica,Anfield,Liverpool,3,3,Draw,0,51373,1,0,0,0,0,0,0
+mt121,2021-2022,26-APR-22 08.00.00.000000000 PM,2022,Manchester City,Real Madrid,Etihad Stadium,Manchester,4,3,Home,0,55097,1,0,0,0,0,0,0
+mt122,2021-2022,27-APR-22 08.00.00.000000000 PM,2022,Liverpool FC,Villarreal CF,Anfield,Liverpool,2,0,Home,0,51586,1,0,0,0,0,0,0
+mt123,2021-2022,03-MAY-22 08.00.00.000000000 PM,2022,Villarreal CF,Liverpool FC,Estadio de la Cerámica,Villarreal,2,3,Away,0,23665,1,0,0,0,0,0,0
+mt124,2021-2022,04-MAY-22 08.00.00.000000000 PM,2022,Real Madrid,Manchester City,Santiago Bernabéu,Madrid,3,1,Home,0,61416,1,0,0,0,0,0,0
+mt125,2021-2022,28-MAY-22 08.35.00.000000000 PM,2022,Liverpool FC,Real Madrid,Stade de France,Paris - St. Denis,0,1,Away,0,0,1,0,0,0,0,0,0
+mt126,2020-2021,21-OCT-20 05.55.00.000000000 PM,2020,RB Salzburg,Lokomotiv Moskva,Red Bull Arena,Leipzig,2,2,Draw,0,3000,0,0,1,0,0,0,0
+mt127,2020-2021,21-OCT-20 08.00.00.000000000 PM,2020,Bayern München,Atlético Madrid,Allianz Arena,München,4,0,Home,0,0,0,0,1,0,0,0,0
+mt128,2020-2021,27-OCT-20 05.55.00.000000000 PM,2020,Lokomotiv Moskva,Bayern München,RŽD-Arena,Moskva,1,2,Away,0,8196,0,0,1,0,0,0,0
+mt129,2020-2021,27-OCT-20 08.00.00.000000000 PM,2020,Atlético Madrid,RB Salzburg,Wanda Metropolitano,Madrid,3,2,Home,0,0,0,0,1,0,0,0,0
+mt130,2020-2021,03-NOV-20 05.55.00.000000000 PM,2020,Lokomotiv Moskva,Atlético Madrid,RŽD-Arena,Moskva,1,1,Draw,0,8147,0,0,1,0,0,0,0
+mt131,2020-2021,03-NOV-20 08.00.00.000000000 PM,2020,RB Salzburg,Bayern München,Red Bull Arena,Leipzig,2,6,Away,0,0,0,0,1,0,0,0,0
+mt132,2020-2021,25-NOV-20 08.00.00.000000000 PM,2020,Atlético Madrid,Lokomotiv Moskva,Wanda Metropolitano,Madrid,0,0,Draw,0,0,0,0,1,0,0,0,0
+mt133,2020-2021,25-NOV-20 08.00.00.000000000 PM,2020,Bayern München,RB Salzburg,Allianz Arena,München,3,1,Home,0,0,0,0,1,0,0,0,0
+mt134,2020-2021,01-DEC-20 05.55.00.000000000 PM,2020,Lokomotiv Moskva,RB Salzburg,RŽD-Arena,Moskva,1,3,Away,0,6759,0,0,1,0,0,0,0
+mt135,2020-2021,01-DEC-20 08.00.00.000000000 PM,2020,Atlético Madrid,Bayern München,Wanda Metropolitano,Madrid,1,1,Draw,0,0,0,0,1,0,0,0,0
+mt136,2020-2021,09-DEC-20 08.00.00.000000000 PM,2020,Bayern München,Lokomotiv Moskva,Allianz Arena,München,2,0,Home,0,0,0,0,1,0,0,0,0
+mt137,2020-2021,09-DEC-20 08.00.00.000000000 PM,2020,RB Salzburg,Atlético Madrid,Red Bull Arena,Leipzig,0,2,Away,0,0,0,0,1,0,0,0,0
+mt138,2020-2021,21-OCT-20 05.55.00.000000000 PM,2020,Real Madrid,Shakhtar Donetsk,Alfredo Di Stéfano,Madrid,2,3,Away,0,0,0,0,1,0,0,0,0
+mt139,2020-2021,21-OCT-20 08.00.00.000000000 PM,2020,Inter,Bor. Mönchengladbach,Giuseppe Meazza,Milano,2,2,Draw,0,1000,0,0,1,0,0,0,0
+mt140,2020-2021,27-OCT-20 05.55.00.000000000 PM,2020,Shakhtar Donetsk,Inter,Olimpiyskyi,Kiev,0,0,Draw,0,10178,0,0,1,0,0,0,0
+mt141,2020-2021,27-OCT-20 08.00.00.000000000 PM,2020,Bor. Mönchengladbach,Real Madrid,Borussia-Park,Mönchengladbach,2,2,Draw,0,0,0,0,1,0,0,0,0
+mt142,2020-2021,03-NOV-20 05.55.00.000000000 PM,2020,Shakhtar Donetsk,Bor. Mönchengladbach,Olimpiyskyi,Kiev,0,6,Away,0,0,0,0,1,0,0,0,0
+mt143,2020-2021,03-NOV-20 08.00.00.000000000 PM,2020,Real Madrid,Inter,Alfredo Di Stéfano,Madrid,3,2,Home,0,0,0,0,1,0,0,0,0
+mt144,2020-2021,25-NOV-20 05.55.00.000000000 PM,2020,Bor. Mönchengladbach,Shakhtar Donetsk,Borussia-Park,Mönchengladbach,4,0,Home,0,0,0,0,1,0,0,0,0
+mt145,2020-2021,25-NOV-20 08.00.00.000000000 PM,2020,Inter,Real Madrid,Giuseppe Meazza,Milano,0,2,Away,0,0,0,0,1,0,0,0,0
+mt146,2020-2021,01-DEC-20 05.55.00.000000000 PM,2020,Shakhtar Donetsk,Real Madrid,Olimpiyskyi,Kiev,2,0,Home,0,0,0,0,1,0,0,0,0
+mt147,2020-2021,01-DEC-20 08.00.00.000000000 PM,2020,Bor. Mönchengladbach,Inter,Borussia-Park,Mönchengladbach,2,3,Away,0,0,0,0,1,0,0,0,0
+mt148,2020-2021,09-DEC-20 08.00.00.000000000 PM,2020,Inter,Shakhtar Donetsk,Giuseppe Meazza,Milano,0,0,Draw,0,0,0,0,1,0,0,0,0
+mt149,2020-2021,09-DEC-20 08.00.00.000000000 PM,2020,Real Madrid,Bor. Mönchengladbach,Alfredo Di Stéfano,Madrid,2,0,Home,0,0,0,0,1,0,0,0,0
+mt150,2020-2021,21-OCT-20 08.00.00.000000000 PM,2020,Manchester City,FC Porto,Etihad Stadium,Manchester,3,1,Home,0,0,0,0,1,0,0,0,0
+mt151,2020-2021,21-OCT-20 08.00.00.000000000 PM,2020,Olympiakos Piraeus,Olympique Marseille,Georgios Karaiskakis,Piräus,1,0,Home,0,0,0,0,1,0,0,0,0
+mt152,2020-2021,27-OCT-20 08.00.00.000000000 PM,2020,FC Porto,Olympiakos Piraeus,Estádio do Dragão,Porto,2,0,Home,0,2450,0,0,1,0,0,0,0
+mt153,2020-2021,27-OCT-20 08.00.00.000000000 PM,2020,Olympique Marseille,Manchester City,Vélodrome,Marseille,0,3,Away,0,0,0,0,1,0,0,0,0
+mt154,2020-2021,03-NOV-20 08.00.00.000000000 PM,2020,FC Porto,Olympique Marseille,Estádio do Dragão,Porto,3,0,Home,0,0,0,0,1,0,0,0,0
+mt155,2020-2021,03-NOV-20 08.00.00.000000000 PM,2020,Manchester City,Olympiakos Piraeus,Etihad Stadium,Manchester,3,0,Home,0,0,0,0,1,0,0,0,0
+mt156,2020-2021,25-NOV-20 05.55.00.000000000 PM,2020,Olympiakos Piraeus,Manchester City,Georgios Karaiskakis,Piräus,0,1,Away,0,0,0,0,1,0,0,0,0
+mt157,2020-2021,25-NOV-20 08.00.00.000000000 PM,2020,Olympique Marseille,FC Porto,Vélodrome,Marseille,0,2,Away,0,0,0,0,1,0,0,0,0
+mt158,2020-2021,01-DEC-20 08.00.00.000000000 PM,2020,FC Porto,Manchester City,Estádio do Dragão,Porto,0,0,Draw,0,0,0,0,1,0,0,0,0
+mt159,2020-2021,01-DEC-20 08.00.00.000000000 PM,2020,Olympique Marseille,Olympiakos Piraeus,Vélodrome,Marseille,2,1,Home,0,0,0,0,1,0,0,0,0
+mt160,2020-2021,09-DEC-20 08.00.00.000000000 PM,2020,Manchester City,Olympique Marseille,Etihad Stadium,Manchester,3,0,Home,0,1,0,0,1,0,0,0,0
+mt161,2020-2021,09-DEC-20 08.00.00.000000000 PM,2020,Olympiakos Piraeus,FC Porto,Georgios Karaiskakis,Piräus,0,2,Away,0,0,0,0,1,0,0,0,0
+mt162,2020-2021,21-OCT-20 08.00.00.000000000 PM,2020,AFC Ajax,Liverpool FC,Johan Cruijff ArenA,Amsterdam,0,1,Away,0,0,0,0,1,0,0,0,0
+mt163,2020-2021,21-OCT-20 08.00.00.000000000 PM,2020,FC Midtjylland,Atalanta,MCH Arena,Herning,0,4,Away,0,132,0,0,1,0,0,0,0
+mt164,2020-2021,27-OCT-20 08.00.00.000000000 PM,2020,Atalanta,AFC Ajax,Gewiss Stadium,Bergamo,2,2,Draw,0,0,0,0,1,0,0,0,0
+mt165,2020-2021,27-OCT-20 08.00.00.000000000 PM,2020,Liverpool FC,FC Midtjylland,Anfield,Liverpool,2,0,Home,0,0,0,0,1,0,0,0,0
+mt166,2020-2021,03-NOV-20 08.00.00.000000000 PM,2020,Atalanta,Liverpool FC,Gewiss Stadium,Bergamo,0,5,Away,0,0,0,0,1,0,0,0,0
+mt167,2020-2021,03-NOV-20 08.00.00.000000000 PM,2020,FC Midtjylland,AFC Ajax,MCH Arena,Herning,1,2,Away,0,132,0,0,1,0,0,0,0
+mt168,2020-2021,25-NOV-20 08.00.00.000000000 PM,2020,AFC Ajax,FC Midtjylland,Johan Cruijff ArenA,Amsterdam,3,1,Home,0,0,0,0,1,0,0,0,0
+mt169,2020-2021,25-NOV-20 08.00.00.000000000 PM,2020,Liverpool FC,Atalanta,Anfield,Liverpool,0,2,Away,0,0,0,0,1,0,0,0,0
+mt170,2020-2021,01-DEC-20 08.00.00.000000000 PM,2020,Atalanta,FC Midtjylland,Gewiss Stadium,Bergamo,1,1,Draw,0,0,0,0,1,0,0,0,0
+mt171,2020-2021,01-DEC-20 08.00.00.000000000 PM,2020,Liverpool FC,AFC Ajax,Anfield,Liverpool,1,0,Home,0,0,0,0,1,0,0,0,0
+mt172,2020-2021,09-DEC-20 05.55.00.000000000 PM,2020,AFC Ajax,Atalanta,Johan Cruijff ArenA,Amsterdam,0,1,Away,0,0,0,0,1,0,0,0,0
+mt173,2020-2021,09-DEC-20 05.55.00.000000000 PM,2020,FC Midtjylland,Liverpool FC,MCH Arena,Herning,1,1,Draw,0,0,0,0,1,0,0,0,0
+mt174,2020-2021,20-OCT-20 08.00.00.000000000 PM,2020,Chelsea FC,Sevilla FC,Stamford Bridge,London,0,0,Draw,0,0,0,0,1,0,0,0,0
+mt175,2020-2021,20-OCT-20 08.00.00.000000000 PM,2020,Stade Rennes,FK Krasnodar,Roazhon Park,Rennes,1,1,Draw,0,4973,0,0,1,0,0,0,0
+mt176,2020-2021,28-OCT-20 05.55.00.000000000 PM,2020,FK Krasnodar,Chelsea FC,Krasnodar Stadium,Krasnodar,0,4,Away,0,10544,0,0,1,0,0,0,0
+mt177,2020-2021,28-OCT-20 08.00.00.000000000 PM,2020,Sevilla FC,Stade Rennes,Ramón Sánchez Pizjuán,Sevilla,1,0,Home,0,0,0,0,1,0,0,0,0
+mt178,2020-2021,04-NOV-20 08.00.00.000000000 PM,2020,Chelsea FC,Stade Rennes,Stamford Bridge,London,3,0,Home,0,0,0,0,1,0,0,0,0
+mt179,2020-2021,04-NOV-20 08.00.00.000000000 PM,2020,Sevilla FC,FK Krasnodar,Ramón Sánchez Pizjuán,Sevilla,3,2,Home,0,1,0,0,1,0,0,0,0
+mt180,2020-2021,24-NOV-20 05.55.00.000000000 PM,2020,Stade Rennes,Chelsea FC,Roazhon Park,Rennes,1,2,Away,0,0,0,0,1,0,0,0,0
+mt181,2020-2021,24-NOV-20 05.55.00.000000000 PM,2020,FK Krasnodar,Sevilla FC,Krasnodar Stadium,Krasnodar,1,2,Away,0,10554,0,0,1,0,0,0,0
+mt182,2020-2021,02-DEC-20 05.55.00.000000000 PM,2020,FK Krasnodar,Stade Rennes,Krasnodar Stadium,Krasnodar,1,0,Home,0,8747,0,0,1,0,0,0,0
+mt183,2020-2021,02-DEC-20 08.00.00.000000000 PM,2020,Sevilla FC,Chelsea FC,Ramón Sánchez Pizjuán,Sevilla,0,4,Away,0,0,0,0,1,0,0,0,0
+mt184,2020-2021,08-DEC-20 08.00.00.000000000 PM,2020,Chelsea FC,FK Krasnodar,Stamford Bridge,London,1,1,Draw,0,2000,0,0,1,0,0,0,0
+mt185,2020-2021,08-DEC-20 08.00.00.000000000 PM,2020,Stade Rennes,Sevilla FC,Roazhon Park,Rennes,1,3,Away,0,0,0,0,1,0,0,0,0
+mt186,2020-2021,20-OCT-20 05.55.00.000000000 PM,2020,Zenit St. Petersburg,Club Brugge KV,Gazprom Arena,St. Petersburg,1,2,Away,0,16682,0,0,1,0,0,0,0
+mt187,2020-2021,20-OCT-20 08.00.00.000000000 PM,2020,Lazio Roma,Borussia Dortmund,Olimpico,Roma,3,1,Home,0,1000,0,0,1,0,0,0,0
+mt188,2020-2021,28-OCT-20 08.00.00.000000000 PM,2020,Borussia Dortmund,Zenit St. Petersburg,Signal Iduna Park,Dortmund,2,0,Home,0,0,0,0,1,0,0,0,0
+mt189,2020-2021,28-OCT-20 08.00.00.000000000 PM,2020,Club Brugge KV,Lazio Roma,Jan Breydel Stadion,Brugge,1,1,Draw,0,0,0,0,1,0,0,0,0
+mt190,2020-2021,04-NOV-20 05.55.00.000000000 PM,2020,Zenit St. Petersburg,Lazio Roma,Gazprom Arena,St. Petersburg,1,1,Draw,0,0,0,0,1,0,0,0,0
+mt191,2020-2021,04-NOV-20 08.00.00.000000000 PM,2020,Club Brugge KV,Borussia Dortmund,Jan Breydel Stadion,Brugge,0,3,Away,0,0,0,0,1,0,0,0,0
+mt192,2020-2021,24-NOV-20 08.00.00.000000000 PM,2020,Borussia Dortmund,Club Brugge KV,Signal Iduna Park,Dortmund,3,0,Home,0,0,0,0,1,0,0,0,0
+mt193,2020-2021,24-NOV-20 08.00.00.000000000 PM,2020,Lazio Roma,Zenit St. Petersburg,Olimpico,Roma,3,1,Home,0,0,0,0,1,0,0,0,0
+mt194,2020-2021,02-DEC-20 08.00.00.000000000 PM,2020,Borussia Dortmund,Lazio Roma,Signal Iduna Park,Dortmund,1,1,Draw,0,0,0,0,1,0,0,0,0
+mt195,2020-2021,02-DEC-20 08.00.00.000000000 PM,2020,Club Brugge KV,Zenit St. Petersburg,Jan Breydel Stadion,Brugge,3,0,Home,0,0,0,0,1,0,0,0,0
+mt196,2020-2021,08-DEC-20 05.55.00.000000000 PM,2020,Zenit St. Petersburg,Borussia Dortmund,Gazprom Arena,St. Petersburg,1,2,Away,0,10860,0,0,1,0,0,0,0
+mt197,2020-2021,08-DEC-20 05.55.00.000000000 PM,2020,Lazio Roma,Club Brugge KV,Olimpico,Roma,2,2,Draw,0,0,0,0,1,0,0,0,0
+mt198,2020-2021,20-OCT-20 05.55.00.000000000 PM,2020,Dinamo Kiev,Juventus,Olimpiyskyi,Kiev,0,2,Away,0,14850,0,0,1,0,0,0,0
+mt199,2020-2021,20-OCT-20 08.00.00.000000000 PM,2020,FC Barcelona,Ferencvárosi TC,Spotify Camp Nou,Barcelona,5,1,Home,0,0,0,0,1,0,0,0,0
+mt200,2020-2021,28-OCT-20 08.00.00.000000000 PM,2020,Ferencvárosi TC,Dinamo Kiev,Groupama Aréna,Budapest,2,2,Draw,0,6171,0,0,1,0,0,0,0
+mt201,2020-2021,28-OCT-20 08.00.00.000000000 PM,2020,Juventus,FC Barcelona,Allianz Stadium,Torino,0,2,Away,0,0,0,0,1,0,0,0,0
+mt202,2020-2021,04-NOV-20 08.00.00.000000000 PM,2020,FC Barcelona,Dinamo Kiev,Spotify Camp Nou,Barcelona,2,1,Home,0,0,0,0,1,0,0,0,0
+mt203,2020-2021,04-NOV-20 08.00.00.000000000 PM,2020,Ferencvárosi TC,Juventus,Puskás Aréna,Budapest,1,4,Away,0,18531,0,0,1,0,0,0,0
+mt204,2020-2021,24-NOV-20 08.00.00.000000000 PM,2020,Dinamo Kiev,FC Barcelona,Olimpiyskyi,Kiev,0,4,Away,0,0,0,0,1,0,0,0,0
+mt205,2020-2021,24-NOV-20 08.00.00.000000000 PM,2020,Juventus,Ferencvárosi TC,Allianz Stadium,Torino,2,1,Home,0,0,0,0,1,0,0,0,0
+mt206,2020-2021,02-DEC-20 08.00.00.000000000 PM,2020,Juventus,Dinamo Kiev,Allianz Stadium,Torino,3,0,Home,0,0,0,0,1,0,0,0,0
+mt207,2020-2021,02-DEC-20 08.00.00.000000000 PM,2020,Ferencvárosi TC,FC Barcelona,Groupama Aréna,Budapest,0,3,Away,0,0,0,0,1,0,0,0,0
+mt208,2020-2021,08-DEC-20 08.00.00.000000000 PM,2020,Dinamo Kiev,Ferencvárosi TC,Olimpiyskyi,Kiev,1,0,Home,0,0,0,0,1,0,0,0,0
+mt209,2020-2021,08-DEC-20 08.00.00.000000000 PM,2020,FC Barcelona,Juventus,Spotify Camp Nou,Barcelona,0,3,Away,0,0,0,0,1,0,0,0,0
+mt210,2020-2021,20-OCT-20 08.00.00.000000000 PM,2020,RB Leipzig,İstanbul Başakşehir,Red Bull Arena,Leipzig,2,0,Home,0,999,0,0,1,0,0,0,0
+mt211,2020-2021,20-OCT-20 08.00.00.000000000 PM,2020,Paris Saint-Germain,Manchester United,Parc des Princes,Paris,1,2,Away,0,0,0,0,1,0,0,0,0
+mt212,2020-2021,28-OCT-20 05.55.00.000000000 PM,2020,İstanbul Başakşehir,Paris Saint-Germain,Fatih Terim Stadium,Istanbul,0,2,Away,0,350,0,0,1,0,0,0,0
+mt213,2020-2021,28-OCT-20 08.00.00.000000000 PM,2020,Manchester United,RB Leipzig,Old Trafford,Manchester,5,0,Home,0,577,0,0,1,0,0,0,0
+mt214,2020-2021,04-NOV-20 05.55.00.000000000 PM,2020,İstanbul Başakşehir,Manchester United,Fatih Terim Stadium,Istanbul,2,1,Home,0,350,0,0,1,0,0,0,0
+mt215,2020-2021,04-NOV-20 08.00.00.000000000 PM,2020,RB Leipzig,Paris Saint-Germain,Red Bull Arena,Leipzig,2,1,Home,0,0,0,0,1,0,0,0,0
+mt216,2020-2021,24-NOV-20 08.00.00.000000000 PM,2020,Manchester United,İstanbul Başakşehir,Old Trafford,Manchester,4,1,Home,0,545,0,0,1,0,0,0,0
+mt217,2020-2021,24-NOV-20 08.00.00.000000000 PM,2020,Paris Saint-Germain,RB Leipzig,Parc des Princes,Paris,1,0,Home,0,0,0,0,1,0,0,0,0
+mt218,2020-2021,02-DEC-20 05.55.00.000000000 PM,2020,İstanbul Başakşehir,RB Leipzig,Fatih Terim Stadium,Istanbul,3,4,Away,0,0,0,0,1,0,0,0,0
+mt219,2020-2021,02-DEC-20 08.00.00.000000000 PM,2020,Manchester United,Paris Saint-Germain,Old Trafford,Manchester,1,3,Away,0,638,0,0,1,0,0,0,0
+mt220,2020-2021,08-DEC-20 08.00.00.000000000 PM,2020,RB Leipzig,Manchester United,Red Bull Arena,Leipzig,3,2,Home,0,0,0,0,1,0,0,0,0
+mt221,2020-2021,09-DEC-20 05.55.00.000000000 PM,2020,Paris Saint-Germain,İstanbul Başakşehir,Parc des Princes,Paris,5,1,Home,0,0,0,0,1,0,0,0,0
+mt222,2020-2021,16-FEB-21 08.00.00.000000000 PM,2021,RB Leipzig,Liverpool FC,Puskás Aréna,Budapest,0,2,Away,0,0,0,1,0,0,0,0,0
+mt223,2020-2021,16-FEB-21 08.00.00.000000000 PM,2021,FC Barcelona,Paris Saint-Germain,Spotify Camp Nou,Barcelona,1,4,Away,0,0,0,1,0,0,0,0,0
+mt224,2020-2021,17-FEB-21 08.00.00.000000000 PM,2021,FC Porto,Juventus,Estádio do Dragão,Porto,2,1,Home,0,0,0,1,0,0,0,0,0
+mt225,2020-2021,17-FEB-21 08.00.00.000000000 PM,2021,Sevilla FC,Borussia Dortmund,Ramón Sánchez Pizjuán,Sevilla,2,3,Away,0,0,0,1,0,0,0,0,0
+mt226,2020-2021,23-FEB-21 08.00.00.000000000 PM,2021,Lazio Roma,Bayern München,Olimpico,Roma,1,4,Away,0,0,0,1,0,0,0,0,0
+mt227,2020-2021,23-FEB-21 08.00.00.000000000 PM,2021,Atlético Madrid,Chelsea FC,Arena Națională,Bucuresti,0,1,Away,0,0,0,1,0,0,0,0,0
+mt228,2020-2021,24-FEB-21 08.00.00.000000000 PM,2021,Bor. Mönchengladbach,Manchester City,Puskás Aréna,Budapest,0,2,Away,0,0,0,1,0,0,0,0,0
+mt229,2020-2021,24-FEB-21 08.00.00.000000000 PM,2021,Atalanta,Real Madrid,Gewiss Stadium,Bergamo,0,1,Away,0,0,0,1,0,0,0,0,0
+mt230,2020-2021,09-MAR-21 08.00.00.000000000 PM,2021,Juventus,FC Porto,Allianz Stadium,Torino,3,2,Home,0,0,0,1,0,0,0,0,0
+mt231,2020-2021,09-MAR-21 08.00.00.000000000 PM,2021,Borussia Dortmund,Sevilla FC,Signal Iduna Park,Dortmund,2,2,Draw,0,0,0,1,0,0,0,0,0
+mt232,2020-2021,10-MAR-21 08.00.00.000000000 PM,2021,Liverpool FC,RB Leipzig,Puskás Aréna,Budapest,2,0,Home,0,0,0,1,0,0,0,0,0
+mt233,2020-2021,10-MAR-21 08.00.00.000000000 PM,2021,Paris Saint-Germain,FC Barcelona,Parc des Princes,Paris,1,1,Draw,0,0,0,1,0,0,0,0,0
+mt234,2020-2021,16-MAR-21 08.00.00.000000000 PM,2021,Manchester City,Bor. Mönchengladbach,Puskás Aréna,Budapest,2,0,Home,0,0,0,1,0,0,0,0,0
+mt235,2020-2021,16-MAR-21 08.00.00.000000000 PM,2021,Real Madrid,Atalanta,Alfredo Di Stéfano,Madrid,3,1,Home,0,0,0,1,0,0,0,0,0
+mt236,2020-2021,17-MAR-21 08.00.00.000000000 PM,2021,Bayern München,Lazio Roma,Allianz Arena,München,2,1,Home,0,0,0,1,0,0,0,0,0
+mt237,2020-2021,17-MAR-21 08.00.00.000000000 PM,2021,Chelsea FC,Atlético Madrid,Stamford Bridge,London,2,0,Home,0,0,0,1,0,0,0,0,0
+mt238,2020-2021,06-APR-21 08.00.00.000000000 PM,2021,Manchester City,Borussia Dortmund,Etihad Stadium,Manchester,2,1,Home,0,0,0,1,0,0,0,0,0
+mt239,2020-2021,06-APR-21 08.00.00.000000000 PM,2021,Real Madrid,Liverpool FC,Alfredo Di Stéfano,Madrid,3,1,Home,0,0,0,1,0,0,0,0,0
+mt240,2020-2021,07-APR-21 08.00.00.000000000 PM,2021,FC Porto,Chelsea FC,Ramón Sánchez Pizjuán,Sevilla,0,2,Away,0,0,0,1,0,0,0,0,0
+mt241,2020-2021,07-APR-21 08.00.00.000000000 PM,2021,Bayern München,Paris Saint-Germain,Allianz Arena,München,2,3,Away,0,0,0,1,0,0,0,0,0
+mt242,2020-2021,13-APR-21 08.00.00.000000000 PM,2021,Chelsea FC,FC Porto,Ramón Sánchez Pizjuán,Sevilla,0,1,Away,0,0,0,1,0,0,0,0,0
+mt243,2020-2021,13-APR-21 08.00.00.000000000 PM,2021,Paris Saint-Germain,Bayern München,Parc des Princes,Paris,0,1,Away,0,0,0,1,0,0,0,0,0
+mt244,2020-2021,14-APR-21 08.00.00.000000000 PM,2021,Borussia Dortmund,Manchester City,Signal Iduna Park,Dortmund,1,2,Away,0,0,0,1,0,0,0,0,0
+mt245,2020-2021,14-APR-21 08.00.00.000000000 PM,2021,Liverpool FC,Real Madrid,Anfield,Liverpool,0,0,Draw,0,0,0,1,0,0,0,0,0
+mt246,2020-2021,27-APR-21 08.00.00.000000000 PM,2021,Real Madrid,Chelsea FC,Alfredo Di Stéfano,Madrid,1,1,Draw,0,0,0,1,0,0,0,0,0
+mt247,2020-2021,28-APR-21 08.00.00.000000000 PM,2021,Paris Saint-Germain,Manchester City,Parc des Princes,Paris,1,2,Away,0,0,0,1,0,0,0,0,0
+mt248,2020-2021,04-MAY-21 08.00.00.000000000 PM,2021,Manchester City,Paris Saint-Germain,Etihad Stadium,Manchester,2,0,Home,0,0,0,1,0,0,0,0,0
+mt249,2020-2021,05-MAY-21 08.00.00.000000000 PM,2021,Chelsea FC,Real Madrid,Stamford Bridge,London,2,0,Home,0,0,0,1,0,0,0,0,0
+mt250,2020-2021,29-MAY-21 08.00.00.000000000 PM,2021,Manchester City,Chelsea FC,Estádio do Dragão,Porto,0,1,Away,0,14110,0,1,0,0,0,0,0
+mt251,2019-2020,18-SEP-19 05.55.00.000000000 PM,2019,Club Brugge KV,Galatasaray,Jan Breydel Stadion,Brugge,0,0,Draw,0,26616,0,0,0,1,0,0,0
+mt252,2019-2020,18-SEP-19 08.00.00.000000000 PM,2019,Paris Saint-Germain,Real Madrid,Parc des Princes,Paris,3,0,Home,0,46361,0,0,0,1,0,0,0
+mt253,2019-2020,01-OCT-19 05.55.00.000000000 PM,2019,Real Madrid,Club Brugge KV,Santiago Bernabéu,Madrid,2,2,Draw,0,65112,0,0,0,1,0,0,0
+mt254,2019-2020,01-OCT-19 08.00.00.000000000 PM,2019,Galatasaray,Paris Saint-Germain,Nef Stadyumu,Istanbul,0,1,Away,0,46532,0,0,0,1,0,0,0
+mt255,2019-2020,22-OCT-19 08.00.00.000000000 PM,2019,Club Brugge KV,Paris Saint-Germain,Jan Breydel Stadion,Brugge,0,5,Away,0,26946,0,0,0,1,0,0,0
+mt256,2019-2020,22-OCT-19 08.00.00.000000000 PM,2019,Galatasaray,Real Madrid,Nef Stadyumu,Istanbul,0,1,Away,0,48886,0,0,0,1,0,0,0
+mt257,2019-2020,06-NOV-19 08.00.00.000000000 PM,2019,Paris Saint-Germain,Club Brugge KV,Parc des Princes,Paris,1,0,Home,0,47418,0,0,0,1,0,0,0
+mt258,2019-2020,06-NOV-19 08.00.00.000000000 PM,2019,Real Madrid,Galatasaray,Santiago Bernabéu,Madrid,6,0,Home,0,65492,0,0,0,1,0,0,0
+mt259,2019-2020,26-NOV-19 05.55.00.000000000 PM,2019,Galatasaray,Club Brugge KV,Nef Stadyumu,Istanbul,1,1,Draw,0,34500,0,0,0,1,0,0,0
+mt260,2019-2020,26-NOV-19 08.00.00.000000000 PM,2019,Real Madrid,Paris Saint-Germain,Santiago Bernabéu,Madrid,2,2,Draw,0,75534,0,0,0,1,0,0,0
+mt261,2019-2020,11-DEC-19 08.00.00.000000000 PM,2019,Paris Saint-Germain,Galatasaray,Parc des Princes,Paris,5,0,Home,0,46509,0,0,0,1,0,0,0
+mt262,2019-2020,11-DEC-19 08.00.00.000000000 PM,2019,Club Brugge KV,Real Madrid,Jan Breydel Stadion,Brugge,1,3,Away,0,27308,0,0,0,1,0,0,0
+mt263,2019-2020,18-SEP-19 05.55.00.000000000 PM,2019,Olympiakos Piraeus,Tottenham Hotspur,Georgios Karaiskakis,Piräus,2,2,Draw,0,31001,0,0,0,1,0,0,0
+mt264,2019-2020,18-SEP-19 08.00.00.000000000 PM,2019,Bayern München,Crvena Zvezda,Allianz Arena,München,3,0,Home,0,70000,0,0,0,1,0,0,0
+mt265,2019-2020,01-OCT-19 08.00.00.000000000 PM,2019,Tottenham Hotspur,Bayern München,Tottenham Hotspur Stadium,London,2,7,Away,0,60127,0,0,0,1,0,0,0
+mt266,2019-2020,01-OCT-19 08.00.00.000000000 PM,2019,Crvena Zvezda,Olympiakos Piraeus,Marakana,Beograd,3,1,Home,0,43291,0,0,0,1,0,0,0
+mt267,2019-2020,22-OCT-19 08.00.00.000000000 PM,2019,Tottenham Hotspur,Crvena Zvezda,Tottenham Hotspur Stadium,London,5,0,Home,0,51743,0,0,0,1,0,0,0
+mt268,2019-2020,22-OCT-19 08.00.00.000000000 PM,2019,Olympiakos Piraeus,Bayern München,Georgios Karaiskakis,Piräus,2,3,Away,0,31670,0,0,0,1,0,0,0
+mt269,2019-2020,06-NOV-19 05.55.00.000000000 PM,2019,Bayern München,Olympiakos Piraeus,Allianz Arena,München,2,0,Home,0,63646,0,0,0,1,0,0,0
+mt270,2019-2020,06-NOV-19 08.00.00.000000000 PM,2019,Crvena Zvezda,Tottenham Hotspur,Marakana,Beograd,0,4,Away,0,42381,0,0,0,1,0,0,0
+mt271,2019-2020,26-NOV-19 08.00.00.000000000 PM,2019,Tottenham Hotspur,Olympiakos Piraeus,Tottenham Hotspur Stadium,London,4,2,Home,0,57024,0,0,0,1,0,0,0
+mt272,2019-2020,26-NOV-19 08.00.00.000000000 PM,2019,Crvena Zvezda,Bayern München,Marakana,Beograd,0,6,Away,0,44118,0,0,0,1,0,0,0
+mt273,2019-2020,11-DEC-19 08.00.00.000000000 PM,2019,Bayern München,Tottenham Hotspur,Allianz Arena,München,3,1,Home,0,66353,0,0,0,1,0,0,0
+mt274,2019-2020,11-DEC-19 08.00.00.000000000 PM,2019,Olympiakos Piraeus,Crvena Zvezda,Georgios Karaiskakis,Piräus,1,0,Home,0,31898,0,0,0,1,0,0,0
+mt275,2019-2020,18-SEP-19 08.00.00.000000000 PM,2019,Shakhtar Donetsk,Manchester City,Metalist Stadion,Kharkiv,0,3,Away,0,36675,0,0,0,1,0,0,0
+mt276,2019-2020,18-SEP-19 08.00.00.000000000 PM,2019,Dinamo Zagreb,Atalanta,Maksimir,Zagreb,4,0,Home,0,28863,0,0,0,1,0,0,0
+mt277,2019-2020,01-OCT-19 05.55.00.000000000 PM,2019,Atalanta,Shakhtar Donetsk,Giuseppe Meazza,Milano,1,2,Away,0,26022,0,0,0,1,0,0,0
+mt278,2019-2020,01-OCT-19 08.00.00.000000000 PM,2019,Manchester City,Dinamo Zagreb,Etihad Stadium,Manchester,2,0,Home,0,49046,0,0,0,1,0,0,0
+mt279,2019-2020,22-OCT-19 05.55.00.000000000 PM,2019,Shakhtar Donetsk,Dinamo Zagreb,Metalist Stadion,Kharkiv,2,2,Draw,0,21526,0,0,0,1,0,0,0
+mt280,2019-2020,22-OCT-19 08.00.00.000000000 PM,2019,Manchester City,Atalanta,Etihad Stadium,Manchester,5,1,Home,0,49308,0,0,0,1,0,0,0
+mt281,2019-2020,06-NOV-19 08.00.00.000000000 PM,2019,Dinamo Zagreb,Shakhtar Donetsk,Maksimir,Zagreb,3,3,Draw,0,28316,0,0,0,1,0,0,0
+mt282,2019-2020,06-NOV-19 08.00.00.000000000 PM,2019,Atalanta,Manchester City,Giuseppe Meazza,Milano,1,1,Draw,0,34326,0,0,0,1,0,0,0
+mt283,2019-2020,26-NOV-19 08.00.00.000000000 PM,2019,Manchester City,Shakhtar Donetsk,Etihad Stadium,Manchester,1,1,Draw,0,52020,0,0,0,1,0,0,0
+mt284,2019-2020,26-NOV-19 08.00.00.000000000 PM,2019,Atalanta,Dinamo Zagreb,Giuseppe Meazza,Milano,2,0,Home,0,28365,0,0,0,1,0,0,0
+mt285,2019-2020,11-DEC-19 05.55.00.000000000 PM,2019,Shakhtar Donetsk,Atalanta,Metalist Stadion,Kharkiv,0,3,Away,0,26536,0,0,0,1,0,0,0
+mt286,2019-2020,11-DEC-19 05.55.00.000000000 PM,2019,Dinamo Zagreb,Manchester City,Maksimir,Zagreb,1,4,Away,0,29385,0,0,0,1,0,0,0
+mt287,2019-2020,18-SEP-19 08.00.00.000000000 PM,2019,Atlético Madrid,Juventus,Wanda Metropolitano,Madrid,2,2,Draw,0,66283,0,0,0,1,0,0,0
+mt288,2019-2020,18-SEP-19 08.00.00.000000000 PM,2019,Bayer Leverkusen,Lokomotiv Moskva,BayArena,Leverkusen,1,2,Away,0,26592,0,0,0,1,0,0,0
+mt289,2019-2020,01-OCT-19 08.00.00.000000000 PM,2019,Juventus,Bayer Leverkusen,Allianz Stadium,Torino,3,0,Home,0,34525,0,0,0,1,0,0,0
+mt290,2019-2020,01-OCT-19 08.00.00.000000000 PM,2019,Lokomotiv Moskva,Atlético Madrid,RŽD-Arena,Moskva,0,2,Away,0,27051,0,0,0,1,0,0,0
+mt291,2019-2020,22-OCT-19 05.55.00.000000000 PM,2019,Atlético Madrid,Bayer Leverkusen,Wanda Metropolitano,Madrid,1,0,Home,0,56776,0,0,0,1,0,0,0
+mt292,2019-2020,22-OCT-19 08.00.00.000000000 PM,2019,Juventus,Lokomotiv Moskva,Allianz Stadium,Torino,2,1,Home,0,38547,0,0,0,1,0,0,0
+mt293,2019-2020,06-NOV-19 05.55.00.000000000 PM,2019,Lokomotiv Moskva,Juventus,RŽD-Arena,Moskva,1,2,Away,0,26861,0,0,0,1,0,0,0
+mt294,2019-2020,06-NOV-19 08.00.00.000000000 PM,2019,Bayer Leverkusen,Atlético Madrid,BayArena,Leverkusen,2,1,Home,0,28160,0,0,0,1,0,0,0
+mt295,2019-2020,26-NOV-19 05.55.00.000000000 PM,2019,Lokomotiv Moskva,Bayer Leverkusen,RŽD-Arena,Moskva,0,2,Away,0,25757,0,0,0,1,0,0,0
+mt296,2019-2020,26-NOV-19 08.00.00.000000000 PM,2019,Juventus,Atlético Madrid,Allianz Stadium,Torino,1,0,Home,0,40486,0,0,0,1,0,0,0
+mt297,2019-2020,11-DEC-19 08.00.00.000000000 PM,2019,Atlético Madrid,Lokomotiv Moskva,Wanda Metropolitano,Madrid,2,0,Home,0,58426,0,0,0,1,0,0,0
+mt298,2019-2020,11-DEC-19 08.00.00.000000000 PM,2019,Bayer Leverkusen,Juventus,BayArena,Leverkusen,0,2,Away,0,29542,0,0,0,1,0,0,0
+mt299,2019-2020,17-SEP-19 08.00.00.000000000 PM,2019,SSC Napoli,Liverpool FC,Diego Maradona,Napoli,2,0,Home,0,38878,0,0,0,1,0,0,0
+mt300,2019-2020,17-SEP-19 08.00.00.000000000 PM,2019,RB Salzburg,KRC Genk,Red Bull Arena,Leipzig,6,2,Home,0,29520,0,0,0,1,0,0,0
+mt301,2019-2020,02-OCT-19 05.55.00.000000000 PM,2019,KRC Genk,SSC Napoli,Cegeka Arena,Genk,0,0,Draw,0,19962,0,0,0,1,0,0,0
+mt302,2019-2020,02-OCT-19 08.00.00.000000000 PM,2019,Liverpool FC,RB Salzburg,Anfield,Liverpool,4,3,Home,0,52234,0,0,0,1,0,0,0
+mt303,2019-2020,23-OCT-19 08.00.00.000000000 PM,2019,RB Salzburg,SSC Napoli,Red Bull Arena,Leipzig,2,3,Away,0,29520,0,0,0,1,0,0,0
+mt304,2019-2020,23-OCT-19 08.00.00.000000000 PM,2019,KRC Genk,Liverpool FC,Cegeka Arena,Genk,1,4,Away,0,19626,0,0,0,1,0,0,0
+mt305,2019-2020,05-NOV-19 08.00.00.000000000 PM,2019,Liverpool FC,KRC Genk,Anfield,Liverpool,2,1,Home,0,52611,0,0,0,1,0,0,0
+mt306,2019-2020,05-NOV-19 08.00.00.000000000 PM,2019,SSC Napoli,RB Salzburg,Diego Maradona,Napoli,1,1,Draw,0,32862,0,0,0,1,0,0,0
+mt307,2019-2020,27-NOV-19 08.00.00.000000000 PM,2019,Liverpool FC,SSC Napoli,Anfield,Liverpool,1,1,Draw,0,52128,0,0,0,1,0,0,0
+mt308,2019-2020,27-NOV-19 08.00.00.000000000 PM,2019,KRC Genk,RB Salzburg,Cegeka Arena,Genk,1,4,Away,0,17284,0,0,0,1,0,0,0
+mt309,2019-2020,10-DEC-19 05.55.00.000000000 PM,2019,SSC Napoli,KRC Genk,Diego Maradona,Napoli,4,0,Home,0,22265,0,0,0,1,0,0,0
+mt310,2019-2020,10-DEC-19 05.55.00.000000000 PM,2019,RB Salzburg,Liverpool FC,Red Bull Arena,Leipzig,0,2,Away,0,29520,0,0,0,1,0,0,0
+mt311,2019-2020,17-SEP-19 05.55.00.000000000 PM,2019,Inter,Slavia Praha,Giuseppe Meazza,Milano,1,1,Draw,0,50128,0,0,0,1,0,0,0
+mt312,2019-2020,17-SEP-19 08.00.00.000000000 PM,2019,Borussia Dortmund,FC Barcelona,Signal Iduna Park,Dortmund,0,0,Draw,0,66099,0,0,0,1,0,0,0
+mt313,2019-2020,02-OCT-19 05.55.00.000000000 PM,2019,Slavia Praha,Borussia Dortmund,Sinobo Stadium,Praha,0,2,Away,0,19370,0,0,0,1,0,0,0
+mt314,2019-2020,02-OCT-19 08.00.00.000000000 PM,2019,FC Barcelona,Inter,Spotify Camp Nou,Barcelona,2,1,Home,0,86141,0,0,0,1,0,0,0
+mt315,2019-2020,23-OCT-19 08.00.00.000000000 PM,2019,Inter,Borussia Dortmund,Giuseppe Meazza,Milano,2,0,Home,0,65673,0,0,0,1,0,0,0
+mt316,2019-2020,23-OCT-19 08.00.00.000000000 PM,2019,Slavia Praha,FC Barcelona,Sinobo Stadium,Praha,1,2,Away,0,19170,0,0,0,1,0,0,0
+mt317,2019-2020,05-NOV-19 05.55.00.000000000 PM,2019,FC Barcelona,Slavia Praha,Spotify Camp Nou,Barcelona,0,0,Draw,0,67023,0,0,0,1,0,0,0
+mt318,2019-2020,05-NOV-19 08.00.00.000000000 PM,2019,Borussia Dortmund,Inter,Signal Iduna Park,Dortmund,3,2,Home,0,66099,0,0,0,1,0,0,0
+mt319,2019-2020,27-NOV-19 08.00.00.000000000 PM,2019,FC Barcelona,Borussia Dortmund,Spotify Camp Nou,Barcelona,3,1,Home,0,90071,0,0,0,1,0,0,0
+mt320,2019-2020,27-NOV-19 08.00.00.000000000 PM,2019,Slavia Praha,Inter,Sinobo Stadium,Praha,1,3,Away,0,19370,0,0,0,1,0,0,0
+mt321,2019-2020,10-DEC-19 08.00.00.000000000 PM,2019,Borussia Dortmund,Slavia Praha,Signal Iduna Park,Dortmund,2,1,Home,0,65079,0,0,0,1,0,0,0
+mt322,2019-2020,10-DEC-19 08.00.00.000000000 PM,2019,Inter,FC Barcelona,Giuseppe Meazza,Milano,1,2,Away,0,71818,0,0,0,1,0,0,0
+mt323,2019-2020,17-SEP-19 05.55.00.000000000 PM,2019,Olympique Lyon,Zenit St. Petersburg,Groupama Stadium,Décines-Charpieu,1,1,Draw,0,47201,0,0,0,1,0,0,0
+mt324,2019-2020,17-SEP-19 08.00.00.000000000 PM,2019,SL Benfica,RB Leipzig,Estádio da Luz,Lisboa,1,2,Away,0,46460,0,0,0,1,0,0,0
+mt325,2019-2020,02-OCT-19 08.00.00.000000000 PM,2019,Zenit St. Petersburg,SL Benfica,Gazprom Arena,St. Petersburg,3,1,Home,0,51683,0,0,0,1,0,0,0
+mt326,2019-2020,02-OCT-19 08.00.00.000000000 PM,2019,RB Leipzig,Olympique Lyon,Red Bull Arena,Leipzig,0,2,Away,0,40194,0,0,0,1,0,0,0
+mt327,2019-2020,23-OCT-19 05.55.00.000000000 PM,2019,RB Leipzig,Zenit St. Petersburg,Red Bull Arena,Leipzig,2,1,Home,0,41058,0,0,0,1,0,0,0
+mt328,2019-2020,23-OCT-19 08.00.00.000000000 PM,2019,SL Benfica,Olympique Lyon,Estádio da Luz,Lisboa,2,1,Home,0,53035,0,0,0,1,0,0,0
+mt329,2019-2020,05-NOV-19 05.55.00.000000000 PM,2019,Zenit St. Petersburg,RB Leipzig,Gazprom Arena,St. Petersburg,0,2,Away,0,50452,0,0,0,1,0,0,0
+mt330,2019-2020,05-NOV-19 08.00.00.000000000 PM,2019,Olympique Lyon,SL Benfica,Groupama Stadium,Décines-Charpieu,3,1,Home,0,51077,0,0,0,1,0,0,0
+mt331,2019-2020,27-NOV-19 05.55.00.000000000 PM,2019,Zenit St. Petersburg,Olympique Lyon,Gazprom Arena,St. Petersburg,2,0,Home,0,51183,0,0,0,1,0,0,0
+mt332,2019-2020,27-NOV-19 08.00.00.000000000 PM,2019,RB Leipzig,SL Benfica,Red Bull Arena,Leipzig,2,2,Draw,0,38339,0,0,0,1,0,0,0
+mt333,2019-2020,10-DEC-19 08.00.00.000000000 PM,2019,SL Benfica,Zenit St. Petersburg,Estádio da Luz,Lisboa,3,0,Home,0,40232,0,0,0,1,0,0,0
+mt334,2019-2020,10-DEC-19 08.00.00.000000000 PM,2019,Olympique Lyon,RB Leipzig,Groupama Stadium,Décines-Charpieu,2,2,Draw,0,53288,0,0,0,1,0,0,0
+mt335,2019-2020,17-SEP-19 08.00.00.000000000 PM,2019,Chelsea FC,Valencia CF,Stamford Bridge,London,0,1,Away,0,39469,0,0,0,1,0,0,0
+mt336,2019-2020,17-SEP-19 08.00.00.000000000 PM,2019,AFC Ajax,Lille OSC,Johan Cruijff ArenA,Amsterdam,3,0,Home,0,51441,0,0,0,1,0,0,0
+mt337,2019-2020,02-OCT-19 08.00.00.000000000 PM,2019,Valencia CF,AFC Ajax,Estadio de Mestalla,Valencia,0,3,Away,0,44659,0,0,0,1,0,0,0
+mt338,2019-2020,02-OCT-19 08.00.00.000000000 PM,2019,Lille OSC,Chelsea FC,Stade Pierre Mauroy,Villeneuve D’Ascq,1,2,Away,0,48523,0,0,0,1,0,0,0
+mt339,2019-2020,23-OCT-19 05.55.00.000000000 PM,2019,AFC Ajax,Chelsea FC,Johan Cruijff ArenA,Amsterdam,0,1,Away,0,52482,0,0,0,1,0,0,0
+mt340,2019-2020,23-OCT-19 08.00.00.000000000 PM,2019,Lille OSC,Valencia CF,Stade Pierre Mauroy,Villeneuve D’Ascq,1,1,Draw,0,47488,0,0,0,1,0,0,0
+mt341,2019-2020,05-NOV-19 08.00.00.000000000 PM,2019,Chelsea FC,AFC Ajax,Stamford Bridge,London,4,4,Draw,0,39132,0,0,0,1,0,0,0
+mt342,2019-2020,05-NOV-19 08.00.00.000000000 PM,2019,Valencia CF,Lille OSC,Estadio de Mestalla,Valencia,4,1,Home,0,38252,0,0,0,1,0,0,0
+mt343,2019-2020,27-NOV-19 05.55.00.000000000 PM,2019,Valencia CF,Chelsea FC,Estadio de Mestalla,Valencia,2,2,Draw,0,43486,0,0,0,1,0,0,0
+mt344,2019-2020,27-NOV-19 08.00.00.000000000 PM,2019,Lille OSC,AFC Ajax,Stade Pierre Mauroy,Villeneuve D’Ascq,0,2,Away,0,48612,0,0,0,1,0,0,0
+mt345,2019-2020,10-DEC-19 08.00.00.000000000 PM,2019,Chelsea FC,Lille OSC,Stamford Bridge,London,2,1,Home,0,40016,0,0,0,1,0,0,0
+mt346,2019-2020,10-DEC-19 08.00.00.000000000 PM,2019,AFC Ajax,Valencia CF,Johan Cruijff ArenA,Amsterdam,0,1,Away,0,51931,0,0,0,1,0,0,0
+mt347,2019-2020,18-FEB-20 08.00.00.000000000 PM,2020,Borussia Dortmund,Paris Saint-Germain,Signal Iduna Park,Dortmund,2,1,Home,0,66099,0,0,1,0,0,0,0
+mt348,2019-2020,18-FEB-20 08.00.00.000000000 PM,2020,Atlético Madrid,Liverpool FC,Wanda Metropolitano,Madrid,1,0,Home,0,67443,0,0,1,0,0,0,0
+mt349,2019-2020,19-FEB-20 08.00.00.000000000 PM,2020,Atalanta,Valencia CF,Giuseppe Meazza,Milano,4,1,Home,0,44236,0,0,1,0,0,0,0
+mt350,2019-2020,19-FEB-20 08.00.00.000000000 PM,2020,Tottenham Hotspur,RB Leipzig,Tottenham Hotspur Stadium,London,0,1,Away,0,60095,0,0,1,0,0,0,0
+mt351,2019-2020,25-FEB-20 08.00.00.000000000 PM,2020,Chelsea FC,Bayern München,Stamford Bridge,London,0,3,Away,0,36761,0,0,1,0,0,0,0
+mt352,2019-2020,25-FEB-20 08.00.00.000000000 PM,2020,SSC Napoli,FC Barcelona,Diego Maradona,Napoli,1,1,Draw,0,44388,0,0,1,0,0,0,0
+mt353,2019-2020,26-FEB-20 08.00.00.000000000 PM,2020,Real Madrid,Manchester City,Santiago Bernabéu,Madrid,1,2,Away,0,75615,0,0,1,0,0,0,0
+mt354,2019-2020,26-FEB-20 08.00.00.000000000 PM,2020,Olympique Lyon,Juventus,Groupama Stadium,Décines-Charpieu,1,0,Home,0,57335,0,0,1,0,0,0,0
+mt355,2019-2020,10-MAR-20 08.00.00.000000000 PM,2020,Valencia CF,Atalanta,Estadio de Mestalla,Valencia,3,4,Away,0,0,0,0,1,0,0,0,0
+mt356,2019-2020,10-MAR-20 08.00.00.000000000 PM,2020,RB Leipzig,Tottenham Hotspur,Red Bull Arena,Leipzig,3,0,Home,0,42146,0,0,1,0,0,0,0
+mt357,2019-2020,11-MAR-20 08.00.00.000000000 PM,2020,Paris Saint-Germain,Borussia Dortmund,Parc des Princes,Paris,2,0,Home,0,0,0,0,1,0,0,0,0
+mt358,2019-2020,11-MAR-20 08.00.00.000000000 PM,2020,Liverpool FC,Atlético Madrid,Anfield,Liverpool,2,3,Away,0,45000,0,0,1,0,0,0,0
+mt359,2019-2020,07-AUG-20 08.00.00.000000000 PM,2020,Manchester City,Real Madrid,Etihad Stadium,Manchester,2,1,Home,0,0,0,0,1,0,0,0,0
+mt360,2019-2020,07-AUG-20 08.00.00.000000000 PM,2020,Juventus,Olympique Lyon,Allianz Stadium,Torino,2,1,Home,0,0,0,0,1,0,0,0,0
+mt361,2019-2020,08-AUG-20 08.00.00.000000000 PM,2020,Bayern München,Chelsea FC,Allianz Arena,München,4,1,Home,0,0,0,0,1,0,0,0,0
+mt362,2019-2020,08-AUG-20 08.00.00.000000000 PM,2020,FC Barcelona,SSC Napoli,Spotify Camp Nou,Barcelona,3,1,Home,0,0,0,0,1,0,0,0,0
+mt363,2019-2020,12-AUG-20 08.00.00.000000000 PM,2020,Atalanta,Paris Saint-Germain,Estádio da Luz,Lisboa,1,2,Away,0,0,0,0,1,0,0,0,0
+mt364,2019-2020,13-AUG-20 08.00.00.000000000 PM,2020,RB Leipzig,Atlético Madrid,Estádio José Alvalade,Lisboa,2,1,Home,0,0,0,0,1,0,0,0,0
+mt365,2019-2020,14-AUG-20 08.00.00.000000000 PM,2020,FC Barcelona,Bayern München,Estádio da Luz,Lisboa,2,8,Away,0,0,0,0,1,0,0,0,0
+mt366,2019-2020,15-AUG-20 08.00.00.000000000 PM,2020,Manchester City,Olympique Lyon,Estádio José Alvalade,Lisboa,1,3,Away,0,0,0,0,1,0,0,0,0
+mt367,2019-2020,18-AUG-20 08.00.00.000000000 PM,2020,RB Leipzig,Paris Saint-Germain,Estádio da Luz,Lisboa,0,3,Away,0,0,0,0,1,0,0,0,0
+mt368,2019-2020,19-AUG-20 08.00.00.000000000 PM,2020,Olympique Lyon,Bayern München,Estádio José Alvalade,Lisboa,0,3,Away,0,0,0,0,1,0,0,0,0
+mt369,2019-2020,23-AUG-20 08.00.00.000000000 PM,2020,Paris Saint-Germain,Bayern München,Estádio da Luz,Lisboa,0,1,Away,0,0,0,0,1,0,0,0,0
+mt370,2018-2019,18-SEP-18 08.00.00.000000000 PM,2018,AS Monaco,Atlético Madrid,Stade Louis II,Monaco,1,2,Away,0,10575,0,0,0,0,1,0,0
+mt371,2018-2019,18-SEP-18 08.00.00.000000000 PM,2018,Club Brugge KV,Borussia Dortmund,Jan Breydel Stadion,Brugge,0,1,Away,0,25181,0,0,0,0,1,0,0
+mt372,2018-2019,03-OCT-18 08.00.00.000000000 PM,2018,Borussia Dortmund,AS Monaco,Signal Iduna Park,Dortmund,3,0,Home,0,66099,0,0,0,0,1,0,0
+mt373,2018-2019,03-OCT-18 08.00.00.000000000 PM,2018,Atlético Madrid,Club Brugge KV,Wanda Metropolitano,Madrid,3,1,Home,0,55742,0,0,0,0,1,0,0
+mt374,2018-2019,24-OCT-18 05.55.00.000000000 PM,2018,Club Brugge KV,AS Monaco,Jan Breydel Stadion,Brugge,1,1,Draw,0,23957,0,0,0,0,1,0,0
+mt375,2018-2019,24-OCT-18 08.00.00.000000000 PM,2018,Borussia Dortmund,Atlético Madrid,Signal Iduna Park,Dortmund,4,0,Home,0,66099,0,0,0,0,1,0,0
+mt376,2018-2019,06-NOV-18 05.55.00.000000000 PM,2018,AS Monaco,Club Brugge KV,Stade Louis II,Monaco,0,4,Away,0,8347,0,0,0,0,1,0,0
+mt377,2018-2019,06-NOV-18 08.00.00.000000000 PM,2018,Atlético Madrid,Borussia Dortmund,Wanda Metropolitano,Madrid,2,0,Home,0,61023,0,0,0,0,1,0,0
+mt378,2018-2019,28-NOV-18 05.55.00.000000000 PM,2018,Atlético Madrid,AS Monaco,Wanda Metropolitano,Madrid,2,0,Home,0,56314,0,0,0,0,1,0,0
+mt379,2018-2019,28-NOV-18 08.00.00.000000000 PM,2018,Borussia Dortmund,Club Brugge KV,Signal Iduna Park,Dortmund,0,0,Draw,0,66099,0,0,0,0,1,0,0
+mt380,2018-2019,11-DEC-18 08.00.00.000000000 PM,2018,AS Monaco,Borussia Dortmund,Stade Louis II,Monaco,0,2,Away,0,8731,0,0,0,0,1,0,0
+mt381,2018-2019,11-DEC-18 08.00.00.000000000 PM,2018,Club Brugge KV,Atlético Madrid,Jan Breydel Stadion,Brugge,0,0,Draw,0,25645,0,0,0,0,1,0,0
+mt382,2018-2019,18-SEP-18 05.55.00.000000000 PM,2018,FC Barcelona,PSV Eindhoven,Spotify Camp Nou,Barcelona,4,0,Home,0,73462,0,0,0,0,1,0,0
+mt383,2018-2019,18-SEP-18 05.55.00.000000000 PM,2018,Inter,Tottenham Hotspur,Giuseppe Meazza,Milano,2,1,Home,0,64123,0,0,0,0,1,0,0
+mt384,2018-2019,03-OCT-18 08.00.00.000000000 PM,2018,Tottenham Hotspur,FC Barcelona,Wembley Stadium,London,2,4,Away,0,82137,0,0,0,0,1,0,0
+mt385,2018-2019,03-OCT-18 08.00.00.000000000 PM,2018,PSV Eindhoven,Inter,Philips Stadion,Eindhoven,1,2,Away,0,34750,0,0,0,0,1,0,0
+mt386,2018-2019,24-OCT-18 05.55.00.000000000 PM,2018,PSV Eindhoven,Tottenham Hotspur,Philips Stadion,Eindhoven,2,2,Draw,0,35000,0,0,0,0,1,0,0
+mt387,2018-2019,24-OCT-18 08.00.00.000000000 PM,2018,FC Barcelona,Inter,Spotify Camp Nou,Barcelona,2,0,Home,0,86290,0,0,0,0,1,0,0
+mt388,2018-2019,06-NOV-18 08.00.00.000000000 PM,2018,Tottenham Hotspur,PSV Eindhoven,Wembley Stadium,London,2,1,Home,0,46588,0,0,0,0,1,0,0
+mt389,2018-2019,06-NOV-18 08.00.00.000000000 PM,2018,Inter,FC Barcelona,Giuseppe Meazza,Milano,1,1,Draw,0,70915,0,0,0,0,1,0,0
+mt390,2018-2019,28-NOV-18 08.00.00.000000000 PM,2018,PSV Eindhoven,FC Barcelona,Philips Stadion,Eindhoven,1,2,Away,0,34600,0,0,0,0,1,0,0
+mt391,2018-2019,28-NOV-18 08.00.00.000000000 PM,2018,Tottenham Hotspur,Inter,Wembley Stadium,London,1,0,Home,0,57132,0,0,0,0,1,0,0
+mt392,2018-2019,11-DEC-18 08.00.00.000000000 PM,2018,FC Barcelona,Tottenham Hotspur,Spotify Camp Nou,Barcelona,1,1,Draw,0,69961,0,0,0,0,1,0,0
+mt393,2018-2019,11-DEC-18 08.00.00.000000000 PM,2018,Inter,PSV Eindhoven,Giuseppe Meazza,Milano,1,1,Draw,0,62533,0,0,0,0,1,0,0
+mt394,2018-2019,18-SEP-18 08.00.00.000000000 PM,2018,Liverpool FC,Paris Saint-Germain,Anfield,Liverpool,3,2,Home,0,52478,0,0,0,0,1,0,0
+mt395,2018-2019,18-SEP-18 08.00.00.000000000 PM,2018,Crvena Zvezda,SSC Napoli,Marakana,Beograd,0,0,Draw,0,49112,0,0,0,0,1,0,0
+mt396,2018-2019,03-OCT-18 05.55.00.000000000 PM,2018,Paris Saint-Germain,Crvena Zvezda,Parc des Princes,Paris,6,1,Home,0,39979,0,0,0,0,1,0,0
+mt397,2018-2019,03-OCT-18 08.00.00.000000000 PM,2018,SSC Napoli,Liverpool FC,Diego Maradona,Napoli,1,0,Home,0,37057,0,0,0,0,1,0,0
+mt398,2018-2019,24-OCT-18 08.00.00.000000000 PM,2018,Paris Saint-Germain,SSC Napoli,Parc des Princes,Paris,2,2,Draw,0,46274,0,0,0,0,1,0,0
+mt399,2018-2019,24-OCT-18 08.00.00.000000000 PM,2018,Liverpool FC,Crvena Zvezda,Anfield,Liverpool,4,0,Home,0,53024,0,0,0,0,1,0,0
+mt400,2018-2019,06-NOV-18 05.55.00.000000000 PM,2018,Crvena Zvezda,Liverpool FC,Marakana,Beograd,2,0,Home,0,51318,0,0,0,0,1,0,0
+mt401,2018-2019,06-NOV-18 08.00.00.000000000 PM,2018,SSC Napoli,Paris Saint-Germain,Diego Maradona,Napoli,1,1,Draw,0,55489,0,0,0,0,1,0,0
+mt402,2018-2019,28-NOV-18 08.00.00.000000000 PM,2018,Paris Saint-Germain,Liverpool FC,Parc des Princes,Paris,2,1,Home,0,46880,0,0,0,0,1,0,0
+mt403,2018-2019,28-NOV-18 08.00.00.000000000 PM,2018,SSC Napoli,Crvena Zvezda,Diego Maradona,Napoli,3,1,Home,0,44470,0,0,0,0,1,0,0
+mt404,2018-2019,11-DEC-18 08.00.00.000000000 PM,2018,Liverpool FC,SSC Napoli,Anfield,Liverpool,1,0,Home,0,52015,0,0,0,0,1,0,0
+mt405,2018-2019,11-DEC-18 08.00.00.000000000 PM,2018,Crvena Zvezda,Paris Saint-Germain,Marakana,Beograd,1,4,Away,0,48357,0,0,0,0,1,0,0
+mt406,2018-2019,18-SEP-18 08.00.00.000000000 PM,2018,FC Schalke 04,FC Porto,Veltins-Arena,Gelsenkirchen,1,1,Draw,0,45755,0,0,0,0,1,0,0
+mt407,2018-2019,18-SEP-18 08.00.00.000000000 PM,2018,Galatasaray,Lokomotiv Moskva,Nef Stadyumu,Istanbul,3,0,Home,0,43542,0,0,0,0,1,0,0
+mt408,2018-2019,03-OCT-18 05.55.00.000000000 PM,2018,Lokomotiv Moskva,FC Schalke 04,RŽD-Arena,Moskva,0,1,Away,0,21471,0,0,0,0,1,0,0
+mt409,2018-2019,03-OCT-18 08.00.00.000000000 PM,2018,FC Porto,Galatasaray,Estádio do Dragão,Porto,1,0,Home,0,42711,0,0,0,0,1,0,0
+mt410,2018-2019,24-OCT-18 08.00.00.000000000 PM,2018,Lokomotiv Moskva,FC Porto,RŽD-Arena,Moskva,1,3,Away,0,16034,0,0,0,0,1,0,0
+mt411,2018-2019,24-OCT-18 08.00.00.000000000 PM,2018,Galatasaray,FC Schalke 04,Nef Stadyumu,Istanbul,0,0,Draw,0,46667,0,0,0,0,1,0,0
+mt412,2018-2019,06-NOV-18 08.00.00.000000000 PM,2018,FC Porto,Lokomotiv Moskva,Estádio do Dragão,Porto,4,1,Home,0,34616,0,0,0,0,1,0,0
+mt413,2018-2019,06-NOV-18 08.00.00.000000000 PM,2018,FC Schalke 04,Galatasaray,Veltins-Arena,Gelsenkirchen,2,0,Home,0,54740,0,0,0,0,1,0,0
+mt414,2018-2019,28-NOV-18 05.55.00.000000000 PM,2018,Lokomotiv Moskva,Galatasaray,RŽD-Arena,Moskva,2,0,Home,0,14037,0,0,0,0,1,0,0
+mt415,2018-2019,28-NOV-18 08.00.00.000000000 PM,2018,FC Porto,FC Schalke 04,Estádio do Dragão,Porto,3,1,Home,0,41603,0,0,0,0,1,0,0
+mt416,2018-2019,11-DEC-18 05.55.00.000000000 PM,2018,FC Schalke 04,Lokomotiv Moskva,Veltins-Arena,Gelsenkirchen,1,0,Home,0,48883,0,0,0,0,1,0,0
+mt417,2018-2019,11-DEC-18 05.55.00.000000000 PM,2018,Galatasaray,FC Porto,Nef Stadyumu,Istanbul,2,3,Away,0,33972,0,0,0,0,1,0,0
+mt418,2018-2019,19-SEP-18 05.55.00.000000000 PM,2018,AFC Ajax,AEK Athen,Johan Cruijff ArenA,Amsterdam,3,0,Home,0,52285,0,0,0,0,1,0,0
+mt419,2018-2019,19-SEP-18 08.00.00.000000000 PM,2018,SL Benfica,Bayern München,Estádio da Luz,Lisboa,0,2,Away,0,60274,0,0,0,0,1,0,0
+mt420,2018-2019,02-OCT-18 08.00.00.000000000 PM,2018,Bayern München,AFC Ajax,Allianz Arena,München,1,1,Draw,0,70000,0,0,0,0,1,0,0
+mt421,2018-2019,02-OCT-18 08.00.00.000000000 PM,2018,AEK Athen,SL Benfica,Spyros Louis (OAKA),Athen,2,3,Away,0,31154,0,0,0,0,1,0,0
+mt422,2018-2019,23-OCT-18 05.55.00.000000000 PM,2018,AEK Athen,Bayern München,Spyros Louis (OAKA),Athen,0,2,Away,0,61221,0,0,0,0,1,0,0
+mt423,2018-2019,23-OCT-18 08.00.00.000000000 PM,2018,AFC Ajax,SL Benfica,Johan Cruijff ArenA,Amsterdam,1,0,Home,0,52489,0,0,0,0,1,0,0
+mt424,2018-2019,07-NOV-18 08.00.00.000000000 PM,2018,SL Benfica,AFC Ajax,Estádio da Luz,Lisboa,1,1,Draw,0,51328,0,0,0,0,1,0,0
+mt425,2018-2019,07-NOV-18 08.00.00.000000000 PM,2018,Bayern München,AEK Athen,Allianz Arena,München,2,0,Home,0,70000,0,0,0,0,1,0,0
+mt426,2018-2019,27-NOV-18 05.55.00.000000000 PM,2018,AEK Athen,AFC Ajax,Spyros Louis (OAKA),Athen,0,2,Away,0,25756,0,0,0,0,1,0,0
+mt427,2018-2019,27-NOV-18 08.00.00.000000000 PM,2018,Bayern München,SL Benfica,Allianz Arena,München,5,1,Home,0,70000,0,0,0,0,1,0,0
+mt428,2018-2019,12-DEC-18 08.00.00.000000000 PM,2018,AFC Ajax,Bayern München,Johan Cruijff ArenA,Amsterdam,3,3,Draw,0,52244,0,0,0,0,1,0,0
+mt429,2018-2019,12-DEC-18 08.00.00.000000000 PM,2018,SL Benfica,AEK Athen,Estádio da Luz,Lisboa,1,0,Home,0,33633,0,0,0,0,1,0,0
+mt430,2018-2019,19-SEP-18 05.55.00.000000000 PM,2018,Shakhtar Donetsk,1899 Hoffenheim,Metalist Stadion,Kharkiv,2,2,Draw,0,28336,0,0,0,0,1,0,0
+mt431,2018-2019,19-SEP-18 08.00.00.000000000 PM,2018,Manchester City,Olympique Lyon,Etihad Stadium,Manchester,1,2,Away,0,40111,0,0,0,0,1,0,0
+mt432,2018-2019,02-OCT-18 05.55.00.000000000 PM,2018,1899 Hoffenheim,Manchester City,PreZero Arena,Sinsheim,1,2,Away,0,24851,0,0,0,0,1,0,0
+mt433,2018-2019,02-OCT-18 08.00.00.000000000 PM,2018,Olympique Lyon,Shakhtar Donetsk,Groupama Stadium,Décines-Charpieu,2,2,Draw,0,0,0,0,0,0,1,0,0
+mt434,2018-2019,23-OCT-18 08.00.00.000000000 PM,2018,Shakhtar Donetsk,Manchester City,Metalist Stadion,Kharkiv,0,3,Away,0,37106,0,0,0,0,1,0,0
+mt435,2018-2019,23-OCT-18 08.00.00.000000000 PM,2018,1899 Hoffenheim,Olympique Lyon,PreZero Arena,Sinsheim,3,3,Draw,0,24144,0,0,0,0,1,0,0
+mt436,2018-2019,07-NOV-18 08.00.00.000000000 PM,2018,Manchester City,Shakhtar Donetsk,Etihad Stadium,Manchester,6,0,Home,0,52286,0,0,0,0,1,0,0
+mt437,2018-2019,07-NOV-18 08.00.00.000000000 PM,2018,Olympique Lyon,1899 Hoffenheim,Groupama Stadium,Décines-Charpieu,2,2,Draw,0,53850,0,0,0,0,1,0,0
+mt438,2018-2019,27-NOV-18 08.00.00.000000000 PM,2018,Olympique Lyon,Manchester City,Groupama Stadium,Décines-Charpieu,2,2,Draw,0,56039,0,0,0,0,1,0,0
+mt439,2018-2019,27-NOV-18 08.00.00.000000000 PM,2018,1899 Hoffenheim,Shakhtar Donetsk,PreZero Arena,Sinsheim,2,3,Away,0,22920,0,0,0,0,1,0,0
+mt440,2018-2019,12-DEC-18 08.00.00.000000000 PM,2018,Shakhtar Donetsk,Olympique Lyon,Olimpiyskyi,Kiev,1,1,Draw,0,38916,0,0,0,0,1,0,0
+mt441,2018-2019,12-DEC-18 08.00.00.000000000 PM,2018,Manchester City,1899 Hoffenheim,Etihad Stadium,Manchester,2,1,Home,0,50411,0,0,0,0,1,0,0
+mt442,2018-2019,19-SEP-18 08.00.00.000000000 PM,2018,Real Madrid,AS Roma,Santiago Bernabéu,Madrid,3,0,Home,0,69251,0,0,0,0,1,0,0
+mt443,2018-2019,19-SEP-18 08.00.00.000000000 PM,2018,Viktoria Plzeň,CSKA Moskva,Doosan Arena,Plzeň,2,2,Draw,0,11312,0,0,0,0,1,0,0
+mt444,2018-2019,02-OCT-18 08.00.00.000000000 PM,2018,CSKA Moskva,Real Madrid,Luzhniki,Moskva,1,0,Home,0,71811,0,0,0,0,1,0,0
+mt445,2018-2019,02-OCT-18 08.00.00.000000000 PM,2018,AS Roma,Viktoria Plzeň,Olimpico,Roma,5,0,Home,0,41243,0,0,0,0,1,0,0
+mt446,2018-2019,23-OCT-18 08.00.00.000000000 PM,2018,AS Roma,CSKA Moskva,Olimpico,Roma,3,0,Home,0,46005,0,0,0,0,1,0,0
+mt447,2018-2019,23-OCT-18 08.00.00.000000000 PM,2018,Real Madrid,Viktoria Plzeň,Santiago Bernabéu,Madrid,2,1,Home,0,67356,0,0,0,0,1,0,0
+mt448,2018-2019,07-NOV-18 05.55.00.000000000 PM,2018,CSKA Moskva,AS Roma,Luzhniki,Moskva,1,2,Away,0,64454,0,0,0,0,1,0,0
+mt449,2018-2019,07-NOV-18 08.00.00.000000000 PM,2018,Viktoria Plzeň,Real Madrid,Doosan Arena,Plzeň,0,5,Away,0,11483,0,0,0,0,1,0,0
+mt450,2018-2019,27-NOV-18 05.55.00.000000000 PM,2018,CSKA Moskva,Viktoria Plzeň,Luzhniki,Moskva,1,2,Away,0,52892,0,0,0,0,1,0,0
+mt451,2018-2019,27-NOV-18 08.00.00.000000000 PM,2018,AS Roma,Real Madrid,Olimpico,Roma,0,2,Away,0,59124,0,0,0,0,1,0,0
+mt452,2018-2019,12-DEC-18 05.55.00.000000000 PM,2018,Real Madrid,CSKA Moskva,Santiago Bernabéu,Madrid,0,3,Away,0,51636,0,0,0,0,1,0,0
+mt453,2018-2019,12-DEC-18 05.55.00.000000000 PM,2018,Viktoria Plzeň,AS Roma,Doosan Arena,Plzeň,2,1,Home,0,11217,0,0,0,0,1,0,0
+mt454,2018-2019,19-SEP-18 08.00.00.000000000 PM,2018,Valencia CF,Juventus,Estadio de Mestalla,Valencia,0,2,Away,0,46067,0,0,0,0,1,0,0
+mt455,2018-2019,19-SEP-18 08.00.00.000000000 PM,2018,BSC Young Boys,Manchester United,Stadion Wankdorf,Bern,0,3,Away,0,31120,0,0,0,0,1,0,0
+mt456,2018-2019,02-OCT-18 05.55.00.000000000 PM,2018,Juventus,BSC Young Boys,Allianz Stadium,Torino,3,0,Home,0,40961,0,0,0,0,1,0,0
+mt457,2018-2019,02-OCT-18 08.00.00.000000000 PM,2018,Manchester United,Valencia CF,Old Trafford,Manchester,0,0,Draw,0,73569,0,0,0,0,1,0,0
+mt458,2018-2019,23-OCT-18 05.55.00.000000000 PM,2018,BSC Young Boys,Valencia CF,Stadion Wankdorf,Bern,1,1,Draw,0,31120,0,0,0,0,1,0,0
+mt459,2018-2019,23-OCT-18 08.00.00.000000000 PM,2018,Manchester United,Juventus,Old Trafford,Manchester,0,1,Away,0,73946,0,0,0,0,1,0,0
+mt460,2018-2019,07-NOV-18 05.55.00.000000000 PM,2018,Valencia CF,BSC Young Boys,Estadio de Mestalla,Valencia,3,1,Home,0,36480,0,0,0,0,1,0,0
+mt461,2018-2019,07-NOV-18 08.00.00.000000000 PM,2018,Juventus,Manchester United,Allianz Stadium,Torino,1,2,Away,0,41470,0,0,0,0,1,0,0
+mt462,2018-2019,27-NOV-18 08.00.00.000000000 PM,2018,Juventus,Valencia CF,Allianz Stadium,Torino,1,0,Home,0,39070,0,0,0,0,1,0,0
+mt463,2018-2019,27-NOV-18 08.00.00.000000000 PM,2018,Manchester United,BSC Young Boys,Old Trafford,Manchester,1,0,Home,0,72876,0,0,0,0,1,0,0
+mt464,2018-2019,12-DEC-18 08.00.00.000000000 PM,2018,Valencia CF,Manchester United,Estadio de Mestalla,Valencia,2,1,Home,0,36544,0,0,0,0,1,0,0
+mt465,2018-2019,12-DEC-18 08.00.00.000000000 PM,2018,BSC Young Boys,Juventus,Stadion Wankdorf,Bern,2,1,Home,0,30114,0,0,0,0,1,0,0
+mt466,2018-2019,12-FEB-19 08.00.00.000000000 PM,2019,Manchester United,Paris Saint-Germain,Old Trafford,Manchester,0,2,Away,0,74054,0,0,0,1,0,0,0
+mt467,2018-2019,12-FEB-19 08.00.00.000000000 PM,2019,AS Roma,FC Porto,Olimpico,Roma,2,1,Home,0,51727,0,0,0,1,0,0,0
+mt468,2018-2019,13-FEB-19 08.00.00.000000000 PM,2019,Tottenham Hotspur,Borussia Dortmund,Wembley Stadium,London,3,0,Home,0,71214,0,0,0,1,0,0,0
+mt469,2018-2019,13-FEB-19 08.00.00.000000000 PM,2019,AFC Ajax,Real Madrid,Johan Cruijff ArenA,Amsterdam,1,2,Away,0,52286,0,0,0,1,0,0,0
+mt470,2018-2019,19-FEB-19 08.00.00.000000000 PM,2019,Olympique Lyon,FC Barcelona,Groupama Stadium,Décines-Charpieu,0,0,Draw,0,57889,0,0,0,1,0,0,0
+mt471,2018-2019,19-FEB-19 08.00.00.000000000 PM,2019,Liverpool FC,Bayern München,Anfield,Liverpool,0,0,Draw,0,52250,0,0,0,1,0,0,0
+mt472,2018-2019,20-FEB-19 08.00.00.000000000 PM,2019,FC Schalke 04,Manchester City,Veltins-Arena,Gelsenkirchen,2,3,Away,0,54417,0,0,0,1,0,0,0
+mt473,2018-2019,20-FEB-19 08.00.00.000000000 PM,2019,Atlético Madrid,Juventus,Wanda Metropolitano,Madrid,2,0,Home,0,67193,0,0,0,1,0,0,0
+mt474,2018-2019,05-MAR-19 08.00.00.000000000 PM,2019,Borussia Dortmund,Tottenham Hotspur,Signal Iduna Park,Dortmund,0,1,Away,0,66099,0,0,0,1,0,0,0
+mt475,2018-2019,05-MAR-19 08.00.00.000000000 PM,2019,Real Madrid,AFC Ajax,Santiago Bernabéu,Madrid,1,4,Away,0,77013,0,0,0,1,0,0,0
+mt476,2018-2019,06-MAR-19 08.00.00.000000000 PM,2019,Paris Saint-Germain,Manchester United,Parc des Princes,Paris,1,3,Away,0,47441,0,0,0,1,0,0,0
+mt477,2018-2019,06-MAR-19 08.00.00.000000000 PM,2019,FC Porto,AS Roma,Estádio do Dragão,Porto,3,1,Home,0,49029,0,0,0,1,0,0,0
+mt478,2018-2019,12-MAR-19 08.00.00.000000000 PM,2019,Manchester City,FC Schalke 04,Etihad Stadium,Manchester,7,0,Home,0,51518,0,0,0,1,0,0,0
+mt479,2018-2019,12-MAR-19 08.00.00.000000000 PM,2019,Juventus,Atlético Madrid,Allianz Stadium,Torino,3,0,Home,0,40884,0,0,0,1,0,0,0
+mt480,2018-2019,13-MAR-19 08.00.00.000000000 PM,2019,FC Barcelona,Olympique Lyon,Spotify Camp Nou,Barcelona,5,1,Home,0,92346,0,0,0,1,0,0,0
+mt481,2018-2019,13-MAR-19 08.00.00.000000000 PM,2019,Bayern München,Liverpool FC,Allianz Arena,München,1,3,Away,0,68145,0,0,0,1,0,0,0
+mt482,2018-2019,09-APR-19 08.00.00.000000000 PM,2019,Liverpool FC,FC Porto,Anfield,Liverpool,2,0,Home,0,52465,0,0,0,1,0,0,0
+mt483,2018-2019,09-APR-19 08.00.00.000000000 PM,2019,Tottenham Hotspur,Manchester City,Tottenham Hotspur Stadium,London,1,0,Home,0,60044,0,0,0,1,0,0,0
+mt484,2018-2019,10-APR-19 08.00.00.000000000 PM,2019,AFC Ajax,Juventus,Johan Cruijff ArenA,Amsterdam,1,1,Draw,0,50390,0,0,0,1,0,0,0
+mt485,2018-2019,10-APR-19 08.00.00.000000000 PM,2019,Manchester United,FC Barcelona,Old Trafford,Manchester,0,1,Away,0,74093,0,0,0,1,0,0,0
+mt486,2018-2019,16-APR-19 08.00.00.000000000 PM,2019,Juventus,AFC Ajax,Allianz Stadium,Torino,1,2,Away,0,41445,0,0,0,1,0,0,0
+mt487,2018-2019,16-APR-19 08.00.00.000000000 PM,2019,FC Barcelona,Manchester United,Spotify Camp Nou,Barcelona,3,0,Home,0,96708,0,0,0,1,0,0,0
+mt488,2018-2019,17-APR-19 08.00.00.000000000 PM,2019,FC Porto,Liverpool FC,Estádio do Dragão,Porto,1,4,Away,0,49117,0,0,0,1,0,0,0
+mt489,2018-2019,17-APR-19 08.00.00.000000000 PM,2019,Manchester City,Tottenham Hotspur,Etihad Stadium,Manchester,4,3,Home,0,53348,0,0,0,1,0,0,0
+mt490,2018-2019,30-APR-19 08.00.00.000000000 PM,2019,Tottenham Hotspur,AFC Ajax,Tottenham Hotspur Stadium,London,0,1,Away,0,60243,0,0,0,1,0,0,0
+mt491,2018-2019,01-MAY-19 08.00.00.000000000 PM,2019,FC Barcelona,Liverpool FC,Spotify Camp Nou,Barcelona,3,0,Home,0,98299,0,0,0,1,0,0,0
+mt492,2018-2019,07-MAY-19 08.00.00.000000000 PM,2019,Liverpool FC,FC Barcelona,Anfield,Liverpool,4,0,Home,0,55212,0,0,0,1,0,0,0
+mt493,2018-2019,08-MAY-19 08.00.00.000000000 PM,2019,AFC Ajax,Tottenham Hotspur,Johan Cruijff ArenA,Amsterdam,2,3,Away,0,52641,0,0,0,1,0,0,0
+mt494,2018-2019,01-JUN-19 08.00.00.000000000 PM,2019,Tottenham Hotspur,Liverpool FC,Wanda Metropolitano,Madrid,0,2,Away,0,63272,0,0,0,1,0,0,0
+mt495,2017-2018,12-SEP-17 07.45.00.000000000 PM,2017,Manchester United,FC Basel,Old Trafford,Manchester,3,0,Home,0,73854,0,0,0,0,0,1,0
+mt496,2017-2018,12-SEP-17 07.45.00.000000000 PM,2017,SL Benfica,CSKA Moskva,Estádio da Luz,Lisboa,1,2,Away,0,38323,0,0,0,0,0,1,0
+mt497,2017-2018,27-SEP-17 07.45.00.000000000 PM,2017,FC Basel,SL Benfica,St. Jakob-Park,Basel,5,0,Home,0,34111,0,0,0,0,0,1,0
+mt498,2017-2018,27-SEP-17 07.45.00.000000000 PM,2017,CSKA Moskva,Manchester United,VEB Arena,Moskva,1,4,Away,0,29073,0,0,0,0,0,1,0
+mt499,2017-2018,18-OCT-17 07.45.00.000000000 PM,2017,SL Benfica,Manchester United,Estádio da Luz,Lisboa,0,1,Away,0,57684,0,0,0,0,0,1,0
+mt500,2017-2018,18-OCT-17 07.45.00.000000000 PM,2017,CSKA Moskva,FC Basel,VEB Arena,Moskva,0,2,Away,0,27996,0,0,0,0,0,1,0
+mt501,2017-2018,31-OCT-17 07.45.00.000000000 PM,2017,Manchester United,SL Benfica,Old Trafford,Manchester,2,0,Home,0,74437,0,0,0,0,0,1,0
+mt502,2017-2018,31-OCT-17 07.45.00.000000000 PM,2017,FC Basel,CSKA Moskva,St. Jakob-Park,Basel,1,2,Away,0,33303,0,0,0,0,0,1,0
+mt503,2017-2018,22-NOV-17 05.00.00.000000000 PM,2017,CSKA Moskva,SL Benfica,VEB Arena,Moskva,2,0,Home,0,27709,0,0,0,0,0,1,0
+mt504,2017-2018,22-NOV-17 07.45.00.000000000 PM,2017,FC Basel,Manchester United,St. Jakob-Park,Basel,1,0,Home,0,36000,0,0,0,0,0,1,0
+mt505,2017-2018,05-DEC-17 07.45.00.000000000 PM,2017,SL Benfica,FC Basel,Estádio da Luz,Lisboa,0,2,Away,0,22470,0,0,0,0,0,1,0
+mt506,2017-2018,05-DEC-17 07.45.00.000000000 PM,2017,Manchester United,CSKA Moskva,Old Trafford,Manchester,2,1,Home,0,74669,0,0,0,0,0,1,0
+mt507,2017-2018,12-SEP-17 07.45.00.000000000 PM,2017,Bayern München,RSC Anderlecht,Allianz Arena,München,3,0,Home,0,70000,0,0,0,0,0,1,0
+mt508,2017-2018,12-SEP-17 07.45.00.000000000 PM,2017,Celtic FC,Paris Saint-Germain,Celtic Park,Glasgow,0,5,Away,0,57562,0,0,0,0,0,1,0
+mt509,2017-2018,27-SEP-17 07.45.00.000000000 PM,2017,Paris Saint-Germain,Bayern München,Parc des Princes,Paris,3,0,Home,0,46252,0,0,0,0,0,1,0
+mt510,2017-2018,27-SEP-17 07.45.00.000000000 PM,2017,RSC Anderlecht,Celtic FC,Lotto Park,Bruxelles,0,3,Away,0,19898,0,0,0,0,0,1,0
+mt511,2017-2018,18-OCT-17 07.45.00.000000000 PM,2017,RSC Anderlecht,Paris Saint-Germain,Lotto Park,Bruxelles,0,4,Away,0,19108,0,0,0,0,0,1,0
+mt512,2017-2018,18-OCT-17 07.45.00.000000000 PM,2017,Bayern München,Celtic FC,Allianz Arena,München,3,0,Home,0,70000,0,0,0,0,0,1,0
+mt513,2017-2018,31-OCT-17 07.45.00.000000000 PM,2017,Paris Saint-Germain,RSC Anderlecht,Parc des Princes,Paris,5,0,Home,0,46403,0,0,0,0,0,1,0
+mt514,2017-2018,31-OCT-17 07.45.00.000000000 PM,2017,Celtic FC,Bayern München,Celtic Park,Glasgow,1,2,Away,0,58269,0,0,0,0,0,1,0
+mt515,2017-2018,22-NOV-17 07.45.00.000000000 PM,2017,RSC Anderlecht,Bayern München,Lotto Park,Bruxelles,1,2,Away,0,19753,0,0,0,0,0,1,0
+mt516,2017-2018,22-NOV-17 07.45.00.000000000 PM,2017,Paris Saint-Germain,Celtic FC,Parc des Princes,Paris,7,1,Home,0,46288,0,0,0,0,0,1,0
+mt517,2017-2018,05-DEC-17 07.45.00.000000000 PM,2017,Bayern München,Paris Saint-Germain,Allianz Arena,München,3,1,Home,0,70000,0,0,0,0,0,1,0
+mt518,2017-2018,05-DEC-17 07.45.00.000000000 PM,2017,Celtic FC,RSC Anderlecht,Celtic Park,Glasgow,0,1,Away,0,57931,0,0,0,0,0,1,0
+mt519,2017-2018,12-SEP-17 07.45.00.000000000 PM,2017,AS Roma,Atlético Madrid,Olimpico,Roma,0,0,Draw,0,36064,0,0,0,0,0,1,0
+mt520,2017-2018,12-SEP-17 07.45.00.000000000 PM,2017,Chelsea FC,Qarabağ FK,Stamford Bridge,London,6,0,Home,0,41150,0,0,0,0,0,1,0
+mt521,2017-2018,27-SEP-17 05.00.00.000000000 PM,2017,Qarabağ FK,AS Roma,Baku National Stadium,Baku,1,2,Away,0,67200,0,0,0,0,0,1,0
+mt522,2017-2018,27-SEP-17 07.45.00.000000000 PM,2017,Atlético Madrid,Chelsea FC,Wanda Metropolitano,Madrid,1,2,Away,0,60643,0,0,0,0,0,1,0
+mt523,2017-2018,18-OCT-17 05.00.00.000000000 PM,2017,Qarabağ FK,Atlético Madrid,Baku National Stadium,Baku,0,0,Draw,0,47923,0,0,0,0,0,1,0
+mt524,2017-2018,18-OCT-17 07.45.00.000000000 PM,2017,Chelsea FC,AS Roma,Stamford Bridge,London,3,3,Draw,0,41105,0,0,0,0,0,1,0
+mt525,2017-2018,31-OCT-17 07.45.00.000000000 PM,2017,AS Roma,Chelsea FC,Olimpico,Roma,3,0,Home,0,55036,0,0,0,0,0,1,0
+mt526,2017-2018,31-OCT-17 07.45.00.000000000 PM,2017,Atlético Madrid,Qarabağ FK,Wanda Metropolitano,Madrid,1,1,Draw,0,55893,0,0,0,0,0,1,0
+mt527,2017-2018,22-NOV-17 05.00.00.000000000 PM,2017,Qarabağ FK,Chelsea FC,Baku National Stadium,Baku,0,4,Away,0,67100,0,0,0,0,0,1,0
+mt528,2017-2018,22-NOV-17 07.45.00.000000000 PM,2017,Atlético Madrid,AS Roma,Wanda Metropolitano,Madrid,2,0,Home,0,56253,0,0,0,0,0,1,0
+mt529,2017-2018,05-DEC-17 07.45.00.000000000 PM,2017,Chelsea FC,Atlético Madrid,Stamford Bridge,London,1,1,Draw,0,40875,0,0,0,0,0,1,0
+mt530,2017-2018,05-DEC-17 07.45.00.000000000 PM,2017,AS Roma,Qarabağ FK,Olimpico,Roma,1,0,Home,0,34258,0,0,0,0,0,1,0
+mt531,2017-2018,12-SEP-17 07.45.00.000000000 PM,2017,FC Barcelona,Juventus,Spotify Camp Nou,Barcelona,3,0,Home,0,78656,0,0,0,0,0,1,0
+mt532,2017-2018,12-SEP-17 07.45.00.000000000 PM,2017,Olympiakos Piraeus,Sporting CP,Georgios Karaiskakis,Piräus,2,3,Away,0,30168,0,0,0,0,0,1,0
+mt533,2017-2018,27-SEP-17 07.45.00.000000000 PM,2017,Juventus,Olympiakos Piraeus,Allianz Stadium,Torino,2,0,Home,0,33460,0,0,0,0,0,1,0
+mt534,2017-2018,27-SEP-17 07.45.00.000000000 PM,2017,Sporting CP,FC Barcelona,Estádio José Alvalade,Lisboa,0,1,Away,0,48575,0,0,0,0,0,1,0
+mt535,2017-2018,18-OCT-17 07.45.00.000000000 PM,2017,FC Barcelona,Olympiakos Piraeus,Spotify Camp Nou,Barcelona,3,1,Home,0,55026,0,0,0,0,0,1,0
+mt536,2017-2018,18-OCT-17 07.45.00.000000000 PM,2017,Juventus,Sporting CP,Allianz Stadium,Torino,2,1,Home,0,36288,0,0,0,0,0,1,0
+mt537,2017-2018,31-OCT-17 07.45.00.000000000 PM,2017,Olympiakos Piraeus,FC Barcelona,Georgios Karaiskakis,Piräus,0,0,Draw,0,31600,0,0,0,0,0,1,0
+mt538,2017-2018,31-OCT-17 07.45.00.000000000 PM,2017,Sporting CP,Juventus,Estádio José Alvalade,Lisboa,1,1,Draw,0,48442,0,0,0,0,0,1,0
+mt539,2017-2018,22-NOV-17 07.45.00.000000000 PM,2017,Juventus,FC Barcelona,Allianz Stadium,Torino,0,0,Draw,0,40876,0,0,0,0,0,1,0
+mt540,2017-2018,22-NOV-17 07.45.00.000000000 PM,2017,Sporting CP,Olympiakos Piraeus,Estádio José Alvalade,Lisboa,3,1,Home,0,42528,0,0,0,0,0,1,0
+mt541,2017-2018,05-DEC-17 07.45.00.000000000 PM,2017,FC Barcelona,Sporting CP,Spotify Camp Nou,Barcelona,2,0,Home,0,48336,0,0,0,0,0,1,0
+mt542,2017-2018,05-DEC-17 07.45.00.000000000 PM,2017,Olympiakos Piraeus,Juventus,Georgios Karaiskakis,Piräus,0,2,Away,0,29567,0,0,0,0,0,1,0
+mt543,2017-2018,13-SEP-17 07.45.00.000000000 PM,2017,Liverpool FC,Sevilla FC,Anfield,Liverpool,2,2,Draw,0,52332,0,0,0,0,0,1,0
+mt544,2017-2018,13-SEP-17 07.45.00.000000000 PM,2017,NK Maribor,Spartak Moskva,Ljudski vrt,Maribor,1,1,Draw,0,12566,0,0,0,0,0,1,0
+mt545,2017-2018,26-SEP-17 07.45.00.000000000 PM,2017,Spartak Moskva,Liverpool FC,Otkrytie Arena,Moskva,1,1,Draw,0,43376,0,0,0,0,0,1,0
+mt546,2017-2018,26-SEP-17 07.45.00.000000000 PM,2017,Sevilla FC,NK Maribor,Ramón Sánchez Pizjuán,Sevilla,3,0,Home,0,34705,0,0,0,0,0,1,0
+mt547,2017-2018,17-OCT-17 07.45.00.000000000 PM,2017,Spartak Moskva,Sevilla FC,Otkrytie Arena,Moskva,5,1,Home,0,44307,0,0,0,0,0,1,0
+mt548,2017-2018,17-OCT-17 07.45.00.000000000 PM,2017,NK Maribor,Liverpool FC,Ljudski vrt,Maribor,0,7,Away,0,12506,0,0,0,0,0,1,0
+mt549,2017-2018,01-NOV-17 07.45.00.000000000 PM,2017,Sevilla FC,Spartak Moskva,Ramón Sánchez Pizjuán,Sevilla,2,1,Home,0,38002,0,0,0,0,0,1,0
+mt550,2017-2018,01-NOV-17 07.45.00.000000000 PM,2017,Liverpool FC,NK Maribor,Anfield,Liverpool,3,0,Home,0,47957,0,0,0,0,0,1,0
+mt551,2017-2018,21-NOV-17 05.00.00.000000000 PM,2017,Spartak Moskva,NK Maribor,Otkrytie Arena,Moskva,1,1,Draw,0,42920,0,0,0,0,0,1,0
+mt552,2017-2018,21-NOV-17 07.45.00.000000000 PM,2017,Sevilla FC,Liverpool FC,Ramón Sánchez Pizjuán,Sevilla,3,3,Draw,0,39495,0,0,0,0,0,1,0
+mt553,2017-2018,06-DEC-17 07.45.00.000000000 PM,2017,Liverpool FC,Spartak Moskva,Anfield,Liverpool,7,0,Home,0,48779,0,0,0,0,0,1,0
+mt554,2017-2018,06-DEC-17 07.45.00.000000000 PM,2017,NK Maribor,Sevilla FC,Ljudski vrt,Maribor,1,1,Draw,0,11976,0,0,0,0,0,1,0
+mt555,2017-2018,13-SEP-17 07.45.00.000000000 PM,2017,Shakhtar Donetsk,SSC Napoli,Metalist Stadion,Kharkiv,2,1,Home,0,32679,0,0,0,0,0,1,0
+mt556,2017-2018,13-SEP-17 07.45.00.000000000 PM,2017,Feyenoord,Manchester City,De Kuip,Rotterdam,0,4,Away,0,43500,0,0,0,0,0,1,0
+mt557,2017-2018,26-SEP-17 07.45.00.000000000 PM,2017,Manchester City,Shakhtar Donetsk,Etihad Stadium,Manchester,2,0,Home,0,45310,0,0,0,0,0,1,0
+mt558,2017-2018,26-SEP-17 07.45.00.000000000 PM,2017,SSC Napoli,Feyenoord,Diego Maradona,Napoli,3,1,Home,0,22577,0,0,0,0,0,1,0
+mt559,2017-2018,17-OCT-17 07.45.00.000000000 PM,2017,Manchester City,SSC Napoli,Etihad Stadium,Manchester,2,1,Home,0,48520,0,0,0,0,0,1,0
+mt560,2017-2018,17-OCT-17 07.45.00.000000000 PM,2017,Feyenoord,Shakhtar Donetsk,De Kuip,Rotterdam,1,2,Away,0,43500,0,0,0,0,0,1,0
+mt561,2017-2018,01-NOV-17 07.45.00.000000000 PM,2017,SSC Napoli,Manchester City,Diego Maradona,Napoli,2,4,Away,0,44483,0,0,0,0,0,1,0
+mt562,2017-2018,01-NOV-17 07.45.00.000000000 PM,2017,Shakhtar Donetsk,Feyenoord,Metalist Stadion,Kharkiv,3,1,Home,0,24570,0,0,0,0,0,1,0
+mt563,2017-2018,21-NOV-17 07.45.00.000000000 PM,2017,SSC Napoli,Shakhtar Donetsk,Diego Maradona,Napoli,3,0,Home,0,10573,0,0,0,0,0,1,0
+mt564,2017-2018,21-NOV-17 07.45.00.000000000 PM,2017,Manchester City,Feyenoord,Etihad Stadium,Manchester,1,0,Home,0,43548,0,0,0,0,0,1,0
+mt565,2017-2018,06-DEC-17 07.45.00.000000000 PM,2017,Shakhtar Donetsk,Manchester City,Metalist Stadion,Kharkiv,2,1,Home,0,33154,0,0,0,0,0,1,0
+mt566,2017-2018,06-DEC-17 07.45.00.000000000 PM,2017,Feyenoord,SSC Napoli,De Kuip,Rotterdam,2,1,Home,0,36500,0,0,0,0,0,1,0
+mt567,2017-2018,13-SEP-17 07.45.00.000000000 PM,2017,FC Porto,Beşiktaş,Estádio do Dragão,Porto,1,3,Away,0,42429,0,0,0,0,0,1,0
+mt568,2017-2018,13-SEP-17 07.45.00.000000000 PM,2017,RB Leipzig,AS Monaco,Red Bull Arena,Leipzig,1,1,Draw,0,40068,0,0,0,0,0,1,0
+mt569,2017-2018,26-SEP-17 07.45.00.000000000 PM,2017,AS Monaco,FC Porto,Stade Louis II,Monaco,0,3,Away,0,11703,0,0,0,0,0,1,0
+mt570,2017-2018,26-SEP-17 07.45.00.000000000 PM,2017,Beşiktaş,RB Leipzig,Vodafone Park,Istanbul,2,0,Home,0,36641,0,0,0,0,0,1,0
+mt571,2017-2018,17-OCT-17 07.45.00.000000000 PM,2017,AS Monaco,Beşiktaş,Stade Louis II,Monaco,1,2,Away,0,7403,0,0,0,0,0,1,0
+mt572,2017-2018,17-OCT-17 07.45.00.000000000 PM,2017,RB Leipzig,FC Porto,Red Bull Arena,Leipzig,3,2,Home,0,41496,0,0,0,0,0,1,0
+mt573,2017-2018,01-NOV-17 05.00.00.000000000 PM,2017,Beşiktaş,AS Monaco,Vodafone Park,Istanbul,1,1,Draw,0,39346,0,0,0,0,0,1,0
+mt574,2017-2018,01-NOV-17 07.45.00.000000000 PM,2017,FC Porto,RB Leipzig,Estádio do Dragão,Porto,3,1,Home,0,41616,0,0,0,0,0,1,0
+mt575,2017-2018,21-NOV-17 05.00.00.000000000 PM,2017,Beşiktaş,FC Porto,Vodafone Park,Istanbul,1,1,Draw,0,36919,0,0,0,0,0,1,0
+mt576,2017-2018,21-NOV-17 07.45.00.000000000 PM,2017,AS Monaco,RB Leipzig,Stade Louis II,Monaco,1,4,Away,0,9029,0,0,0,0,0,1,0
+mt577,2017-2018,06-DEC-17 07.45.00.000000000 PM,2017,FC Porto,AS Monaco,Estádio do Dragão,Porto,5,2,Home,0,42509,0,0,0,0,0,1,0
+mt578,2017-2018,06-DEC-17 07.45.00.000000000 PM,2017,RB Leipzig,Beşiktaş,Red Bull Arena,Leipzig,1,2,Away,0,42558,0,0,0,0,0,1,0
+mt579,2017-2018,13-SEP-17 07.45.00.000000000 PM,2017,Tottenham Hotspur,Borussia Dortmund,Wembley Stadium,London,3,1,Home,0,67343,0,0,0,0,0,1,0
+mt580,2017-2018,13-SEP-17 07.45.00.000000000 PM,2017,Real Madrid,APOEL Nikosia,Santiago Bernabéu,Madrid,3,0,Home,0,71060,0,0,0,0,0,1,0
+mt581,2017-2018,26-SEP-17 07.45.00.000000000 PM,2017,Borussia Dortmund,Real Madrid,Signal Iduna Park,Dortmund,1,3,Away,0,65849,0,0,0,0,0,1,0
+mt582,2017-2018,26-SEP-17 07.45.00.000000000 PM,2017,APOEL Nikosia,Tottenham Hotspur,Neo GSP Stadium,Nikosia,0,3,Away,0,16324,0,0,0,0,0,1,0
+mt583,2017-2018,17-OCT-17 07.45.00.000000000 PM,2017,Real Madrid,Tottenham Hotspur,Santiago Bernabéu,Madrid,1,1,Draw,0,76589,0,0,0,0,0,1,0
+mt584,2017-2018,17-OCT-17 07.45.00.000000000 PM,2017,APOEL Nikosia,Borussia Dortmund,Neo GSP Stadium,Nikosia,1,1,Draw,0,15604,0,0,0,0,0,1,0
+mt585,2017-2018,01-NOV-17 07.45.00.000000000 PM,2017,Tottenham Hotspur,Real Madrid,Wembley Stadium,London,3,1,Home,0,83782,0,0,0,0,0,1,0
+mt586,2017-2018,01-NOV-17 07.45.00.000000000 PM,2017,Borussia Dortmund,APOEL Nikosia,Signal Iduna Park,Dortmund,1,1,Draw,0,64509,0,0,0,0,0,1,0
+mt587,2017-2018,21-NOV-17 07.45.00.000000000 PM,2017,Borussia Dortmund,Tottenham Hotspur,Signal Iduna Park,Dortmund,1,2,Away,0,65849,0,0,0,0,0,1,0
+mt588,2017-2018,21-NOV-17 07.45.00.000000000 PM,2017,APOEL Nikosia,Real Madrid,Neo GSP Stadium,Nikosia,0,6,Away,0,19705,0,0,0,0,0,1,0
+mt589,2017-2018,06-DEC-17 07.45.00.000000000 PM,2017,Real Madrid,Borussia Dortmund,Santiago Bernabéu,Madrid,3,2,Home,0,73323,0,0,0,0,0,1,0
+mt590,2017-2018,06-DEC-17 07.45.00.000000000 PM,2017,Tottenham Hotspur,APOEL Nikosia,Wembley Stadium,London,3,0,Home,0,42679,0,0,0,0,0,1,0
+mt591,2017-2018,13-FEB-18 07.45.00.000000000 PM,2018,Juventus,Tottenham Hotspur,Allianz Stadium,Torino,2,2,Draw,0,41232,0,0,0,0,1,0,0
+mt592,2017-2018,13-FEB-18 07.45.00.000000000 PM,2018,FC Basel,Manchester City,St. Jakob-Park,Basel,0,4,Away,0,36000,0,0,0,0,1,0,0
+mt593,2017-2018,14-FEB-18 07.45.00.000000000 PM,2018,FC Porto,Liverpool FC,Estádio do Dragão,Porto,0,5,Away,0,47718,0,0,0,0,1,0,0
+mt594,2017-2018,14-FEB-18 07.45.00.000000000 PM,2018,Real Madrid,Paris Saint-Germain,Santiago Bernabéu,Madrid,3,1,Home,0,78158,0,0,0,0,1,0,0
+mt595,2017-2018,20-FEB-18 07.45.00.000000000 PM,2018,Chelsea FC,FC Barcelona,Stamford Bridge,London,1,1,Draw,0,37741,0,0,0,0,1,0,0
+mt596,2017-2018,20-FEB-18 07.45.00.000000000 PM,2018,Bayern München,Beşiktaş,Allianz Arena,München,5,0,Home,0,70000,0,0,0,0,1,0,0
+mt597,2017-2018,21-FEB-18 07.45.00.000000000 PM,2018,Sevilla FC,Manchester United,Ramón Sánchez Pizjuán,Sevilla,0,0,Draw,0,39725,0,0,0,0,1,0,0
+mt598,2017-2018,21-FEB-18 07.45.00.000000000 PM,2018,Shakhtar Donetsk,AS Roma,Metalist Stadion,Kharkiv,2,1,Home,0,35124,0,0,0,0,1,0,0
+mt599,2017-2018,06-MAR-18 07.45.00.000000000 PM,2018,Liverpool FC,FC Porto,Anfield,Liverpool,0,0,Draw,0,48768,0,0,0,0,1,0,0
+mt600,2017-2018,06-MAR-18 07.45.00.000000000 PM,2018,Paris Saint-Germain,Real Madrid,Parc des Princes,Paris,1,2,Away,0,46585,0,0,0,0,1,0,0
+mt601,2017-2018,07-MAR-18 07.45.00.000000000 PM,2018,Tottenham Hotspur,Juventus,Wembley Stadium,London,1,2,Away,0,84010,0,0,0,0,1,0,0
+mt602,2017-2018,07-MAR-18 07.45.00.000000000 PM,2018,Manchester City,FC Basel,Etihad Stadium,Manchester,1,2,Away,0,49411,0,0,0,0,1,0,0
+mt603,2017-2018,13-MAR-18 07.45.00.000000000 PM,2018,Manchester United,Sevilla FC,Old Trafford,Manchester,1,2,Away,0,74909,0,0,0,0,1,0,0
+mt604,2017-2018,13-MAR-18 07.45.00.000000000 PM,2018,AS Roma,Shakhtar Donetsk,Olimpico,Roma,1,0,Home,0,47693,0,0,0,0,1,0,0
+mt605,2017-2018,14-MAR-18 05.00.00.000000000 PM,2018,Beşiktaş,Bayern München,Vodafone Park,Istanbul,1,3,Away,0,36885,0,0,0,0,1,0,0
+mt606,2017-2018,14-MAR-18 07.45.00.000000000 PM,2018,FC Barcelona,Chelsea FC,Spotify Camp Nou,Barcelona,3,0,Home,0,97183,0,0,0,0,1,0,0
+mt607,2017-2018,03-APR-18 07.45.00.000000000 PM,2018,Sevilla FC,Bayern München,Ramón Sánchez Pizjuán,Sevilla,1,2,Away,0,40635,0,0,0,0,1,0,0
+mt608,2017-2018,03-APR-18 07.45.00.000000000 PM,2018,Juventus,Real Madrid,Allianz Stadium,Torino,0,3,Away,0,40849,0,0,0,0,1,0,0
+mt609,2017-2018,04-APR-18 07.45.00.000000000 PM,2018,FC Barcelona,AS Roma,Spotify Camp Nou,Barcelona,4,1,Home,0,90106,0,0,0,0,1,0,0
+mt610,2017-2018,04-APR-18 07.45.00.000000000 PM,2018,Liverpool FC,Manchester City,Anfield,Liverpool,3,0,Home,0,50685,0,0,0,0,1,0,0
+mt611,2017-2018,10-APR-18 07.45.00.000000000 PM,2018,AS Roma,FC Barcelona,Olimpico,Roma,3,0,Home,0,56580,0,0,0,0,1,0,0
+mt612,2017-2018,10-APR-18 07.45.00.000000000 PM,2018,Manchester City,Liverpool FC,Etihad Stadium,Manchester,1,2,Away,0,53461,0,0,0,0,1,0,0
+mt613,2017-2018,11-APR-18 07.45.00.000000000 PM,2018,Bayern München,Sevilla FC,Allianz Arena,München,0,0,Draw,0,70000,0,0,0,0,1,0,0
+mt614,2017-2018,11-APR-18 07.45.00.000000000 PM,2018,Real Madrid,Juventus,Santiago Bernabéu,Madrid,1,3,Away,0,75796,0,0,0,0,1,0,0
+mt615,2017-2018,24-APR-18 07.45.00.000000000 PM,2018,Liverpool FC,AS Roma,Anfield,Liverpool,5,2,Home,0,51236,0,0,0,0,1,0,0
+mt616,2017-2018,25-APR-18 07.45.00.000000000 PM,2018,Bayern München,Real Madrid,Allianz Arena,München,1,2,Away,0,70000,0,0,0,0,1,0,0
+mt617,2017-2018,01-MAY-18 07.45.00.000000000 PM,2018,Real Madrid,Bayern München,Santiago Bernabéu,Madrid,2,2,Draw,0,77459,0,0,0,0,1,0,0
+mt618,2017-2018,02-MAY-18 07.45.00.000000000 PM,2018,AS Roma,Liverpool FC,Olimpico,Roma,4,2,Home,0,61889,0,0,0,0,1,0,0
+mt619,2017-2018,26-MAY-18 07.45.00.000000000 PM,2018,Real Madrid,Liverpool FC,Olimpiyskyi,Kiev,3,1,Home,0,61561,0,0,0,0,1,0,0
+mt620,2016-2017,13-SEP-16 07.45.00.000000000 PM,2016,FC Basel,PFC Ludogorets Razgrad,St. Jakob-Park,Basel,1,1,Draw,0,30852,0,0,0,0,0,0,1
+mt621,2016-2017,13-SEP-16 07.45.00.000000000 PM,2016,Paris Saint-Germain,Arsenal FC,Parc des Princes,Paris,1,1,Draw,0,46440,0,0,0,0,0,0,1
+mt622,2016-2017,28-SEP-16 07.45.00.000000000 PM,2016,Arsenal FC,FC Basel,Emirates Stadium,London,2,0,Home,0,59993,0,0,0,0,0,0,1
+mt623,2016-2017,28-SEP-16 07.45.00.000000000 PM,2016,PFC Ludogorets Razgrad,Paris Saint-Germain,Vasil Levski,Sofia,1,3,Away,0,17155,0,0,0,0,0,0,1
+mt624,2016-2017,19-OCT-16 07.45.00.000000000 PM,2016,Arsenal FC,PFC Ludogorets Razgrad,Emirates Stadium,London,6,0,Home,0,59944,0,0,0,0,0,0,1
+mt625,2016-2017,19-OCT-16 07.45.00.000000000 PM,2016,Paris Saint-Germain,FC Basel,Parc des Princes,Paris,3,0,Home,0,46488,0,0,0,0,0,0,1
+mt626,2016-2017,01-NOV-16 07.45.00.000000000 PM,2016,FC Basel,Paris Saint-Germain,St. Jakob-Park,Basel,1,2,Away,0,34639,0,0,0,0,0,0,1
+mt627,2016-2017,01-NOV-16 07.45.00.000000000 PM,2016,PFC Ludogorets Razgrad,Arsenal FC,Vasil Levski,Sofia,2,3,Away,0,30862,0,0,0,0,0,0,1
+mt628,2016-2017,23-NOV-16 07.45.00.000000000 PM,2016,Arsenal FC,Paris Saint-Germain,Emirates Stadium,London,2,2,Draw,0,59628,0,0,0,0,0,0,1
+mt629,2016-2017,23-NOV-16 07.45.00.000000000 PM,2016,PFC Ludogorets Razgrad,FC Basel,Vasil Levski,Sofia,0,0,Draw,0,20821,0,0,0,0,0,0,1
+mt630,2016-2017,06-DEC-16 07.45.00.000000000 PM,2016,FC Basel,Arsenal FC,St. Jakob-Park,Basel,1,4,Away,0,36000,0,0,0,0,0,0,1
+mt631,2016-2017,06-DEC-16 07.45.00.000000000 PM,2016,Paris Saint-Germain,PFC Ludogorets Razgrad,Parc des Princes,Paris,2,2,Draw,0,42650,0,0,0,0,0,0,1
+mt632,2016-2017,13-SEP-16 07.45.00.000000000 PM,2016,Dinamo Kiev,SSC Napoli,Olimpiyskyi,Kiev,1,2,Away,0,35137,0,0,0,0,0,0,1
+mt633,2016-2017,13-SEP-16 07.45.00.000000000 PM,2016,SL Benfica,Beşiktaş,Estádio da Luz,Lisboa,1,1,Draw,0,42126,0,0,0,0,0,0,1
+mt634,2016-2017,28-SEP-16 07.45.00.000000000 PM,2016,Beşiktaş,Dinamo Kiev,Vodafone Park,Istanbul,1,1,Draw,0,33938,0,0,0,0,0,0,1
+mt635,2016-2017,28-SEP-16 07.45.00.000000000 PM,2016,SSC Napoli,SL Benfica,Diego Maradona,Napoli,4,2,Home,0,41281,0,0,0,0,0,0,1
+mt636,2016-2017,19-OCT-16 07.45.00.000000000 PM,2016,Dinamo Kiev,SL Benfica,Olimpiyskyi,Kiev,0,2,Away,0,25991,0,0,0,0,0,0,1
+mt637,2016-2017,19-OCT-16 07.45.00.000000000 PM,2016,SSC Napoli,Beşiktaş,Diego Maradona,Napoli,2,3,Away,0,28502,0,0,0,0,0,0,1
+mt638,2016-2017,01-NOV-16 05.45.00.000000000 PM,2016,Beşiktaş,SSC Napoli,Vodafone Park,Istanbul,1,1,Draw,0,35552,0,0,0,0,0,0,1
+mt639,2016-2017,01-NOV-16 07.45.00.000000000 PM,2016,SL Benfica,Dinamo Kiev,Estádio da Luz,Lisboa,1,0,Home,0,51641,0,0,0,0,0,0,1
+mt640,2016-2017,23-NOV-16 05.45.00.000000000 PM,2016,Beşiktaş,SL Benfica,Vodafone Park,Istanbul,3,3,Draw,0,36063,0,0,0,0,0,0,1
+mt641,2016-2017,23-NOV-16 07.45.00.000000000 PM,2016,SSC Napoli,Dinamo Kiev,Diego Maradona,Napoli,0,0,Draw,0,33736,0,0,0,0,0,0,1
+mt642,2016-2017,06-DEC-16 07.45.00.000000000 PM,2016,Dinamo Kiev,Beşiktaş,Olimpiyskyi,Kiev,6,0,Home,0,14036,0,0,0,0,0,0,1
+mt643,2016-2017,06-DEC-16 07.45.00.000000000 PM,2016,SL Benfica,SSC Napoli,Estádio da Luz,Lisboa,1,2,Away,0,55634,0,0,0,0,0,0,1
+mt644,2016-2017,13-SEP-16 07.45.00.000000000 PM,2016,FC Barcelona,Celtic FC,Spotify Camp Nou,Barcelona,7,0,Home,0,73290,0,0,0,0,0,0,1
+mt645,2016-2017,14-SEP-16 07.45.00.000000000 PM,2016,Manchester City,Bor. Mönchengladbach,Etihad Stadium,Manchester,4,0,Home,0,30270,0,0,0,0,0,0,1
+mt646,2016-2017,28-SEP-16 07.45.00.000000000 PM,2016,Bor. Mönchengladbach,FC Barcelona,Borussia-Park,Mönchengladbach,1,2,Away,0,46283,0,0,0,0,0,0,1
+mt647,2016-2017,28-SEP-16 07.45.00.000000000 PM,2016,Celtic FC,Manchester City,Celtic Park,Glasgow,3,3,Draw,0,57592,0,0,0,0,0,0,1
+mt648,2016-2017,19-OCT-16 07.45.00.000000000 PM,2016,Celtic FC,Bor. Mönchengladbach,Celtic Park,Glasgow,0,2,Away,0,57814,0,0,0,0,0,0,1
+mt649,2016-2017,19-OCT-16 07.45.00.000000000 PM,2016,FC Barcelona,Manchester City,Spotify Camp Nou,Barcelona,4,0,Home,0,96290,0,0,0,0,0,0,1
+mt650,2016-2017,01-NOV-16 07.45.00.000000000 PM,2016,Bor. Mönchengladbach,Celtic FC,Borussia-Park,Mönchengladbach,1,1,Draw,0,46283,0,0,0,0,0,0,1
+mt651,2016-2017,01-NOV-16 07.45.00.000000000 PM,2016,Manchester City,FC Barcelona,Etihad Stadium,Manchester,3,1,Home,0,53340,0,0,0,0,0,0,1
+mt652,2016-2017,23-NOV-16 07.45.00.000000000 PM,2016,Bor. Mönchengladbach,Manchester City,Borussia-Park,Mönchengladbach,1,1,Draw,0,45921,0,0,0,0,0,0,1
+mt653,2016-2017,23-NOV-16 07.45.00.000000000 PM,2016,Celtic FC,FC Barcelona,Celtic Park,Glasgow,0,2,Away,0,57937,0,0,0,0,0,0,1
+mt654,2016-2017,06-DEC-16 07.45.00.000000000 PM,2016,FC Barcelona,Bor. Mönchengladbach,Spotify Camp Nou,Barcelona,4,0,Home,0,67157,0,0,0,0,0,0,1
+mt655,2016-2017,06-DEC-16 07.45.00.000000000 PM,2016,Manchester City,Celtic FC,Etihad Stadium,Manchester,1,1,Draw,0,51297,0,0,0,0,0,0,1
+mt656,2016-2017,13-SEP-16 07.45.00.000000000 PM,2016,Bayern München,FK Rostov,Allianz Arena,München,5,0,Home,0,70000,0,0,0,0,0,0,1
+mt657,2016-2017,13-SEP-16 07.45.00.000000000 PM,2016,PSV Eindhoven,Atlético Madrid,Philips Stadion,Eindhoven,0,1,Away,0,33989,0,0,0,0,0,0,1
+mt658,2016-2017,28-SEP-16 07.45.00.000000000 PM,2016,Atlético Madrid,Bayern München,Vicente Calderón,Madrid,1,0,Home,0,48242,0,0,0,0,0,0,1
+mt659,2016-2017,28-SEP-16 07.45.00.000000000 PM,2016,FK Rostov,PSV Eindhoven,Olimp – 2,Rostov-na-Donu,2,2,Draw,0,12646,0,0,0,0,0,0,1
+mt660,2016-2017,19-OCT-16 07.45.00.000000000 PM,2016,Bayern München,PSV Eindhoven,Allianz Arena,München,4,1,Home,0,70000,0,0,0,0,0,0,1
+mt661,2016-2017,19-OCT-16 07.45.00.000000000 PM,2016,FK Rostov,Atlético Madrid,Olimp – 2,Rostov-na-Donu,0,1,Away,0,15400,0,0,0,0,0,0,1
+mt662,2016-2017,01-NOV-16 07.45.00.000000000 PM,2016,Atlético Madrid,FK Rostov,Vicente Calderón,Madrid,2,1,Home,0,40392,0,0,0,0,0,0,1
+mt663,2016-2017,01-NOV-16 07.45.00.000000000 PM,2016,PSV Eindhoven,Bayern München,Philips Stadion,Eindhoven,1,2,Away,0,35000,0,0,0,0,0,0,1
+mt664,2016-2017,23-NOV-16 05.00.00.000000000 PM,2016,FK Rostov,Bayern München,Olimp – 2,Rostov-na-Donu,3,2,Home,0,15211,0,0,0,0,0,0,1
+mt665,2016-2017,23-NOV-16 07.45.00.000000000 PM,2016,Atlético Madrid,PSV Eindhoven,Vicente Calderón,Madrid,2,0,Home,0,37891,0,0,0,0,0,0,1
+mt666,2016-2017,06-DEC-16 07.45.00.000000000 PM,2016,Bayern München,Atlético Madrid,Allianz Arena,München,1,0,Home,0,70000,0,0,0,0,0,0,1
+mt667,2016-2017,06-DEC-16 07.45.00.000000000 PM,2016,PSV Eindhoven,FK Rostov,Philips Stadion,Eindhoven,0,0,Draw,0,33400,0,0,0,0,0,0,1
+mt668,2016-2017,14-SEP-16 07.45.00.000000000 PM,2016,Bayer Leverkusen,CSKA Moskva,BayArena,Leverkusen,2,2,Draw,0,23459,0,0,0,0,0,0,1
+mt669,2016-2017,14-SEP-16 07.45.00.000000000 PM,2016,Tottenham Hotspur,AS Monaco,Wembley Stadium,London,1,2,Away,0,85011,0,0,0,0,0,0,1
+mt670,2016-2017,27-SEP-16 07.45.00.000000000 PM,2016,AS Monaco,Bayer Leverkusen,Stade Louis II,Monaco,1,1,Draw,0,8100,0,0,0,0,0,0,1
+mt671,2016-2017,27-SEP-16 07.45.00.000000000 PM,2016,CSKA Moskva,Tottenham Hotspur,Arena Khimki,Khimki,0,1,Away,0,26153,0,0,0,0,0,0,1
+mt672,2016-2017,18-OCT-16 07.45.00.000000000 PM,2016,Bayer Leverkusen,Tottenham Hotspur,BayArena,Leverkusen,0,0,Draw,0,28887,0,0,0,0,0,0,1
+mt673,2016-2017,18-OCT-16 07.45.00.000000000 PM,2016,CSKA Moskva,AS Monaco,VEB Arena,Moskva,1,1,Draw,0,24125,0,0,0,0,0,0,1
+mt674,2016-2017,02-NOV-16 07.45.00.000000000 PM,2016,AS Monaco,CSKA Moskva,Stade Louis II,Monaco,3,0,Home,0,10029,0,0,0,0,0,0,1
+mt675,2016-2017,02-NOV-16 07.45.00.000000000 PM,2016,Tottenham Hotspur,Bayer Leverkusen,Wembley Stadium,London,0,1,Away,0,85512,0,0,0,0,0,0,1
+mt676,2016-2017,22-NOV-16 05.00.00.000000000 PM,2016,CSKA Moskva,Bayer Leverkusen,VEB Arena,Moskva,1,1,Draw,0,19164,0,0,0,0,0,0,1
+mt677,2016-2017,22-NOV-16 07.45.00.000000000 PM,2016,AS Monaco,Tottenham Hotspur,Stade Louis II,Monaco,2,1,Home,0,13100,0,0,0,0,0,0,1
+mt678,2016-2017,07-DEC-16 07.45.00.000000000 PM,2016,Bayer Leverkusen,AS Monaco,BayArena,Leverkusen,3,0,Home,0,21928,0,0,0,0,0,0,1
+mt679,2016-2017,07-DEC-16 07.45.00.000000000 PM,2016,Tottenham Hotspur,CSKA Moskva,Wembley Stadium,London,3,1,Home,0,62034,0,0,0,0,0,0,1
+mt680,2016-2017,14-SEP-16 07.45.00.000000000 PM,2016,Legia Warszawa,Borussia Dortmund,Stadion Wojska Polskiego,Warszawa,0,6,Away,0,27304,0,0,0,0,0,0,1
+mt681,2016-2017,14-SEP-16 07.45.00.000000000 PM,2016,Real Madrid,Sporting CP,Santiago Bernabéu,Madrid,2,1,Home,0,72179,0,0,0,0,0,0,1
+mt682,2016-2017,27-SEP-16 07.45.00.000000000 PM,2016,Borussia Dortmund,Real Madrid,Signal Iduna Park,Dortmund,2,2,Draw,0,65849,0,0,0,0,0,0,1
+mt683,2016-2017,27-SEP-16 07.45.00.000000000 PM,2016,Sporting CP,Legia Warszawa,Estádio José Alvalade,Lisboa,2,0,Home,0,40094,0,0,0,0,0,0,1
+mt684,2016-2017,18-OCT-16 07.45.00.000000000 PM,2016,Real Madrid,Legia Warszawa,Santiago Bernabéu,Madrid,5,1,Home,0,70251,0,0,0,0,0,0,1
+mt685,2016-2017,18-OCT-16 07.45.00.000000000 PM,2016,Sporting CP,Borussia Dortmund,Estádio José Alvalade,Lisboa,1,2,Away,0,46609,0,0,0,0,0,0,1
+mt686,2016-2017,02-NOV-16 07.45.00.000000000 PM,2016,Borussia Dortmund,Sporting CP,Signal Iduna Park,Dortmund,1,0,Home,0,65849,0,0,0,0,0,0,1
+mt687,2016-2017,02-NOV-16 07.45.00.000000000 PM,2016,Legia Warszawa,Real Madrid,Stadion Wojska Polskiego,Warszawa,3,3,Draw,0,0,0,0,0,0,0,0,1
+mt688,2016-2017,22-NOV-16 07.45.00.000000000 PM,2016,Borussia Dortmund,Legia Warszawa,Signal Iduna Park,Dortmund,8,4,Home,0,55094,0,0,0,0,0,0,1
+mt689,2016-2017,22-NOV-16 07.45.00.000000000 PM,2016,Sporting CP,Real Madrid,Estádio José Alvalade,Lisboa,1,2,Away,0,50046,0,0,0,0,0,0,1
+mt690,2016-2017,07-DEC-16 07.45.00.000000000 PM,2016,Legia Warszawa,Sporting CP,Stadion Wojska Polskiego,Warszawa,1,0,Home,0,28232,0,0,0,0,0,0,1
+mt691,2016-2017,07-DEC-16 07.45.00.000000000 PM,2016,Real Madrid,Borussia Dortmund,Santiago Bernabéu,Madrid,2,2,Draw,0,76894,0,0,0,0,0,0,1
+mt692,2016-2017,14-SEP-16 07.45.00.000000000 PM,2016,Club Brugge KV,Leicester City,Jan Breydel Stadion,Brugge,0,3,Away,0,20970,0,0,0,0,0,0,1
+mt693,2016-2017,14-SEP-16 07.45.00.000000000 PM,2016,FC Porto,FC København,Estádio do Dragão,Porto,1,1,Draw,0,34325,0,0,0,0,0,0,1
+mt694,2016-2017,27-SEP-16 07.45.00.000000000 PM,2016,FC København,Club Brugge KV,Telia Parken,København,4,0,Home,0,25605,0,0,0,0,0,0,1
+mt695,2016-2017,27-SEP-16 07.45.00.000000000 PM,2016,Leicester City,FC Porto,King Power Stadium,Leicester,1,0,Home,0,31805,0,0,0,0,0,0,1
+mt696,2016-2017,18-OCT-16 07.45.00.000000000 PM,2016,Club Brugge KV,FC Porto,Jan Breydel Stadion,Brugge,1,2,Away,0,23325,0,0,0,0,0,0,1
+mt697,2016-2017,18-OCT-16 07.45.00.000000000 PM,2016,Leicester City,FC København,King Power Stadium,Leicester,1,0,Home,0,31037,0,0,0,0,0,0,1
+mt698,2016-2017,02-NOV-16 07.45.00.000000000 PM,2016,FC København,Leicester City,Telia Parken,København,0,0,Draw,0,34146,0,0,0,0,0,0,1
+mt699,2016-2017,02-NOV-16 07.45.00.000000000 PM,2016,FC Porto,Club Brugge KV,Estádio do Dragão,Porto,1,0,Home,0,32310,0,0,0,0,0,0,1
+mt700,2016-2017,22-NOV-16 07.45.00.000000000 PM,2016,FC København,FC Porto,Telia Parken,København,0,0,Draw,0,32036,0,0,0,0,0,0,1
+mt701,2016-2017,22-NOV-16 07.45.00.000000000 PM,2016,Leicester City,Club Brugge KV,King Power Stadium,Leicester,2,1,Home,0,31443,0,0,0,0,0,0,1
+mt702,2016-2017,07-DEC-16 07.45.00.000000000 PM,2016,Club Brugge KV,FC København,Jan Breydel Stadion,Brugge,0,2,Away,0,18981,0,0,0,0,0,0,1
+mt703,2016-2017,07-DEC-16 07.45.00.000000000 PM,2016,FC Porto,Leicester City,Estádio do Dragão,Porto,5,0,Home,0,39310,0,0,0,0,0,0,1
+mt704,2016-2017,14-SEP-16 07.45.00.000000000 PM,2016,Juventus,Sevilla FC,Allianz Stadium,Torino,0,0,Draw,0,33261,0,0,0,0,0,0,1
+mt705,2016-2017,14-SEP-16 07.45.00.000000000 PM,2016,Olympique Lyon,Dinamo Zagreb,Groupama Stadium,Décines-Charpieu,3,0,Home,0,43754,0,0,0,0,0,0,1
+mt706,2016-2017,27-SEP-16 07.45.00.000000000 PM,2016,Dinamo Zagreb,Juventus,Maksimir,Zagreb,0,4,Away,0,23875,0,0,0,0,0,0,1
+mt707,2016-2017,27-SEP-16 07.45.00.000000000 PM,2016,Sevilla FC,Olympique Lyon,Ramón Sánchez Pizjuán,Sevilla,1,0,Home,0,36741,0,0,0,0,0,0,1
+mt708,2016-2017,18-OCT-16 07.45.00.000000000 PM,2016,Dinamo Zagreb,Sevilla FC,Maksimir,Zagreb,0,1,Away,0,6021,0,0,0,0,0,0,1
+mt709,2016-2017,18-OCT-16 07.45.00.000000000 PM,2016,Olympique Lyon,Juventus,Groupama Stadium,Décines-Charpieu,0,1,Away,0,53907,0,0,0,0,0,0,1
+mt710,2016-2017,02-NOV-16 07.45.00.000000000 PM,2016,Juventus,Olympique Lyon,Allianz Stadium,Torino,1,1,Draw,0,40356,0,0,0,0,0,0,1
+mt711,2016-2017,02-NOV-16 07.45.00.000000000 PM,2016,Sevilla FC,Dinamo Zagreb,Ramón Sánchez Pizjuán,Sevilla,4,0,Home,0,35215,0,0,0,0,0,0,1
+mt712,2016-2017,22-NOV-16 07.45.00.000000000 PM,2016,Dinamo Zagreb,Olympique Lyon,Maksimir,Zagreb,0,1,Away,0,7834,0,0,0,0,0,0,1
+mt713,2016-2017,22-NOV-16 07.45.00.000000000 PM,2016,Sevilla FC,Juventus,Ramón Sánchez Pizjuán,Sevilla,1,3,Away,0,38942,0,0,0,0,0,0,1
+mt714,2016-2017,07-DEC-16 07.45.00.000000000 PM,2016,Juventus,Dinamo Zagreb,Allianz Stadium,Torino,2,0,Home,0,39380,0,0,0,0,0,0,1
+mt715,2016-2017,07-DEC-16 07.45.00.000000000 PM,2016,Olympique Lyon,Sevilla FC,Groupama Stadium,Décines-Charpieu,0,0,Draw,0,52423,0,0,0,0,0,0,1
+mt716,2016-2017,14-FEB-17 07.45.00.000000000 PM,2017,SL Benfica,Borussia Dortmund,Estádio da Luz,Lisboa,1,0,Home,0,55124,0,0,0,0,0,1,0
+mt717,2016-2017,14-FEB-17 07.45.00.000000000 PM,2017,Paris Saint-Germain,FC Barcelona,Parc des Princes,Paris,4,0,Home,0,46484,0,0,0,0,0,1,0
+mt718,2016-2017,15-FEB-17 07.45.00.000000000 PM,2017,Real Madrid,SSC Napoli,Santiago Bernabéu,Madrid,3,1,Home,0,78000,0,0,0,0,0,1,0
+mt719,2016-2017,15-FEB-17 07.45.00.000000000 PM,2017,Bayern München,Arsenal FC,Allianz Arena,München,5,1,Home,0,70000,0,0,0,0,0,1,0
+mt720,2016-2017,21-FEB-17 07.45.00.000000000 PM,2017,Manchester City,AS Monaco,Etihad Stadium,Manchester,5,3,Home,0,53351,0,0,0,0,0,1,0
+mt721,2016-2017,21-FEB-17 07.45.00.000000000 PM,2017,Bayer Leverkusen,Atlético Madrid,BayArena,Leverkusen,2,4,Away,0,29300,0,0,0,0,0,1,0
+mt722,2016-2017,22-FEB-17 07.45.00.000000000 PM,2017,FC Porto,Juventus,Estádio do Dragão,Porto,0,2,Away,0,49229,0,0,0,0,0,1,0
+mt723,2016-2017,22-FEB-17 07.45.00.000000000 PM,2017,Sevilla FC,Leicester City,Ramón Sánchez Pizjuán,Sevilla,2,1,Home,0,38834,0,0,0,0,0,1,0
+mt724,2016-2017,07-MAR-17 07.45.00.000000000 PM,2017,SSC Napoli,Real Madrid,Diego Maradona,Napoli,1,3,Away,0,56695,0,0,0,0,0,1,0
+mt725,2016-2017,07-MAR-17 07.45.00.000000000 PM,2017,Arsenal FC,Bayern München,Emirates Stadium,London,1,5,Away,0,59911,0,0,0,0,0,1,0
+mt726,2016-2017,08-MAR-17 07.45.00.000000000 PM,2017,Borussia Dortmund,SL Benfica,Signal Iduna Park,Dortmund,4,0,Home,0,65849,0,0,0,0,0,1,0
+mt727,2016-2017,08-MAR-17 07.45.00.000000000 PM,2017,FC Barcelona,Paris Saint-Germain,Spotify Camp Nou,Barcelona,6,1,Home,0,96290,0,0,0,0,0,1,0
+mt728,2016-2017,14-MAR-17 07.45.00.000000000 PM,2017,Juventus,FC Porto,Allianz Stadium,Torino,1,0,Home,0,41161,0,0,0,0,0,1,0
+mt729,2016-2017,14-MAR-17 07.45.00.000000000 PM,2017,Leicester City,Sevilla FC,King Power Stadium,Leicester,2,0,Home,0,31520,0,0,0,0,0,1,0
+mt730,2016-2017,15-MAR-17 07.45.00.000000000 PM,2017,AS Monaco,Manchester City,Stade Louis II,Monaco,3,1,Home,0,15700,0,0,0,0,0,1,0
+mt731,2016-2017,15-MAR-17 07.45.00.000000000 PM,2017,Atlético Madrid,Bayer Leverkusen,Vicente Calderón,Madrid,0,0,Draw,0,49133,0,0,0,0,0,1,0
+mt732,2016-2017,11-APR-17 07.45.00.000000000 PM,2017,Juventus,FC Barcelona,Allianz Stadium,Torino,3,0,Home,0,41092,0,0,0,0,0,1,0
+mt733,2016-2017,12-APR-17 05.45.00.000000000 PM,2017,Borussia Dortmund,AS Monaco,Signal Iduna Park,Dortmund,2,3,Away,0,65849,0,0,0,0,0,1,0
+mt734,2016-2017,12-APR-17 07.45.00.000000000 PM,2017,Atlético Madrid,Leicester City,Vicente Calderón,Madrid,1,0,Home,0,51423,0,0,0,0,0,1,0
+mt735,2016-2017,12-APR-17 07.45.00.000000000 PM,2017,Bayern München,Real Madrid,Allianz Arena,München,1,2,Away,0,70000,0,0,0,0,0,1,0
+mt736,2016-2017,18-APR-17 07.45.00.000000000 PM,2017,Leicester City,Atlético Madrid,King Power Stadium,Leicester,1,1,Draw,0,31548,0,0,0,0,0,1,0
+mt737,2016-2017,18-APR-17 07.45.00.000000000 PM,2017,Real Madrid,Bayern München,Santiago Bernabéu,Madrid,4,2,Home,0,78346,0,0,0,0,0,1,0
+mt738,2016-2017,19-APR-17 07.45.00.000000000 PM,2017,FC Barcelona,Juventus,Spotify Camp Nou,Barcelona,0,0,Draw,0,96290,0,0,0,0,0,1,0
+mt739,2016-2017,19-APR-17 07.50.00.000000000 PM,2017,AS Monaco,Borussia Dortmund,Stade Louis II,Monaco,3,1,Home,0,17135,0,0,0,0,0,1,0
+mt740,2016-2017,02-MAY-17 07.45.00.000000000 PM,2017,Real Madrid,Atlético Madrid,Santiago Bernabéu,Madrid,3,0,Home,0,77609,0,0,0,0,0,1,0
+mt741,2016-2017,03-MAY-17 07.45.00.000000000 PM,2017,AS Monaco,Juventus,Stade Louis II,Monaco,0,2,Away,0,16762,0,0,0,0,0,1,0
+mt742,2016-2017,09-MAY-17 07.45.00.000000000 PM,2017,Juventus,AS Monaco,Allianz Stadium,Torino,2,1,Home,0,40244,0,0,0,0,0,1,0
+mt743,2016-2017,10-MAY-17 07.45.00.000000000 PM,2017,Atlético Madrid,Real Madrid,Vicente Calderón,Madrid,2,1,Home,0,53422,0,0,0,0,0,1,0
+mt744,2016-2017,03-JUN-17 07.45.00.000000000 PM,2017,Juventus,Real Madrid,Millennium,Cardiff,1,4,Away,0,65842,0,0,0,0,0,1,0
