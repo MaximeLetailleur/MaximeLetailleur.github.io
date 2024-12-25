@@ -1,7 +1,6 @@
 State,Home price (2024),Average Salary,Median Salary
 Hawaii,839013,65030.0,50510.0
 California,765197,76960.0,54030.0
-District of Columbia,610548,,
 Massachusetts,596410,80330.0,60690.0
 Washington,575894,78130.0,59920.0
 Colorado,539151,71960.0,54050.0
@@ -23,7 +22,6 @@ Virginia,377699,70050.0,49920.0
 Delaware,374252,65990.0,49280.0
 Vermont,373001,62780.0,49630.0
 Alaska,349502,69880.0,56140.0
-United States,347716,,
 Wyoming,334782,57930.0,47250.0
 Minnesota,323034,66700.0,50880.0
 North Carolina,322527,59730.0,45440.0
