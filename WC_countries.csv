@@ -1,81 +1,252 @@
 Country,Appearances,Best performance
-Brazil,22,Champions 
-Germany,20,Champions 
-Italy,18,Champions 
-Argentina,18,Champions 
-Mexico,18,Quarterfinals 
-Spain,16,Champions 
-France,16,Champions 
-England,16,Champions 
-Belgium,14,Third place 
-Uruguay,14,Champions 
-Serbia,13,Fourth place 
-United States,12,Third place 
-Switzerland,12,Quarterfinals 
-Sweden,12,Runners-up 
-South Korea,11,Fourth place 
-Russia,11,Fourth place 
-Netherlands,11,Runners-up 
-Poland,9,Third place 
-Hungary,9,Runners-up 
-Czech Republic,9,Runners-up 
-Chile,9,Third place 
-Portugal,8,Third place 
-Cameroon,8,Quarterfinals 
-Scotland,8,Group stage
-Paraguay,8,Quarterfinals 
-Japan,7,Round of 16 
-Bulgaria,7,Fourth place 
-Romania,7,Quarterfinals 
-Austria,7,Third place 
-Australia,6,Round of 16 
-Saudi Arabia,6,Round of 16 
-Iran,6,Group stage
-Costa Rica,6,Quarterfinals 
-Croatia,6,Runners-up 
-Tunisia,6,Group stage
-Morocco,6,Fourth place 
-Denmark,6,Quarterfinals 
-Colombia,6,Quarterfinals 
-Nigeria,6,Round of 16 
-Peru,5,Quarterfinals 
-Ghana,4,Quarterfinals 
-Ecuador,4,Round of 16 
-Algeria,4,Round of 16 
-Canada,3,Group stage
-Senegal,3,Quarterfinals 
-Ivory Coast,3,Group stage
-Norway,3,Round of 16 
-Northern Ireland,3,Quarterfinals 
-Honduras,3,Group stage
-Republic of Ireland,3,Quarterfinals 
-Greece,3,Round of 16 
-South Africa,3,Group stage
-Bolivia,3,Group stage
-Egypt,3,Round of 16 
-Wales,2,Quarterfinals 
-Turkey,2,Third place 
-North Korea,2,Quarterfinals 
-El Salvador,2,Group stage
-New Zealand,2,Group stage
-Slovenia,2,Group stage
-Qatar,1,Group stage
-Cuba,1,Quarterfinals 
-Indonesia,1,Round of 16 
-Israel,1,Group stage
-DR Congo,1,Group stage
-East Germany,1,Second group stage 
-Haiti,1,Group stage
-Kuwait,1,Group stage
-Iraq,1,Group stage
-United Arab Emirates,1,Group stage
-Jamaica,1,Group stage
-China,1,Group stage
-Angola,1,Group stage
-Togo,1,Group stage
-Trinidad and Tobago,1,Group stage
-Ukraine,1,Quarterfinals 
-Slovakia,1,Round of 16 
-Bosnia and Herzegovina,1,Group stage
-Iceland,1,Group stage
-Panama,1,Group stage
+Afghanistan,0.0,Never participated
+Albania,0.0,Never participated
+Algeria,4.0,Round of 16 
+American Samoa,0.0,Never participated
+Andorra,0.0,Never participated
+Angola,1.0,Group stage
+Anguilla,0.0,Never participated
+Antarctica,0.0,Never participated
+Antigua and Barbuda,0.0,Never participated
+Argentina,18.0,Champions 
+Armenia,0.0,Never participated
+Aruba,0.0,Never participated
+Australia,6.0,Round of 16 
+Austria,7.0,Third place 
+Azerbaijan,0.0,Never participated
+Azores,0.0,Never participated
+Bahamas,0.0,Never participated
+Bahrain,0.0,Never participated
+Bangladesh,0.0,Never participated
+Barbados,0.0,Never participated
+Belarus,0.0,Never participated
+Belgium,14.0,Third place 
+Belize,0.0,Never participated
+Benin,0.0,Never participated
+Bermuda,0.0,Never participated
+Bhutan,0.0,Never participated
+Bolivia,3.0,Group stage
+Bonaire,0.0,Never participated
+Bosnia and Herzegovina,1.0,Group stage
+Botswana,0.0,Never participated
+Bouvet Island,0.0,Never participated
+Brazil,22.0,Champions 
+British Indian Ocean Territory,0.0,Never participated
+British Virgin Islands,0.0,Never participated
+Brunei Darussalam,0.0,Never participated
+Bulgaria,7.0,Fourth place 
+Burkina Faso,0.0,Never participated
+Burundi,0.0,Never participated
+Cabo Verde,0.0,Never participated
+Cambodia,0.0,Never participated
+Cameroon,8.0,Quarterfinals 
+Canada,3.0,Group stage
+Canarias,0.0,Never participated
+Cayman Islands,0.0,Never participated
+Central African Republic,0.0,Never participated
+Chad,0.0,Never participated
+Chile,9.0,Third place 
+China,1.0,Group stage
+Christmas Island,0.0,Never participated
+Cocos Islands,0.0,Never participated
+Colombia,6.0,Quarterfinals 
+Comoros,0.0,Never participated
+Congo,0.0,Never participated
+Congo DRC,0.0,Never participated
+Cook Islands,0.0,Never participated
+Costa Rica,6.0,Quarterfinals 
+Côte d'Ivoire,0.0,Never participated
+Croatia,6.0,Runners-up 
+Cuba,1.0,Quarterfinals 
+Curacao,0.0,Never participated
+Cyprus,0.0,Never participated
+Czech Republic,9.0,Runners-up 
+Denmark,6.0,Quarterfinals 
+Djibouti,0.0,Never participated
+Dominica,0.0,Never participated
+Dominican Republic,0.0,Never participated
+Ecuador,4.0,Round of 16 
+Egypt,3.0,Round of 16 
+El Salvador,2.0,Group stage
+Equatorial Guinea,0.0,Never participated
+Eritrea,0.0,Never participated
+Estonia,0.0,Never participated
+Eswatini,0.0,Never participated
+Ethiopia,0.0,Never participated
+Falkland Islands,0.0,Never participated
+Faroe Islands,0.0,Never participated
+Fiji,0.0,Never participated
+Finland,0.0,Never participated
+France,16.0,Champions 
+French Guiana,0.0,Never participated
+French Polynesia,0.0,Never participated
+French Southern Territories,0.0,Never participated
+Gabon,0.0,Never participated
+Gambia,0.0,Never participated
+Georgia,0.0,Never participated
+Germany,20.0,Champions 
+Ghana,4.0,Quarterfinals 
+Gibraltar,0.0,Never participated
+Glorioso Islands,0.0,Never participated
+Greece,3.0,Round of 16 
+Greenland,0.0,Never participated
+Grenada,0.0,Never participated
+Guadeloupe,0.0,Never participated
+Guam,0.0,Never participated
+Guatemala,0.0,Never participated
+Guernsey,0.0,Never participated
+Guinea,0.0,Never participated
+Guinea-Bissau,0.0,Never participated
+Guyana,0.0,Never participated
+Haiti,1.0,Group stage
+Heard Island and McDonald Islands,0.0,Never participated
+Honduras,3.0,Group stage
+Hungary,9.0,Runners-up 
+Iceland,1.0,Group stage
+India,0.0,Never participated
+Indonesia,1.0,Round of 16 
+Iran,6.0,Group stage
+Iraq,1.0,Group stage
+Ireland,0.0,Never participated
+Isle of Man,0.0,Never participated
+Israel,1.0,Group stage
+Italy,18.0,Champions 
+Jamaica,1.0,Group stage
+Japan,7.0,Round of 16 
+Jersey,0.0,Never participated
+Jordan,0.0,Never participated
+Juan De Nova Island,0.0,Never participated
+Kazakhstan,0.0,Never participated
+Kenya,0.0,Never participated
+Kiribati,0.0,Never participated
+Kuwait,1.0,Group stage
+Kyrgyzstan,0.0,Never participated
+Laos,0.0,Never participated
+Latvia,0.0,Never participated
+Lebanon,0.0,Never participated
+Lesotho,0.0,Never participated
+Liberia,0.0,Never participated
+Libya,0.0,Never participated
+Liechtenstein,0.0,Never participated
+Lithuania,0.0,Never participated
+Luxembourg,0.0,Never participated
+Madagascar,0.0,Never participated
+Madeira,0.0,Never participated
+Malawi,0.0,Never participated
+Malaysia,0.0,Never participated
+Maldives,0.0,Never participated
+Mali,0.0,Never participated
+Malta,0.0,Never participated
+Marshall Islands,0.0,Never participated
+Martinique,0.0,Never participated
+Mauritania,0.0,Never participated
+Mauritius,0.0,Never participated
+Mayotte,0.0,Never participated
+Mexico,18.0,Quarterfinals 
+Micronesia,0.0,Never participated
+Moldova,0.0,Never participated
+Monaco,0.0,Never participated
+Mongolia,0.0,Never participated
+Montenegro,0.0,Never participated
+Montserrat,0.0,Never participated
+Morocco,6.0,Fourth place 
+Mozambique,0.0,Never participated
+Myanmar,0.0,Never participated
+Namibia,0.0,Never participated
+Nauru,0.0,Never participated
+Nepal,0.0,Never participated
+Netherlands,11.0,Runners-up 
+New Caledonia,0.0,Never participated
+New Zealand,2.0,Group stage
+Nicaragua,0.0,Never participated
+Niger,0.0,Never participated
+Nigeria,6.0,Round of 16 
+Niue,0.0,Never participated
+Norfolk Island,0.0,Never participated
+North Korea,2.0,Quarterfinals 
+North Macedonia,0.0,Never participated
+Northern Mariana Islands,0.0,Never participated
+Norway,3.0,Round of 16 
+Oman,0.0,Never participated
+Pakistan,0.0,Never participated
+Palau,0.0,Never participated
+Palestinian Territory,0.0,Never participated
+Panama,1.0,Group stage
+Papua New Guinea,0.0,Never participated
+Paraguay,8.0,Quarterfinals 
+Peru,5.0,Quarterfinals 
+Philippines,0.0,Never participated
+Pitcairn,0.0,Never participated
+Poland,9.0,Third place 
+Portugal,8.0,Third place 
+Puerto Rico,0.0,Never participated
+Qatar,1.0,Group stage
+Réunion,0.0,Never participated
+Romania,7.0,Quarterfinals 
+Russian Federation,0.0,Never participated
+Rwanda,0.0,Never participated
+Saba,0.0,Never participated
+Saint Barthelemy,0.0,Never participated
+Saint Eustatius,0.0,Never participated
+Saint Helena,0.0,Never participated
+Saint Kitts and Nevis,0.0,Never participated
+Saint Lucia,0.0,Never participated
+Saint Martin,0.0,Never participated
+Saint Pierre and Miquelon,0.0,Never participated
+Saint Vincent and the Grenadines,0.0,Never participated
+Samoa,0.0,Never participated
+San Marino,0.0,Never participated
+Sao Tome and Principe,0.0,Never participated
+Saudi Arabia,6.0,Round of 16 
+Senegal,3.0,Quarterfinals 
+Serbia,13.0,Fourth place 
+Seychelles,0.0,Never participated
+Sierra Leone,0.0,Never participated
+Singapore,0.0,Never participated
+Sint Maarten,0.0,Never participated
+Slovakia,1.0,Round of 16 
+Slovenia,2.0,Group stage
+Solomon Islands,0.0,Never participated
+Somalia,0.0,Never participated
+South Africa,3.0,Group stage
+South Georgia and South Sandwich Islands,0.0,Never participated
+South Korea,11.0,Fourth place 
+South Sudan,0.0,Never participated
+Spain,16.0,Champions 
+Sri Lanka,0.0,Never participated
+Sudan,0.0,Never participated
+Suriname,0.0,Never participated
+Svalbard,0.0,Never participated
+Sweden,12.0,Runners-up 
+Switzerland,12.0,Quarterfinals 
+Syria,0.0,Never participated
+Tajikistan,0.0,Never participated
+Tanzania,0.0,Never participated
+Thailand,0.0,Never participated
+Timor-Leste,0.0,Never participated
+Togo,1.0,Group stage
+Tokelau,0.0,Never participated
+Tonga,0.0,Never participated
+Trinidad and Tobago,1.0,Group stage
+Tunisia,6.0,Group stage
+Turkiye,0.0,Never participated
+Turkmenistan,0.0,Never participated
+Turks and Caicos Islands,0.0,Never participated
+Tuvalu,0.0,Never participated
+Uganda,0.0,Never participated
+Ukraine,1.0,Quarterfinals 
+United Arab Emirates,1.0,Group stage
+United Kingdom,0.0,Never participated
+United States,12.0,Third place 
+United States Minor Outlying Islands,0.0,Never participated
+Uruguay,14.0,Champions 
+US Virgin Islands,0.0,Never participated
+Uzbekistan,0.0,Never participated
+Vanuatu,0.0,Never participated
+Vatican City,0.0,Never participated
+Venezuela,0.0,Never participated
+Vietnam,0.0,Never participated
+Wallis and Futuna,0.0,Never participated
+Yemen,0.0,Never participated
+Zambia,0.0,Never participated
+Zimbabwe,0.0,Never participated
