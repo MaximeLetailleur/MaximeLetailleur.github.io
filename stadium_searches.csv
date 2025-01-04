@@ -1,4 +1,4 @@
-datetime,count_searches,"Game day (Yes =1, No=0)"
+datetime,count_searches,game_day
 2024-02-01,7,0
 2024-02-02,16,0
 2024-02-03,25,1
