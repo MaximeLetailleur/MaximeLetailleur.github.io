@@ -1,0 +1,56 @@
+Year,Growth Rate,Annum,Country,Relative_date,Nation
+1996,1.3,1996,France 1998,-2,France
+1997,2.5,1997,France 1998,-1,France
+1998,3.5,1998,France 1998,0,France
+1999,3.3,1999,France 1998,1,France
+2000,4.4,2000,France 1998,2,France
+2016,0.7,2016,France 2018,-2,France
+2017,2.3,2017,France 2018,-1,France
+2018,1.6,2018,France 2018,0,France
+2019,2.1,2019,France 2018,1,France
+2020,-7.6,2020,France 2018,2,France
+2020-01-01 00:00:00,-9.9,2020,Argentina 2022,-2,Argentina
+2021-01-01 00:00:00,10.4,2021,Argentina 2022,-1,Argentina
+2022-01-01 00:00:00,5.3,2022,Argentina 2022,0,Argentina
+2023-01-01 00:00:00,-1.6,2023,Argentina 2022,1,Argentina
+2024-01-01 00:00:00,-3.5,2024,Argentina 2022,2,Argentina
+1984-01-01 00:00:00,2.0,1984,Argentina 1986,-2,Argentina
+1985-01-01 00:00:00,-7.0,1985,Argentina 1986,-1,Argentina
+1986-01-01 00:00:00,7.1,1986,Argentina 1986,0,Argentina
+1987-01-01 00:00:00,2.5,1987,Argentina 1986,1,Argentina
+1988-01-01 00:00:00,-2.0,1988,Argentina 1986,2,Argentina
+1980,3.1,1980,Italy 1982,-2,Italy
+1981,-1.2,1981,Italy 1982,-1,Italy
+1982,0.4,1982,Italy 1982,0,Italy
+1983,1.2,1983,Italy 1982,1,Italy
+1984,3.2,1984,Italy 1982,2,Italy
+2004,1.5,2004,Italy 2006,-2,Italy
+2005,0.8,2005,Italy 2006,-1,Italy
+2006,1.8,2006,Italy 2006,0,Italy
+2007,1.5,2007,Italy 2006,1,Italy
+2008,-1.0,2008,Italy 2006,2,Italy
+1988,3.7,1988,Germany 1990,-2,Germany
+1989,3.9,1989,Germany 1990,-1,Germany
+1990,5.7,1990,Germany 1990,0,Germany
+1991,5.0,1991,Germany 1990,1,Germany
+1992,2.0,1992,Germany 1990,2,Germany
+2012,0.5,2012,Germany 2014,-2,Germany
+2013,0.4,2013,Germany 2014,-1,Germany
+2014,2.2,2014,Germany 2014,0,Germany
+2015,1.7,2015,Germany 2014,1,Germany
+2016,2.3,2016,Germany 2014,2,Germany
+1992,-0.5,1992,Brasil 1994,-2,Brasil
+1993,4.7,1993,Brasil 1994,-1,Brasil
+1994,5.3,1994,Brasil 1994,0,Brasil
+1995,4.4,1995,Brasil 1994,1,Brasil
+1996,2.2,1996,Brasil 1994,2,Brasil
+2000,4.4,2000,Brasil 2002,-2,Brasil
+2001,1.4,2001,Brasil 2002,-1,Brasil
+2002,3.1,2002,Brasil 2002,0,Brasil
+2003,1.1,2003,Brasil 2002,1,Brasil
+2004,5.8,2004,Brasil 2002,2,Brasil
+2008,0.8,2008,Spain 2010,-2,Spain
+2009,-3.8,2009,Spain 2010,-1,Spain
+2010,0.1,2010,Spain 2010,0,Spain
+2011,-0.6,2011,Spain 2010,1,Spain
+2012,-2.9,2012,Spain 2010,2,Spain
