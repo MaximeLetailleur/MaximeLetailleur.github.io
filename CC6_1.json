@@ -2,9 +2,9 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": {
       "text":"Difference between GDP(E) and GDP(A) MP (SA CP) £m",
-      "fontSize":12,
+      "fontSize":9,
       "subtitle":["Source: ONS API"],
-      "subtitleFontSize": 10,
+      "subtitleFontSize": 8,
       "subtitleFontStyle":"italic",
       "color": "black",
       "subtitleColor": "black",

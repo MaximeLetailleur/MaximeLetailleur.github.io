@@ -2,9 +2,9 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": {
       "text":"Revision to GDP at market prices £m",
-      "fontSize":12,
+      "fontSize":9,
       "subtitle":["Source: ONS API","The data looks weird but I promise it's like that too on the ONS website"],
-      "subtitleFontSize": 10,
+      "subtitleFontSize": 8,
       "subtitleFontStyle":"italic",
       "color": "black",
       "subtitleColor": "black",

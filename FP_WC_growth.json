@@ -3,11 +3,16 @@
 
   "height": 500,
   "width": 500,
-
   "title": {
-    "text":"Real GDP Growth Rate of World Cup Winning Nations",
+    "text": "Real GDP Growth Rate of World Cup Winning Nations",
+    "color": "#4269d0",
+    "fontSize": 16,
+    "subtitlePadding": 5,
+    "fontWeight": 600,
+    "anchor": "start",
     "subtitle": ["Real GDP growth rate of Nations before, after and the year of winning the World Cup","Source: IMF API"],
-    "subtitleFontStyle":"Italic"},
+    "subtitleFontStyle":"Italic"
+  },
 
  "data":{
   "url": "https://raw.githubusercontent.com/MaximeLetailleur/MaximeLetailleur.github.io/refs/heads/main/Growth_wc%20(1).csv",

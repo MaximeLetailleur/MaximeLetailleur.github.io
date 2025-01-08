@@ -48,7 +48,7 @@
     }
       ],
   
-      "mark": {"type": "circle", "color": "red"},
+      "mark": {"type": "circle", "color": "red","opacity":0.5},
       "encoding": {
         "longitude": {"field": "lng", "type": "quantitative"},
         "latitude": {"field": "lat", "type": "quantitative"},
@@ -61,7 +61,7 @@
           "type": "quantitative",
           "scale": {"domain":[0,100]}
         },
-        "opacity": {"condition": {"param": "hover", "value": 1},"value":0.5},
+        "opacity": {"condition": {"param": "hover", "value": 1}},
         "order": {
       "condition": {
         "param": "hover",

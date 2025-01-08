@@ -10,7 +10,8 @@
       "subtitlePadding": 5,
       "fontWeight": 600,
       "anchor": "start",
-      "subtitle": "Source: FIFA Income Statements"
+      "subtitle": "Source: FIFA Income Statements",
+      "subtitleFontStyle":"Italic"
     },
     "width": 380,
     "height": 250,

@@ -3,11 +3,16 @@
 
   "height": 500,
   "width": 500,
-
   "title": {
-    "text":"Police activity during match days and non-match days",
+    "text": "Police activity during match days and non-match days",
+    "color": "#4269d0",
+    "fontSize": 16,
+    "subtitlePadding": 5,
+    "fontWeight": 600,
+    "anchor": "start",
     "subtitle": ["Number of stops & searches performed by the police in neighbourhoods close to Premier League stadiums", "Source: data.police.uk API","Data from February 2024"],
-    "subtitleFontStyle":"Italic"},
+    "subtitleFontStyle":"Italic"
+  },
 
  "data":{
   "url": "https://raw.githubusercontent.com/MaximeLetailleur/MaximeLetailleur.github.io/refs/heads/main/stadium_searches%20(1).csv",

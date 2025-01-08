@@ -1,15 +1,16 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
   "title": {
     "text": "Evolution of Stock Market Indexes of World Cup Winning Nations",
-    "subtitle": [
-      "Index values for the Merval (Argentina), CAC40 (France), DAX40 (Germany), IBEX (Spain),"," IT40 (Italy) and IBOV (Brasil)","Source: Investing.com UK"
-    ],
-    "subtitleFontStyle": "italic",
-    "subtitleFontSize": 10,
+    "color": "#4269d0",
+    "fontSize": 16,
+    "subtitlePadding": 5,
+    "fontWeight": 600,
     "anchor": "start",
-    "color": "#404040",
-    "subtitleColor": "#404040"
+"subtitle": [
+      "Index values for the Merval (Argentina), CAC40 (France), DAX40 (Germany), IBEX (Spain),"," IT40 (Italy) and IBOV (Brasil)","Source: Investing.com UK"
+    ],    "subtitleFontStyle":"Italic"
   },
   "data": {
     "url": "https://raw.githubusercontent.com/MaximeLetailleur/MaximeLetailleur.github.io/refs/heads/main/stocks_WC%20(4).csv"
@@ -47,7 +48,7 @@
             "min":-30,
             "max":-2,
             "step":1,
-            "name":"days before WC final"
+            "name":"Days before WC final"
           }
         },
          {
@@ -58,7 +59,7 @@
             "min":2,
             "max":30,
             "step":1,
-            "name":"days after WC final"
+            "name":"Days after WC final"
           }
         },
         {"name": "hover", "select": {"type": "point", "on": "pointerover"}}

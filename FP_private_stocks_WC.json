@@ -2,12 +2,16 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Stock Prices of 2022 World Cup Main Sponsors",
-    "subtitle": [
+    "color": "#4269d0",
+    "fontSize": 16,
+    "subtitlePadding": 5,
+    "fontWeight": 600,
+    "anchor": "start",
+"subtitle": [
       "Stock prices of Adidas, Coca-Cola, McDonald's and Qatar Airways during the 2022 World Cup (November 20th - December 18th, 2022)",
       "Source: Yahoo Finance"
-    ],
-    "subtitleFontStyle": "Italic",
-    "offset":40
+    ],   
+    "subtitleFontStyle":"Italic"
   },
   "data": {
     "url": "https://raw.githubusercontent.com/MaximeLetailleur/MaximeLetailleur.github.io/refs/heads/main/sponsor%20stocks%20(2).csv",

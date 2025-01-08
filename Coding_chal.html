@@ -40,6 +40,9 @@
     .graph {
       width: 48%; /* Set the width of each graph */
     }
+    body {
+      background-color: rgb(247, 247, 238);
+    }
         
         
         
@@ -55,9 +58,10 @@
     <p style="margin-top: 0px; color: darkblue">
         <!-- we're setting the margin to 0px so the header and authour name are close together -->
         Maxime Letailleur | <a
-            href="https://www.github.com/YOUR_GITHUB">GitHub</a> |
+            href="https://github.com/MaximeLetailleur/MaximeLetailleur.github.io">GitHub</a> |
             <a href="Final_project.html">Final Project</a> |
-            <a href="Coding_chal.html">Coding Challenges</a>
+            <a href="Coding_chal.html">Coding Challenges</a> |
+            <a href="index.html">Main Page</a>
     </p>
     <h3 class="small"> <!-- We have added a class to the header called "small" which we can use to style it in the CSS -->
 Please find on this page my coding challenges for the semester    </h3>
@@ -65,7 +69,7 @@ Please find on this page my coding challenges for the semester    </h3>
     <!-- We're organising the page into sections, with each section containing a chart, title and a description -->
     <section>
         <div class="chart-description">
-            <h2>Section 1: A basic chart</h2>
+            <h2>A basic chart</h2>
             <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
                 here is my set up live page, and a few added charts.
             </p>
@@ -75,7 +79,7 @@ Please find on this page my coding challenges for the semester    </h3>
 
     <section>
         <div class="chart-description">
-            <h2>Section 2: An imported chart</h2>
+            <h2>An imported chart</h2>
             <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
                 
             </p>
@@ -85,7 +89,7 @@ Please find on this page my coding challenges for the semester    </h3>
 
     <section>
         <div class="chart-description">
-            <h2>Section 3: An imported chart from Richard's library</h2>
+            <h2>An imported chart from Richard's library</h2>
             <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
             </p>
         </div>
@@ -94,7 +98,7 @@ Please find on this page my coding challenges for the semester    </h3>
 
     <section>
         <div class="chart-description">
-            <h2>Section 4: An imported chart from Richard's library</h2>
+            <h2>An imported chart from Richard's library</h2>
             <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
                 Here's another from the Economics Observatory. I haven't built or modified it in any way. I do not claim the rights on this amazing work.
             </p>
@@ -106,7 +110,7 @@ Please find on this page my coding challenges for the semester    </h3>
 
     <section>
         <div class="chart-description">
-            <h2>Section 5: An imported chart from the Economics Observatory</h2>
+            <h2>An imported chart from the Economics Observatory</h2>
             <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
                 Here's another from the Economics Observatory. it's about the evolution of German exports.
         </div>
@@ -115,7 +119,7 @@ Please find on this page my coding challenges for the semester    </h3>
 
     <section>
         <div class="chart-description">
-            <h2>Section 6: Yet again imported chart from the Economics Observatory</h2>
+            <h2>Yet again imported chart from the Economics Observatory</h2>
             <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
                 I'm truly sorry for the colours, they are a bit agressive. I'm still a beginner in graphic design.
             </p>
@@ -178,7 +182,7 @@ Please find on this page my coding challenges for the semester    </h3>
         <p>This chart was done by scraping 2 different sites (for median house prices and average salaries). Both sites
             contained easily identifiable tables, making the scraping easier.
         </p>
-        <a href="https://colab.research.google.com/drive/17goeraiyrvkaS03rzZeyb_fOVFm-_kun#scrollTo=e0lExVeSo_84">Python Colab</a>
+        <a href="https://colab.research.google.com/drive/17goeraiyrvkaS03rzZeyb_fOVFm-_kun?usp=sharing">Python Colab</a>
     </div>
         <figure id="CC5"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
     </section>
@@ -189,30 +193,24 @@ Please find on this page my coding challenges for the semester    </h3>
         <div class="container">
         <figure id="CC6_1"></figure><figure id="CC6_2"></figure>
     </div>
-    <a href="https://colab.research.google.com/drive/1akUljLhECfyRm2DIprYvx4xkrJ7Pel-z#scrollTo=ibs8sYFE1RSr">Python Colab</a>
+    <div class="chart-description">
+        <div class="container">
+       <figure id="CC6_3"></figure><figure id="CC6_4"></figure>
+    </div>
+    <div class="chart-description">
+        <div class="container">
+        <figure id="CC6_5"></figure><figure id="CC6_6"></figure>
+    </div>
+    <div class="container">
+        <figure id="CC6_7"></figure><figure id="CC6_8"></figure>
+    </div>
+    <div class="container">
+        <figure id="CC6_9"></figure>
+    </div>
+    <a href="https://colab.research.google.com/drive/1akUljLhECfyRm2DIprYvx4xkrJ7Pel-z?usp=sharing">Python Colab</a>
 </div>
 
-
-    <section>
-        <div class="chart-description">
-            <h2>PYTHON CHART</h2>
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                I'm truly sorry for the colours, they are a bit agressive. I'm still beginning in graphic design.
-            </p>
-        </div>
-        <figure id="python_chart"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
-    </section>
-
-    <section>
-        <div class="chart-description">
-            <h2>Best chart by far</h2>
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                Important coding for charts: how to include a slider, attribute colours to countries, change size of bubbles based
-                on population, and how to manage the tooltip (mouse over a bubble to have the info)
-            </p>
-        </div>
-        <figure id="slider_graph"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
-    </section>
+    <h2> PORTFOLIO TASKS - CC7 - Maps</h2>
 
     <section>
         <div class="chart-description">
@@ -238,12 +236,13 @@ Please find on this page my coding challenges for the semester    </h3>
 
     <section>
         <div class="chart-description">
-            <h2>Graph of the prive evolution of frozen beef patties</h2>
+            <h2>Graph of the price evolution of frozen beef patties</h2>
             <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
                 Here is a graph charting the price evolution of beef patties in 1 british stores in 2023-24. The data from Davies & McElvoy (2024)
                 was used. I joined the items and prices datasets using a common key, and narrowed it down to 1 store and 1 product. Grouping the many
                 observations into daily, then monthly averages, I ended up with a handful of datapoints for this product that i could chart in a clear and readable way.
             </p>
+            <a href="https://colab.research.google.com/drive/1oqOC8a8pX_OrrC6lhtH-m5J3x2iaHyNY?usp=sharing">Python Colab</a>
         </div>
         <figure id="CC8_1"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
     </section>
@@ -258,9 +257,12 @@ Please find on this page my coding challenges for the semester    </h3>
                 this data, I narrowed down information on this product, and did a maximum and minimum analysis for each store. There's a tooltip too!
                 NB: I don't have a tile to write the pounds symbol on my keyboard, so it's a dollar sign instead.
             </p>
+            <a href="https://colab.research.google.com/drive/1oqOC8a8pX_OrrC6lhtH-m5J3x2iaHyNY?usp=sharing">Python Colab</a>
         </div>
         <figure id="CC8_2"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
     </section>
+
+    <h2> PORTFOLIO TASKS - CC9 - ANALYTICS CHARTS</h2>
 
     <section>
         <div class="chart-description">
@@ -284,6 +286,7 @@ Please find on this page my coding challenges for the semester    </h3>
         </div>
         <figure id="CC9_2"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
     </section>
+    <h2> PORTFOLIO TASKS - CC10 - INTERACTIVE VISUALISATIONS</h2>
 
     <section>
         <div class="chart-description">
@@ -327,8 +330,8 @@ Please find on this page my coding challenges for the semester    </h3>
         let figure_8_spec = "cool_graph_slider.json";
         let figure_9_spec = "CC3_task_graph1.json";
         let figure_10_spec = "UK_prod.json";
-        let figure_11_spec = "map_france.json";
-        let figure_12_spec = "super_map_france.json";
+        let figure_11_spec = "CC7_1.json";
+        let figure_12_spec = "CC7_2.json";
         let figure_13_spec = "CC8_1.json";
         let figure_14_spec = "CC8_2.json";
         let figure_15_spec = "CC9_1.json";
@@ -340,6 +343,17 @@ Please find on this page my coding challenges for the semester    </h3>
         let figure_21_spec = "CC5.json";
         let figure_22_spec = "CC6_1.json";
         let figure_23_spec = "CC6_2.json";
+        let figure_24_spec = "CC6_3.json";
+        let figure_25_spec = "CC6_4.json";
+        let figure_26_spec = "CC6_5.json";
+        let figure_27_spec = "CC6_6.json";
+        let figure_28_spec = "CC6_7.json";
+        let figure_29_spec = "CC6_8.json";
+        let figure_30_spec = "CC6_9.json";
+
+
+
+
 
 
 
@@ -377,6 +391,15 @@ Please find on this page my coding challenges for the semester    </h3>
         vegaEmbed('#CC5', figure_21_spec)
         vegaEmbed('#CC6_1', figure_22_spec)
         vegaEmbed('#CC6_2', figure_23_spec)
+        vegaEmbed('#CC6_3', figure_24_spec)
+        vegaEmbed('#CC6_4', figure_25_spec)
+        vegaEmbed('#CC6_5', figure_26_spec)
+        vegaEmbed('#CC6_6', figure_27_spec)
+        vegaEmbed('#CC6_7', figure_28_spec)
+        vegaEmbed('#CC6_8', figure_29_spec)
+        vegaEmbed('#CC6_9', figure_30_spec)
+
+
 
 
 
