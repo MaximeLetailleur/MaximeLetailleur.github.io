@@ -1,0 +1,69 @@
+{  
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "height": 500,
+  "width": 500,
+
+  "title": {
+    "text":"Average Home Prices and Salaries in the USA",
+    "subtitle": ["Average Home Price and Salary per US State, 2024","Source: Wikipedia"],
+    "subtitleFontStyle":"Italic"},
+
+ "data":{
+  "url": "https://raw.githubusercontent.com/MaximeLetailleur/MaximeLetailleur.github.io/refs/heads/main/housing_data.csv",
+  "format": {"type": "csv"}
+ },
+  "layer": [{
+ "mark": {
+      "type":"circle",
+      "color":"green",
+      "opacity":0.7},
+  "params": [
+    {
+      "name": "hover",
+      "select": {
+        "type": "point",
+        "on": "pointerover"
+      }
+    }
+  ],
+
+ "encoding":{
+  "x": {
+    "field": "Average Salary",
+    "type": "quantitative",
+    "title": "Average Salary",
+    "scale": {"domain":[40000,90000]}
+  },
+  "y":{
+    "field": "Home price (2024)",
+    "type": "quantitative",
+    "title": "Home prices"
+  },
+  "size": {
+      "condition": {
+        "param": "hover",
+        "value": 100,
+        "empty": false
+      },
+      "value": 50
+    },
+
+   "tooltip":[
+    {"field":"State", "title":"State"},
+    {"field": "Average Salary", "title": "Average salary", "format": "$,.0f"},
+    {"field": "Home price (2024)", "title": "Average home price", "format": "$,.0f"}   
+   ]
+ }
+  },
+ {
+  "mark": {"type": "line", "color": "grey"},
+
+      "transform": [{"regression": "Home price (2024)", "on": "Average Salary"}],
+         
+      "encoding": {
+        "x": {"field": "Average Salary", "type": "quantitative"},
+        "y": {"field": "Home price (2024)", "type": "quantitative"}
+      }}
+  ]
+}

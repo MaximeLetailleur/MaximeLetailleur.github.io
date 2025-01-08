@@ -1,0 +1,82 @@
+{  
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "height": 500,
+  "width": 500,
+
+  "title": {
+    "text":"Real GDP Growth Rate of World Cup Winning Nations",
+    "subtitle": ["Real GDP growth rate of Nations before, after and the year of winning the World Cup","Source: IMF API"],
+    "subtitleFontStyle":"Italic"},
+
+ "data":{
+  "url": "https://raw.githubusercontent.com/MaximeLetailleur/MaximeLetailleur.github.io/refs/heads/main/Growth_wc%20(1).csv",
+  "format": {"type": "csv"}
+ },
+  "transform": [
+     {
+      "calculate": "'t'+ datum.Relative_date",
+      "as": "category"
+    }
+  ],
+
+  "layer": [{
+ "mark": {
+      "type":"circle",
+      "color":"green",
+      "opacity":0.7},
+  "params": [
+    {
+      "name": "hover",
+      "select": {
+        "type": "point",
+        "on": "pointerover"
+      }
+    }
+  ],
+
+ "encoding":{
+  "x": {
+    "field": "category",
+    "type": "nominal",
+    "title": "Years Relative to the World Cup Year (t0)",
+    "scale":{"domain":["t-2","t-1","t0","t1","t2"]},
+     "axis": {
+          "grid": true,
+          "labelAngle":0
+  }},
+  "y":{
+    "field": "Growth Rate",
+    "type": "quantitative",
+    "sort": "ascending",
+    "title": "Real GDP Growth Rate (%)"
+  },
+  "color":{
+    "field": "Nation",
+    "scale": {"scheme": "accent", "reverse": false}
+  },
+  "size": {
+      "condition": {
+        "param": "hover",
+        "value": 150,
+        "empty": false
+      },
+      "value": 100
+    },
+
+   "tooltip":[
+    {"field": "Nation", "title": "Country"},
+    {"field": "Growth Rate", "title": "GDP Growth Rate (%)"},
+    {"field": "Annum", "title": "Year"}   
+   ]
+ }
+  },
+ {
+  "mark": {"type": "line", "color": "grey", "size":2},
+         
+      "encoding": {
+        "x": {"field": "category", "type": "nominal"},
+        "y": {"aggregate":"mean","field": "Growth Rate", "type": "quantitative"}
+      }}
+  ]
+}

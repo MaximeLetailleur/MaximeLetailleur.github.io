@@ -1,0 +1,50 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "New Cases Per Day",
+      "subtitle":["Total Cases","3,342"],
+      "subtitleFontSize": 10,
+      "color": "white",
+      "subtitleColor": "white"
+    }, 
+    "config": {"background": "#393b79"},
+    "data": {
+      "url": "https://raw.githubusercontent.com/MaximeLetailleur/MaximeLetailleur.github.io/refs/heads/main/shitty%20graph%20(1).csv"
+    },    
+  
+    "width": 500,
+    "height": 500,
+    "mark":{"type":"line","color":"white"},
+    "encoding": {
+      "x": {
+        "field": "Date",
+        "type": "temporal",
+        "title": null,
+        "axis": {
+          "grid": false,
+          "domainColor": "white",
+          "labelColor": "white",
+          "tickColor": "white",
+          "gridColor": "white",
+          "gridOpacity":0.5,
+          "format":"%B %d"
+        }
+      },
+      "y": {
+        "field": "New Cases per Day",
+        "type": "quantitative",
+        "scale": {
+          "domain": [0,400]
+        },
+        "axis": {
+          "values":[30,60,90,100,130,160,190,240,250,300,350,400],
+          "grid": true,
+                  "gridOpacity":0.5,
+          "domainColor": "white",
+          "labelColor": "white",
+          "tickColor": "white",
+          "titleColor": "white"
+        }
+      }
+    }
+  }

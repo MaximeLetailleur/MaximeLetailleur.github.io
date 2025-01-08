@@ -1,0 +1,390 @@
+<!-- This HTML file provides a simple example of a portfolio page. It contains a header, a few sections, and a few charts. -->
+<!-- It works with the three css files in this folder: example1.css, example2.css and example3.css. -->
+<!-- The HTML file defines the structure of the page, and the CSS files define how it looks. -->
+<!-- The CSS examples are all designed to work with this page. Try swapping them out on line 29 and see what happens. -->
+
+<!-- Take a look around and make your own copy to adapt for your own use. -->
+
+<!-- This is a comment -->
+<!-- Comments are not displayed in the browser -->
+<!-- They can be used to leave notes in the code -->
+
+<!DOCTYPE html>
+<html> 
+    <!-- HTML is heirarchial: tags like this define elements on the page. 
+    Each tag does something different. For example:
+        - The <html> tag defines the whole document.
+        - The <h1> tag defines a large heading
+        - The <p> tag defines a paragraph
+        - Tags appear as an opening <div> and closing </div> pair
+    -->
+
+<head>    
+    <!-- The head tag links to resources our page needs and defines information about it. Tags in the <head> aren't displayed on the page. -->
+
+    <!-- This is a link to a stylesheet which contains rules about how each element on the page should be defined-->
+    <!-- Try swapping example1.css to another, and take a look at example1.css to see if you understand it-->
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+    <title>My Portfolio</title> <!-- The title displayed in the browser tab, not on the page itself -->
+
+    <!-- This is a link to the vega-lite which we're using to make graphs -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+    <style>
+         .container {
+      display: flex;
+      justify-content: space-between; /* Adjust spacing */
+    }
+    .graph {
+      width: 48%; /* Set the width of each graph */
+    }
+        
+        
+        
+    </style>
+</head>
+
+<body> 
+<!-- The body tag contains the elements that visitors to our page will see. -->
+    <h1 class="big" style="margin-bottom: 0px;"> <!-- We have added a class to the header called "big" which we can use to style it in the CSS -->
+        <!-- This is a header, it is the largest text on the page -->
+        Maxime Letailleur - Coding Challenges
+    </h1>
+    <p style="margin-top: 0px; color: darkblue">
+        <!-- we're setting the margin to 0px so the header and authour name are close together -->
+        Maxime Letailleur | <a
+            href="https://www.github.com/YOUR_GITHUB">GitHub</a> |
+            <a href="Final_project.html">Final Project</a> |
+            <a href="Coding_chal.html">Coding Challenges</a>
+    </p>
+    <h3 class="small"> <!-- We have added a class to the header called "small" which we can use to style it in the CSS -->
+Please find on this page my coding challenges for the semester    </h3>
+<h2> PORTFOLIO TASKS - CC1 - HOSTING</h2>
+    <!-- We're organising the page into sections, with each section containing a chart, title and a description -->
+    <section>
+        <div class="chart-description">
+            <h2>Section 1: A basic chart</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                here is my set up live page, and a few added charts.
+            </p>
+        </div>
+        <figure id="Location1"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+
+    <section>
+        <div class="chart-description">
+            <h2>Section 2: An imported chart</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                
+            </p>
+        </div>
+        <figure id="Location2"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+
+    <section>
+        <div class="chart-description">
+            <h2>Section 3: An imported chart from Richard's library</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+            </p>
+        </div>
+        <figure id="Location3"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+
+    <section>
+        <div class="chart-description">
+            <h2>Section 4: An imported chart from Richard's library</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                Here's another from the Economics Observatory. I haven't built or modified it in any way. I do not claim the rights on this amazing work.
+            </p>
+        </div>
+        <figure id="Location4"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+
+    <h2> PORTFOLIO TASKS - CC2 - BUILDING</h2>
+
+    <section>
+        <div class="chart-description">
+            <h2>Section 5: An imported chart from the Economics Observatory</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                Here's another from the Economics Observatory. it's about the evolution of German exports.
+        </div>
+        <figure id="Germany_exports"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+
+    <section>
+        <div class="chart-description">
+            <h2>Section 6: Yet again imported chart from the Economics Observatory</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                I'm truly sorry for the colours, they are a bit agressive. I'm still a beginner in graphic design.
+            </p>
+        </div>
+        <figure id="UK_exports"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+
+    <h2> PORTFOLIO TASKS - CC3 - DEBATING</h2>
+
+
+    <section>
+        <div class="chart-description">
+            <h2>UK growth in numbers</h2>
+            <p> At the Festival of Economics, Russell Jones made a case for the "Half a Century of British Economic Decline"
+            </p>
+            <h3>UK Real GDP 1960-2020</h3>
+        </div>
+        <figure id="UK_growth"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+        <p>This point is debattable, especially when confronted with the real evolution of the UK economy over that period. British GDP
+        has risen steadily in the latter part of the 20th century and early 21st century</p>
+    </section>
+    
+    <section>
+        <div class="chart-description">
+            <h2>UK productivity</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                At the Festival, a panel was held to discuss sluggish UK productivity since the Great Recession. Is that an observable phenomenon?
+            </p>
+            <h3>UK productivity, 1975-2024</h3>
+        </div>
+        <figure id="UK_productivity"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+        <p>We can indeed observe a shift in the productivity trend after the 2008 financial crisis. Productivity grows at a lower rate 
+            during the 2010s, supporting the point made by the panelists
+        </p>
+    </section>
+
+    <h2> PORTFOLIO TASKS - CC4 - Replication</h2>
+
+    <section>
+        <div class="chart-description">
+            <h2>A bad chart from the media</h2>
+            </p>
+        </div>
+        <img src="CC4_1.PNG" alt="Embedded PNG" width="600">
+        <h2>The replicated chart</h2>
+        <figure id="CC4_2"></figure>
+        <h2>The improved chart</h2>
+        <figure id="CC4_3"></figure>
+        <p>The media chart ws pretty bad as the y-axis ticks were regularly spaced, even though the actual distance
+            between each tick was different (ex: 190, 240,250). I tried to replicate this to the best of my abilities.
+            The improved graph uses a consistent y axis, making the data less misleading.
+        </p>
+    </section>
+
+    <h2> PORTFOLIO TASKS - CC5 - Scraper</h2>
+
+    <section>
+        <div class="chart-description">
+            <h2>US House Prices & Average Salary</h2>
+        <p>This chart was done by scraping 2 different sites (for median house prices and average salaries). Both sites
+            contained easily identifiable tables, making the scraping easier.
+        </p>
+        <a href="https://colab.research.google.com/drive/17goeraiyrvkaS03rzZeyb_fOVFm-_kun#scrollTo=e0lExVeSo_84">Python Colab</a>
+    </div>
+        <figure id="CC5"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+
+    <h2> PORTFOLIO TASKS - CC6 - Loops</h2>
+    <div class="chart-description">
+        <h2>ONS GDP data series</h2>
+        <div class="container">
+        <figure id="CC6_1"></figure><figure id="CC6_2"></figure>
+    </div>
+    <a href="https://colab.research.google.com/drive/1akUljLhECfyRm2DIprYvx4xkrJ7Pel-z#scrollTo=ibs8sYFE1RSr">Python Colab</a>
+</div>
+
+
+    <section>
+        <div class="chart-description">
+            <h2>PYTHON CHART</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                I'm truly sorry for the colours, they are a bit agressive. I'm still beginning in graphic design.
+            </p>
+        </div>
+        <figure id="python_chart"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+
+    <section>
+        <div class="chart-description">
+            <h2>Best chart by far</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                Important coding for charts: how to include a slider, attribute colours to countries, change size of bubbles based
+                on population, and how to manage the tooltip (mouse over a bubble to have the info)
+            </p>
+        </div>
+        <figure id="slider_graph"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+
+    <section>
+        <div class="chart-description">
+            <h2>Map of France</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                Here is a map of France and its departments
+            </p>
+        </div>
+        <figure id="map_france"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+
+    <section>
+        <div class="chart-description">
+            <h2>Map of France</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                Here is a cloropleth map of France, showing population changes in each department between 2013 and 2018. The bluer the department, the higher the population increase.
+                The reder the department to worse the population decline. Feel free to mouse over for some specifics!
+            </p>
+        </div>
+        <figure id="super_map_france"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+    <h2> PORTFOLIO TASKS - CC8 - BIG DATA</h2>
+
+    <section>
+        <div class="chart-description">
+            <h2>Graph of the prive evolution of frozen beef patties</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                Here is a graph charting the price evolution of beef patties in 1 british stores in 2023-24. The data from Davies & McElvoy (2024)
+                was used. I joined the items and prices datasets using a common key, and narrowed it down to 1 store and 1 product. Grouping the many
+                observations into daily, then monthly averages, I ended up with a handful of datapoints for this product that i could chart in a clear and readable way.
+            </p>
+        </div>
+        <figure id="CC8_1"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+
+    <section>
+        <div class="chart-description">
+            <h2>Graph of the price evolution of frozen beef patties</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                Here is the 2nd graph for the CC9 coding challenge. This one displays the maximum and minimum prices for each of the 6 stores
+                where there is information on the frozen beef patties (no information from store 2), along with the price spread for each store
+                (maximum - minimum). The goal here is to represent which store experienced the largest variation for that particular product. To get to
+                this data, I narrowed down information on this product, and did a maximum and minimum analysis for each store. There's a tooltip too!
+                NB: I don't have a tile to write the pounds symbol on my keyboard, so it's a dollar sign instead.
+            </p>
+        </div>
+        <figure id="CC8_2"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+
+    <section>
+        <div class="chart-description">
+            <h2>The Premier League has Become More Competitive</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                Since the 1990s, the EPL has become more competitive, with the League winners and runners-up accumulating more and more points.
+                In 1997, it only took Man Utd 75 points to lift that expensive piece of silverware. In 2020, Liverpool reached a grand total of 99 points to take home the first (and only) Prem trophy of the Klopp era.
+                Up the Reds!
+            </p>
+        </div>
+        <figure id="CC9_1"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+
+    <section>
+        <div class="chart-description">
+            <h2>Goal Difference Evolution Among the Big 6 Teams</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                The Premier League Big 6 teams are known for scoaring loads and defending stubbornly. Has it always been the case? here we are interested in
+                the evolution of goal difference values (goals scored - goals taken) for the big 6 teams over the existence of the Premier League (1993-2024)
+            </p>
+        </div>
+        <figure id="CC9_2"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+
+    <section>
+        <div class="chart-description">
+            <h2>Impregnable Fortresses</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                Teams generally play better at home. But which team plays best? Using a dataset of Champions League games in 2016-2021, and merging it on 
+                Colab with a dataset of city geographical coordinates, we chart a map of European football cities, and their win rates at home in the UCL.
+            </p>
+        </div>
+        <figure id="CC10_1"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+
+    <section>
+        <div class="chart-description">
+            <h2>Goals Scored in the Champions League</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                Which teams score the most goals in European football? Which teams conceede the most? Data can be found on this pyramid graph from
+                UCL games 2016-2021
+            </p>
+        </div>
+        <figure id="CC10_2"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+
+    <!-- Do you want to add more sections? -->
+        <!-- Try copying pasting the section above -->
+        <!-- You'll need to change the id of the figure "<figure id="Location3"... -->
+        <!-- ... and add a new variable for the graph spec in the script at the bottom of the page -->
+
+
+    <!-- This is a script, it's a way to run JavaScript code on the page -->
+    <script>
+        // This is a comment in JavaScript - it's a different language to HTML and CSS
+
+        let figure_1_spec = "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/2/s2_chart2.json"; // We're storing the URL of the graph we want to display in a variable
+        let figure_2_spec = "declining_population.json";
+        let figure_3_spec = "richardchart1.json";
+        let figure_4_spec = "EOchart1.json";
+        let figure_5_spec = "Germany_exports_graph.json";
+        let figure_6_spec = "UK_exports_graph.json";
+        let figure_7_spec = "goods_services.json";
+        let figure_8_spec = "cool_graph_slider.json";
+        let figure_9_spec = "CC3_task_graph1.json";
+        let figure_10_spec = "UK_prod.json";
+        let figure_11_spec = "map_france.json";
+        let figure_12_spec = "super_map_france.json";
+        let figure_13_spec = "CC8_1.json";
+        let figure_14_spec = "CC8_2.json";
+        let figure_15_spec = "CC9_1.json";
+        let figure_16_spec = "CC9_2.json";
+        let figure_17_spec = "CC10_1.json";
+        let figure_18_spec = "CC10_2.json";
+        let figure_19_spec = "CC4_2.json";
+        let figure_20_spec = "CC4_3.json";
+        let figure_21_spec = "CC5.json";
+        let figure_22_spec = "CC6_1.json";
+        let figure_23_spec = "CC6_2.json";
+
+
+
+
+
+                                                                                                                    // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
+
+        vegaEmbed('#Location1', figure_1_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_1
+
+        // Do you want to add more graphs?
+        // try defining a new variable for figure_3_spec, adding VegaEmbed for Location3, and adding a new section in the HTML
+        // e.g. 
+        // let figure_3_spec = ...
+        // vegaEmbed('#Location3', figure_3_spec)
+
+        vegaEmbed('#Location2', figure_2_spec)
+        vegaEmbed('#Location3', figure_3_spec)
+        vegaEmbed('#Location4', figure_4_spec)
+        vegaEmbed('#Germany_exports', figure_5_spec)
+        vegaEmbed('#UK_exports', figure_6_spec)
+        vegaEmbed('#python_chart', figure_7_spec)
+        vegaEmbed('#slider_graph', figure_8_spec)
+        vegaEmbed('#UK_growth', figure_9_spec)
+        vegaEmbed('#UK_productivity', figure_10_spec)
+        vegaEmbed('#map_france', figure_11_spec)
+        vegaEmbed('#super_map_france', figure_12_spec)
+        vegaEmbed('#CC8_1', figure_13_spec)
+        vegaEmbed('#CC8_2', figure_14_spec)
+        vegaEmbed('#CC9_1', figure_15_spec)
+        vegaEmbed('#CC9_2', figure_16_spec)
+        vegaEmbed('#CC10_1', figure_17_spec)
+        vegaEmbed('#CC10_2', figure_18_spec)
+        vegaEmbed('#CC4_2', figure_19_spec)
+        vegaEmbed('#CC4_3', figure_20_spec)
+        vegaEmbed('#CC5', figure_21_spec)
+        vegaEmbed('#CC6_1', figure_22_spec)
+        vegaEmbed('#CC6_2', figure_23_spec)
+
+
+
+
+
+
+    </script>
+
+</body>
+    
+</html>

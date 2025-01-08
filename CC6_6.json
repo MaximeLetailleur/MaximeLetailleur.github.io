@@ -1,0 +1,51 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text":"Gross domestic product index: CVM: Seasonally adjusted",
+      "fontSize":12,
+      "subtitle":["Source: ONS API"],
+      "subtitleFontSize": 10,
+      "subtitleFontStyle":"italic",
+      "color": "black",
+      "subtitleColor": "black",
+      "anchor":"start"
+    }, 
+    "config": {"background": "white"},
+    "data": {
+      "url": "https://raw.githubusercontent.com/MaximeLetailleur/MaximeLetailleur.github.io/refs/heads/main/data_ONS-ybez.json"
+    },    
+  
+    "width": 200,
+    "height": 200,
+    "mark":{"type":"line","color":"#5254a3"},
+    "encoding": {
+      "x": {
+        "field": "date",
+        "type": "temporal",
+        "title": null,
+        "axis": {
+          "grid": false,
+          "domainColor": "#999999",
+          "labelColor": "black",
+          "tickColor": "#999999",
+          "gridColor": "black",
+          "gridOpacity":0.5
+        }
+      },
+      "y": {
+        "field": "value",
+        "type": "quantitative",
+        "title":null,
+        "scale": {
+        },
+        "axis": {
+          "grid": true,
+                  "gridOpacity":0.5,
+          "domainColor": "#999999",
+          "labelColor": "black",
+          "tickColor": "#999999",
+          "titleColor": "black"
+        }
+      }
+    }
+  }

@@ -1,0 +1,99 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Stock Prices of 2022 World Cup Main Sponsors",
+    "subtitle": [
+      "Stock prices of Adidas, Coca-Cola, McDonald's and Qatar Airways during the 2022 World Cup (November 20th - December 18th, 2022)",
+      "Source: Yahoo Finance"
+    ],
+    "subtitleFontStyle": "Italic",
+    "offset":40
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/MaximeLetailleur/MaximeLetailleur.github.io/refs/heads/main/sponsor%20stocks%20(2).csv",
+    "format": {"type": "csv"}
+  },
+  "transform": [
+    {
+      "lookup": "Stock_ID",
+      "from": {
+        "data": {
+          "values": [
+            {"Stock_ID": "MCD", "Company_Name": "McDonald's"},
+            {"Stock_ID": "KO", "Company_Name": "Coca-Cola"},
+            {"Stock_ID": "ADDYY", "Company_Name": "Adidas"},
+            {"Stock_ID": "QAT", "Company_Name": "Qatar Airways"}
+          ]
+        },
+        "key": "Stock_ID",
+        "fields": ["Company_Name"]
+      }
+    }
+  ],
+  "facet": { "field": "Company_Name", "type": "nominal","title":null},
+  "columns": 2,
+  "spec": {
+     "height":300,
+     "width":300,
+    "layer": [
+      {
+        "data": {
+          "values": [
+            {"Date": "2022-11-20", "text": "Start"},
+            {"Date": "2022-12-18", "text": "End"}
+          ]
+        },
+        "layer": [
+          {"mark": {"type": "rule"}},
+          {
+            "mark": {"type": "text"},
+            "encoding": {
+              "text": {"field": "text"},
+              "y": {"value": -5},
+              "size": {"value": 11}
+            }
+          }
+        ],
+        "encoding": {
+          "x": {"field": "Date", "type": "temporal"},
+          "y": null,
+          "size": {"value": 1}
+        }
+      },
+      {
+        "params": [
+          {"name": "hover", "select": {"type": "point", "on": "pointerover"}}
+        ],
+        "mark": {
+          "type": "line",
+          "line": {"color": "rgb(0,47,167)"}
+        }
+      }
+    ],
+    "encoding": {
+      "x": {
+        "field": "Date",
+        "type": "temporal",
+        "title": null,
+        "axis": {"format": "%Y-%m-%d"}
+      },
+      "y": {
+        "field": "Stock_price", 
+        "type": "quantitative",
+        "title":null,
+        "axis":{
+          "format":"$.0f"
+        }
+      },
+      "size": {
+        "condition": {"param": "hover", "value": 5, "empty": false},
+        "value": 3
+      },
+      "tooltip": [
+        {"field": "Stock_ID", "title": "Stock code"},
+        {"field": "Stock_price", "title": "Price", "format": "$.2f"}
+      ]
+    }
+  },
+     "resolve": {"scale": {"y": "independent"}}
+}

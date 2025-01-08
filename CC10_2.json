@@ -1,0 +1,97 @@
+
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/MaximeLetailleur/MaximeLetailleur.github.io/refs/heads/main/UCL_scores.csv",
+      "format": {"type": "csv"}
+  
+    },
+    "config": {"style": {"cell": {"stroke": "transparent"}}},
+    "title": {
+      "text": "Goals taken and scored in the Champions League",
+      "subtitle": ["Goals taken and scored by each team in the UCL","2016-2021"],
+      "fontSize": 16,
+      "anchor": "start",
+      "subtitleFontSize": 12,
+      "subtitleFontWeight": "normal",
+      "subtitleFontStyle": "italic"
+    },
+    "width": 350,
+    "height": 350,
+    "transform": [
+      {"filter": "datum.YEAR == YearSelect"},
+      {"calculate": "datum.taken *-1", "as": "taken"},
+      {"calculate": "(-abs(datum.taken))","as": "taken"},
+      {
+      "fold": ["scored", "taken"], 
+      "as": ["source", "value"]
+    },
+    {"calculate": "datum.source === 'scored' ? 'Scored' : 'Taken'",
+      "as": "Goals"},
+      {"calculate":"datum.Goals === 'Scored' ? datum.scored : datum.taken", "as": "values"},
+      {"calculate": "abs(datum.values)", "as":"values_tooltip"}
+  
+  
+    ],
+    "params":[
+       {
+        "name": "hover",
+        "select": {
+          "type": "point",
+          "on": "pointerover"
+        }
+      },
+      {
+        "name": "YearSelect",
+        "value": 2021,
+        "bind": {
+          "input": "range",
+          "min": 2016,
+          "max": 2021,
+          "step": 1,
+          "name": "Year:"
+        }}
+    ],
+    "mark": {"type":"bar", "color": "#3ca951"},
+    "encoding": {
+      "y": {
+        "field": "Team",
+        "type": "nominal",
+        "title": null,
+        "sort": {"field":"scored", "order":"ascending"},
+        "axis": {
+          "labelAlign": "center",
+          "domain": false,
+          "ticks": false,
+          "labelFontWeight": "bold",
+          "labelColor":"black",
+          "labelAngle": 0,
+          "zindex": 10,
+          "offset": -176.5
+        }
+      },
+      "opacity": {"condition": {"param": "hover", "value": 1},"value":0.5},
+      "tooltip": [
+        {"field": "Team"},
+        {"field": "values_tooltip", "title": "Goals scored"}
+      ],
+      "x": {
+        "field": "values",
+        "title": null,
+        "type": "quantitative",
+        "scale": {"domain": [-40, 40]},
+        "axis": {
+          "tickOpacity": 0,
+          "gridOpacity": 0,
+          "position": 0,
+           "labelExpr": "datum.value < 0 ? format(-datum.value, '.1s') : format(datum.value, '.1s')"
+        }
+      },
+      "color":{
+        "field":"Goals",
+        "title":"Goals",
+        "scale": {"scheme": "redyellowgreen"}
+  
+      }
+    }
+  }

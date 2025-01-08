@@ -1,0 +1,66 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/MaximeLetailleur/MaximeLetailleur.github.io/refs/heads/main/fifa_income%20(2).csv"
+    },
+    "title": {
+      "text": "FIFA Revenues per Category, 2003-2022",
+      "color": "#4269d0",
+      "fontSize": 16,
+      "subtitlePadding": 5,
+      "fontWeight": 600,
+      "anchor": "start",
+      "subtitle": "Source: FIFA Income Statements"
+    },
+    "width": 380,
+    "height": 250,
+    "transform": [
+      {"calculate": "year(datum.Year)", "as": "year"},
+      {"calculate": "datum.Income*1000","as":"Income"},
+      {"filter": "datum.year>=minYear"},
+      {"filter": "datum.year<=maxYear"},
+      {"filter":"datum.Revenues !=='Total revenue and other income'"}
+    ],
+    "params": [
+      {
+        "name": "minYear",
+        "value": 2010,
+        "bind": {
+          "input": "range",
+          "min": 2003,
+          "max": 2021,
+          "step": 1,
+          "name": "Start year:"
+        }
+      },
+      {
+        "name": "maxYear",
+        "value": 2022,
+        "bind": {
+          "input": "range",
+          "min": 2004,
+          "max": 2022,
+          "step": 1,
+          "name": "End year:"
+        }
+      }
+    ],
+    "mark": {"type":"area","stroke":"#cccccc","strokeWidth":0.5},
+    "encoding": {
+      "x": {"field": "Year", "type": "temporal", "title": null},
+      "y": {"field": "Income", "type": "quantitative", "title": null,"axis":{
+        "format":"$~s"
+      }
+      },
+      "color": {
+        "field": "Revenues",
+        "scale": {"scheme": "set3"},
+        "legend": {"orient": "right", "title": "Revenue streams"}
+      },
+      "tooltip": [
+        {"field": "Revenues"},
+        {"field": "Year", "formatType": "time", "format": "%Y"},
+        {"field": "Income","title":"Revenue", "format": "$.2~s"}
+      ]
+    }
+  }

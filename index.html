@@ -44,12 +44,14 @@
 <!-- The body tag contains the elements that visitors to our page will see. -->
     <h1 class="big" style="margin-bottom: 0px;"> <!-- We have added a class to the header called "big" which we can use to style it in the CSS -->
         <!-- This is a header, it is the largest text on the page -->
-        Your name
+        Maxime Letailleur
     </h1>
     <p style="margin-top: 0px; color: darkblue">
         <!-- we're setting the margin to 0px so the header and authour name are close together -->
-        Your Name | <a href="https://www.linkedin.com/in/YOUR_LINKEDIN/">LinkedIn</a> | <a
-            href="https://www.github.com/YOUR_GITHUB">GitHub</a>
+        Maxime Letailleur | <a href="https://www.linkedin.com/in/YOUR_LINKEDIN/">LinkedIn</a> | <a
+            href="https://www.github.com/YOUR_GITHUB">GitHub</a> |
+            <a href="Final_project.html">Final Project</a> |
+            <a href="Coding_chal.html">Coding Challenges</a>
     </p>
     <h3 class="small"> <!-- We have added a class to the header called "small" which we can use to style it in the CSS -->
         This page acts as your portfolio of charts. You can use it as a good starting point to display your work but make sure to customise it to make it your own, or even start from scratch.  
@@ -241,6 +243,28 @@
         <figure id="CC9_2"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
     </section>
 
+    <section>
+        <div class="chart-description">
+            <h2>Impregnable Fortresses</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                Teams generally play better at home. But which team plays best? Using a dataset of Champions League games in 2016-2021, and merging it on 
+                Colab with a dataset of city geographical coordinates, we chart a map of European football cities, and their win rates at home in the UCL.
+            </p>
+        </div>
+        <figure id="CC10_1"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+
+    <section>
+        <div class="chart-description">
+            <h2>Goals Scored in the Champions League</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                Which teams score the most goals in European football? Which teams conceede the most? Data can be found on this pyramid graph from
+                UCL games 2016-2021
+            </p>
+        </div>
+        <figure id="CC10_2"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+
     <!-- Do you want to add more sections? -->
         <!-- Try copying pasting the section above -->
         <!-- You'll need to change the id of the figure "<figure id="Location3"... -->
@@ -267,6 +291,8 @@
         let figure_14_spec = "CC8_2.json";
         let figure_15_spec = "CC9_1.json";
         let figure_16_spec = "CC9_2.json";
+        let figure_17_spec = "CC10_1.json";
+        let figure_18_spec = "CC10_2.json";
                                                                                                                     // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
 
         vegaEmbed('#Location1', figure_1_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_1
@@ -292,6 +318,8 @@
         vegaEmbed('#CC8_2', figure_14_spec)
         vegaEmbed('#CC9_1', figure_15_spec)
         vegaEmbed('#CC9_2', figure_16_spec)
+        vegaEmbed('#CC10_1', figure_17_spec)
+        vegaEmbed('#CC10_2', figure_18_spec)
 
 
     </script>

@@ -1,0 +1,77 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text":"Impregnable Fortresses",
+  "subtitle": "European cities with the highest win rates at home in the Champions League, 2016-2021"},
+  "height": 500,
+  "width": 500,
+  "params": [
+    {
+      "name": "Year",
+      "value": 2021,
+      "bind": {"input": "range", "min": 2016, "max": 2021, "step": 1}
+    }
+  ],
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/leakyMirror/map-of-europe/refs/heads/master/GeoJSON/europe.geojson",
+        "format": {"property": "features"}
+      },
+      "mark": {"type": "geoshape","fill": "#5a77ee","stroke": "white"},
+      "encoding": {
+      },
+      "projection": {"type": "mercator"}
+    },
+    {
+      
+      "data": {
+        "url": "https://raw.githubusercontent.com/MaximeLetailleur/MaximeLetailleur.github.io/refs/heads/main/UCL_results%20(3).csv",
+        "format": {"type": "csv"}
+      },
+      "transform":[
+        {"filter":"datum.country != 'AU'"},
+        {"filter": "datum.YEAR == Year"},
+        {
+          "aggregate": [
+            {"op": "count", "as": "HomeWins"}
+          ],
+          "groupby": ["name", "YEAR", "lat", "lng","home_win_percentage"]
+        }
+      ],
+      "params":[
+        {
+      "name": "hover",
+      "select": {
+        "type": "point",
+        "on": "pointerover"
+      }
+    }
+      ],
+  
+      "mark": {"type": "circle", "color": "red"},
+      "encoding": {
+        "longitude": {"field": "lng", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"},
+        "tooltip": [
+          {"field": "name", "title": "City"},
+          {"field": "home_win_percentage","format": ".0f", "title": " Wins at Home (%)"}
+        ],
+        "size": {
+          "field": "home_win_percentage",
+          "type": "quantitative",
+          "scale": {"domain":[0,100]}
+        },
+        "opacity": {"condition": {"param": "hover", "value": 1},"value":0.5},
+        "order": {
+      "condition": {
+        "param": "hover",
+        "value": 1,
+        "empty": false
+      },
+      "value": 0
+    }
+
+      }
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Evolution of Stock Market Indexes of World Cup Winning Nations",
+    "subtitle": [
+      "Index values for the Merval (Argentina), CAC40 (France), DAX40 (Germany), IBEX (Spain),"," IT40 (Italy) and IBOV (Brasil)","Source: Investing.com UK"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "#404040",
+    "subtitleColor": "#404040"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/MaximeLetailleur/MaximeLetailleur.github.io/refs/heads/main/stocks_WC%20(4).csv"
+  },    
+  "transform":[
+    {"filter":"datum.Relative_Date > mindate"},
+    {"filter":"datum.Relative_Date < maxdate"},
+    {"calculate":"'t'+datum.Relative_Date", "as":"ttime"},
+    {
+      "lookup": "Stock markets",
+      "from": {
+        "data": {
+          "values": [
+            {"Stock markets": "CAC40", "IDC": "CAC40 (France)"},
+            {"Stock markets": "DAX40", "IDC": "DAX40 (Germany)"},
+            {"Stock markets": "IBEX", "IDC": "IBEX (Spain)"},
+            {"Stock markets": "IBOV", "IDC": "IBOV (Brasil)"},
+            {"Stock markets": "IT40", "IDC": "IT40 (Italy)"},
+            {"Stock markets": "Merval", "IDC": "Merval (Argentina)"}
+
+
+          ]
+        },
+        "key": "Stock markets",
+        "fields": ["IDC"]
+      }
+    }
+  ],
+  "params":[
+    {
+          "name":"mindate",
+          "value":"-15",
+          "bind":{
+            "input":"range",
+            "min":-30,
+            "max":-2,
+            "step":1,
+            "name":"days before WC final"
+          }
+        },
+         {
+          "name":"maxdate",
+          "value":"15",
+          "bind":{
+            "input":"range",
+            "min":2,
+            "max":30,
+            "step":1,
+            "name":"days after WC final"
+          }
+        },
+        {"name": "hover", "select": {"type": "point", "on": "pointerover"}}
+  ],
+  "width": 500,
+  "height": 500,
+  "mark":{"type":"line"},
+  "encoding": {
+    "x": {
+      "field": "Relative_Date",
+      "type": "quantitative",
+      "title": null,
+      "axis": {
+        "title":"Market Days Relative to the World Cup Final (t0)",
+                "titleColor": "#404040",
+        "grid": true,
+        "domainColor": "#404040",
+        "labelColor": "#404040",
+        "tickColor": "#404040",
+        "gridColor": "black",
+        "gridOpacity":0.5,
+        "labelExpr": "'t'+datum.value"
+      }
+    },
+    "y": {
+      "field": "Values",
+      "type": "quantitative",
+      "scale": {"domain": [-15, 15]},
+      "title": "Stock Market Index Fluctuation (%)",
+      "axis": {
+        "grid": false,
+                "gridOpacity":0.5,
+        "domainColor": "#404040",
+        "labelColor": "#404040",
+        "tickColor": "#404040",
+        "gridColor": "black",
+        "titleColor": "#404040"
+      }
+    },
+    "color": {
+      "field": "IDC",
+      "legend": {
+        "orient": "right",
+        "direction": "vertical",
+        "title": "Index",
+        "labelColor": "#404040",
+        "titleColor": "#404040"
+      }
+    },
+    "size": {"condition": {"param": "hover", "value": 3}},
+    "tooltip": [
+      {"field": "Stock markets", "title": "Stock market"},
+      {"field": "Values", "title": "Value growth (%)"}
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 600,
+  "height": 600,
+  "title": {
+    "text":"The Global Outreach of Football",
+    "subtitle":["Number of participations to a World Cup for each country (in blue)","Share of the local population identifying as a football fan (in red)"],
+    "fontSize": 18
+  },
+   "data": {
+    "url": "https://raw.githubusercontent.com/MaximeLetailleur/MaximeLetailleur.github.io/refs/heads/main/map_world.geojson",
+    "format": {"property": "features"}
+   },
+  "projection": {"type": "equalEarth"},
+   "layer":[
+    {
+  "mark":{
+    "type":"geoshape" , "stroke": "white", "strokeWidth": 0.5
+  },
+  "encoding": {
+    "tooltip":[
+      { "field":"properties.COUNTRY", "title": "Country"},
+      {"field": "Appearances", "title": "Nbr. of WC Appearances","format":".0f"}
+    ],
+    "color": {
+      "field": "Appearances",
+      "type": "quantitative",
+      "legend": {"title": "# of World Cup participations", "format": "d"},
+      "scale": {"scheme": "blues", "reverse": false}
+    }
+  },
+  "transform": [
+    {
+      "lookup": "properties.COUNTRY",
+      "from": {
+        "key": "Country",
+        "fields": ["Appearances", "Best performance"],
+        "data": {
+          "url": "https://raw.githubusercontent.com/MaximeLetailleur/MaximeLetailleur.github.io/refs/heads/main/WC_countries.csv"
+        }
+      }
+    }
+  ]
+    },
+    {
+       "params": [
+  {
+    "name": "hover",
+    "select": {
+      "type": "point",
+      "on": "pointerover"
+    }
+  }
+],
+      "mark":{"type":"circle","color":"#e41a1c","opacity":1},
+    "transform":[
+    {
+      "lookup": "properties.COUNTRY",
+      "from": {
+        "key": "Country",
+        "fields": ["Country", "fans","lat","lng"],
+        "data": {
+          "url": "https://raw.githubusercontent.com/MaximeLetailleur/MaximeLetailleur.github.io/refs/heads/main/ffans.csv"
+        }
+      }
+    },
+    {"calculate":"datum.fans*100","as":"qfans"}
+  ],
+   "encoding":{
+   "longitude": {"field": "lng", "type": "quantitative"},
+   "latitude": {"field": "lat", "type": "quantitative"},
+   "size":{
+    "field": "qfans",
+    "type": "quantitative",
+    "scale":{"domain":[5,100],"range":[1,150]}
+      },
+    "tooltip":[
+      { "field":"properties.COUNTRY", "title": "Country"},
+      {"field": "qfans", "title":"Share of football fans (%)","format":".0f"}
+    ],
+    "opacity":{
+      "condition": {"param": "hover", "value": 0.5}
+    }
+    }
+    }
+    ]
+  
+}

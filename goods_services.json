@@ -1,0 +1,1567 @@
+{
+    "config": {
+        "view": {
+            "continuousWidth": 400,
+            "continuousHeight": 300,
+            "stroke": null
+        }
+    },
+    "layer": [
+        {
+            "mark": "line",
+            "encoding": {
+                "color": {
+                    "field": "series",
+                    "legend": null,
+                    "scale": {
+                        "range": [
+                            "hsl(192, 100.00%, 50.00%)",
+                            "hsl(32 100% 50%)"
+                        ]
+                    },
+                    "type": "nominal"
+                },
+                "x": {
+                    "axis": {
+                        "grid": false
+                    },
+                    "field": "date",
+                    "title": "",
+                    "type": "temporal"
+                },
+                "y": {
+                    "axis": {
+                        "gridDash": [
+                            3,
+                            5
+                        ],
+                        "labelExpr": "'\u00a3' + datum.label + 'bn'"
+                    },
+                    "field": "value",
+                    "title": "",
+                    "type": "quantitative"
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "align": "left",
+                "dx": 5
+            },
+            "encoding": {
+                "color": {
+                    "field": "series",
+                    "legend": null,
+                    "scale": {
+                        "range": [
+                            "hsl(192, 100.00%, 50.00%)",
+                            "hsl(32 100% 50%)"
+                        ]
+                    },
+                    "type": "nominal"
+                },
+                "text": {
+                    "field": "series",
+                    "type": "nominal"
+                },
+                "x": {
+                    "axis": {
+                        "grid": false
+                    },
+                    "field": "date",
+                    "title": "",
+                    "type": "temporal"
+                },
+                "y": {
+                    "axis": {
+                        "gridDash": [
+                            3,
+                            5
+                        ],
+                        "labelExpr": "'\u00a3' + datum.label + 'bn'"
+                    },
+                    "field": "value",
+                    "title": "",
+                    "type": "quantitative"
+                }
+            },
+            "transform": [
+                {
+                    "filter": "year(datum.date) == 2023"
+                }
+            ]
+        }
+    ],
+    "data": {
+        "name": "data-36ac217bb99313c1a4e4e772a5c77a73"
+    },
+    "height": 350,
+    "title": {
+        "text": "Material World, no more?",
+        "subtitle": [
+            "Nominal spending on goods and services in the UK",
+            "Source: ONS Consumer Trends",
+            ""
+        ],
+        "subtitleFontWeight": "lighter",
+        "anchor": "start",
+        "frame": "group"
+    },
+    "width": 500,
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+    "datasets": {
+        "data-36ac217bb99313c1a4e4e772a5c77a73": [
+            {
+                "date": "COICOP identifier code",
+                "series": "Goods",
+                "value": "TG"
+            },
+            {
+                "date": "CDID identifier code",
+                "series": "Goods",
+                "value": "UTIF"
+            },
+            {
+                "date": 1997,
+                "series": "Goods",
+                "value": 264637
+            },
+            {
+                "date": 1998,
+                "series": "Goods",
+                "value": 278202
+            },
+            {
+                "date": 1999,
+                "series": "Goods",
+                "value": 291682
+            },
+            {
+                "date": 2000,
+                "series": "Goods",
+                "value": 302782
+            },
+            {
+                "date": 2001,
+                "series": "Goods",
+                "value": 317427
+            },
+            {
+                "date": 2002,
+                "series": "Goods",
+                "value": 325896
+            },
+            {
+                "date": 2003,
+                "series": "Goods",
+                "value": 340238
+            },
+            {
+                "date": 2004,
+                "series": "Goods",
+                "value": 351679
+            },
+            {
+                "date": 2005,
+                "series": "Goods",
+                "value": 360258
+            },
+            {
+                "date": 2006,
+                "series": "Goods",
+                "value": 375783
+            },
+            {
+                "date": 2007,
+                "series": "Goods",
+                "value": 391065
+            },
+            {
+                "date": 2008,
+                "series": "Goods",
+                "value": 402514
+            },
+            {
+                "date": 2009,
+                "series": "Goods",
+                "value": 399490
+            },
+            {
+                "date": 2010,
+                "series": "Goods",
+                "value": 413243
+            },
+            {
+                "date": 2011,
+                "series": "Goods",
+                "value": 429133
+            },
+            {
+                "date": 2012,
+                "series": "Goods",
+                "value": 440752
+            },
+            {
+                "date": 2013,
+                "series": "Goods",
+                "value": 463222
+            },
+            {
+                "date": 2014,
+                "series": "Goods",
+                "value": 469501
+            },
+            {
+                "date": 2015,
+                "series": "Goods",
+                "value": 477161
+            },
+            {
+                "date": 2016,
+                "series": "Goods",
+                "value": 496830
+            },
+            {
+                "date": 2017,
+                "series": "Goods",
+                "value": 519879
+            },
+            {
+                "date": 2018,
+                "series": "Goods",
+                "value": 539831
+            },
+            {
+                "date": 2019,
+                "series": "Goods",
+                "value": 554218
+            },
+            {
+                "date": 2020,
+                "series": "Goods",
+                "value": 524149
+            },
+            {
+                "date": 2021,
+                "series": "Goods",
+                "value": 562310
+            },
+            {
+                "date": 2022,
+                "series": "Goods",
+                "value": 633450
+            },
+            {
+                "date": 2023,
+                "series": "Goods",
+                "value": 662592
+            },
+            {
+                "date": "End of table 14a.",
+                "series": "Goods",
+                "value": null
+            },
+            {
+                "date": "Table 14b: Goods and Services, current prices, quarterly data, UK, seasonally adjusted, \u00a3 millions",
+                "series": "Goods",
+                "value": null
+            },
+            {
+                "date": "Time period and codes",
+                "series": "Goods",
+                "value": "Total goods"
+            },
+            {
+                "date": "COICOP identifier code",
+                "series": "Goods",
+                "value": "TG"
+            },
+            {
+                "date": "CDID identifier code",
+                "series": "Goods",
+                "value": "UTIF"
+            },
+            {
+                "date": "1997 Q1",
+                "series": "Goods",
+                "value": 64662
+            },
+            {
+                "date": "1997 Q2",
+                "series": "Goods",
+                "value": 65442
+            },
+            {
+                "date": "1997 Q3",
+                "series": "Goods",
+                "value": 67180
+            },
+            {
+                "date": "1997 Q4",
+                "series": "Goods",
+                "value": 67353
+            },
+            {
+                "date": "1998 Q1",
+                "series": "Goods",
+                "value": 67937
+            },
+            {
+                "date": "1998 Q2",
+                "series": "Goods",
+                "value": 68606
+            },
+            {
+                "date": "1998 Q3",
+                "series": "Goods",
+                "value": 71207
+            },
+            {
+                "date": "1998 Q4",
+                "series": "Goods",
+                "value": 70452
+            },
+            {
+                "date": "1999 Q1",
+                "series": "Goods",
+                "value": 71341
+            },
+            {
+                "date": "1999 Q2",
+                "series": "Goods",
+                "value": 73105
+            },
+            {
+                "date": "1999 Q3",
+                "series": "Goods",
+                "value": 73742
+            },
+            {
+                "date": "1999 Q4",
+                "series": "Goods",
+                "value": 73494
+            },
+            {
+                "date": "2000 Q1",
+                "series": "Goods",
+                "value": 74600
+            },
+            {
+                "date": "2000 Q2",
+                "series": "Goods",
+                "value": 75151
+            },
+            {
+                "date": "2000 Q3",
+                "series": "Goods",
+                "value": 75881
+            },
+            {
+                "date": "2000 Q4",
+                "series": "Goods",
+                "value": 77150
+            },
+            {
+                "date": "2001 Q1",
+                "series": "Goods",
+                "value": 78013
+            },
+            {
+                "date": "2001 Q2",
+                "series": "Goods",
+                "value": 78715
+            },
+            {
+                "date": "2001 Q3",
+                "series": "Goods",
+                "value": 79947
+            },
+            {
+                "date": "2001 Q4",
+                "series": "Goods",
+                "value": 80752
+            },
+            {
+                "date": "2002 Q1",
+                "series": "Goods",
+                "value": 80798
+            },
+            {
+                "date": "2002 Q2",
+                "series": "Goods",
+                "value": 80930
+            },
+            {
+                "date": "2002 Q3",
+                "series": "Goods",
+                "value": 81602
+            },
+            {
+                "date": "2002 Q4",
+                "series": "Goods",
+                "value": 82566
+            },
+            {
+                "date": "2003 Q1",
+                "series": "Goods",
+                "value": 83803
+            },
+            {
+                "date": "2003 Q2",
+                "series": "Goods",
+                "value": 85037
+            },
+            {
+                "date": "2003 Q3",
+                "series": "Goods",
+                "value": 85633
+            },
+            {
+                "date": "2003 Q4",
+                "series": "Goods",
+                "value": 85765
+            },
+            {
+                "date": "2004 Q1",
+                "series": "Goods",
+                "value": 87142
+            },
+            {
+                "date": "2004 Q2",
+                "series": "Goods",
+                "value": 87693
+            },
+            {
+                "date": "2004 Q3",
+                "series": "Goods",
+                "value": 87734
+            },
+            {
+                "date": "2004 Q4",
+                "series": "Goods",
+                "value": 89110
+            },
+            {
+                "date": "2005 Q1",
+                "series": "Goods",
+                "value": 89106
+            },
+            {
+                "date": "2005 Q2",
+                "series": "Goods",
+                "value": 88667
+            },
+            {
+                "date": "2005 Q3",
+                "series": "Goods",
+                "value": 90332
+            },
+            {
+                "date": "2005 Q4",
+                "series": "Goods",
+                "value": 92153
+            },
+            {
+                "date": "2006 Q1",
+                "series": "Goods",
+                "value": 92364
+            },
+            {
+                "date": "2006 Q2",
+                "series": "Goods",
+                "value": 93725
+            },
+            {
+                "date": "2006 Q3",
+                "series": "Goods",
+                "value": 95041
+            },
+            {
+                "date": "2006 Q4",
+                "series": "Goods",
+                "value": 94653
+            },
+            {
+                "date": "2007 Q1",
+                "series": "Goods",
+                "value": 94915
+            },
+            {
+                "date": "2007 Q2",
+                "series": "Goods",
+                "value": 96342
+            },
+            {
+                "date": "2007 Q3",
+                "series": "Goods",
+                "value": 99584
+            },
+            {
+                "date": "2007 Q4",
+                "series": "Goods",
+                "value": 100224
+            },
+            {
+                "date": "2008 Q1",
+                "series": "Goods",
+                "value": 100881
+            },
+            {
+                "date": "2008 Q2",
+                "series": "Goods",
+                "value": 102702
+            },
+            {
+                "date": "2008 Q3",
+                "series": "Goods",
+                "value": 101851
+            },
+            {
+                "date": "2008 Q4",
+                "series": "Goods",
+                "value": 97080
+            },
+            {
+                "date": "2009 Q1",
+                "series": "Goods",
+                "value": 97957
+            },
+            {
+                "date": "2009 Q2",
+                "series": "Goods",
+                "value": 99293
+            },
+            {
+                "date": "2009 Q3",
+                "series": "Goods",
+                "value": 100538
+            },
+            {
+                "date": "2009 Q4",
+                "series": "Goods",
+                "value": 101702
+            },
+            {
+                "date": "2010 Q1",
+                "series": "Goods",
+                "value": 100754
+            },
+            {
+                "date": "2010 Q2",
+                "series": "Goods",
+                "value": 103874
+            },
+            {
+                "date": "2010 Q3",
+                "series": "Goods",
+                "value": 103593
+            },
+            {
+                "date": "2010 Q4",
+                "series": "Goods",
+                "value": 105022
+            },
+            {
+                "date": "2011 Q1",
+                "series": "Goods",
+                "value": 106349
+            },
+            {
+                "date": "2011 Q2",
+                "series": "Goods",
+                "value": 105991
+            },
+            {
+                "date": "2011 Q3",
+                "series": "Goods",
+                "value": 108253
+            },
+            {
+                "date": "2011 Q4",
+                "series": "Goods",
+                "value": 108540
+            },
+            {
+                "date": "2012 Q1",
+                "series": "Goods",
+                "value": 108281
+            },
+            {
+                "date": "2012 Q2",
+                "series": "Goods",
+                "value": 109374
+            },
+            {
+                "date": "2012 Q3",
+                "series": "Goods",
+                "value": 109456
+            },
+            {
+                "date": "2012 Q4",
+                "series": "Goods",
+                "value": 113641
+            },
+            {
+                "date": "2013 Q1",
+                "series": "Goods",
+                "value": 114078
+            },
+            {
+                "date": "2013 Q2",
+                "series": "Goods",
+                "value": 115296
+            },
+            {
+                "date": "2013 Q3",
+                "series": "Goods",
+                "value": 116817
+            },
+            {
+                "date": "2013 Q4",
+                "series": "Goods",
+                "value": 117031
+            },
+            {
+                "date": "2014 Q1",
+                "series": "Goods",
+                "value": 116327
+            },
+            {
+                "date": "2014 Q2",
+                "series": "Goods",
+                "value": 116965
+            },
+            {
+                "date": "2014 Q3",
+                "series": "Goods",
+                "value": 117728
+            },
+            {
+                "date": "2014 Q4",
+                "series": "Goods",
+                "value": 118481
+            },
+            {
+                "date": "2015 Q1",
+                "series": "Goods",
+                "value": 117742
+            },
+            {
+                "date": "2015 Q2",
+                "series": "Goods",
+                "value": 118991
+            },
+            {
+                "date": "2015 Q3",
+                "series": "Goods",
+                "value": 121002
+            },
+            {
+                "date": "2015 Q4",
+                "series": "Goods",
+                "value": 119426
+            },
+            {
+                "date": "2016 Q1",
+                "series": "Goods",
+                "value": 122739
+            },
+            {
+                "date": "2016 Q2",
+                "series": "Goods",
+                "value": 123451
+            },
+            {
+                "date": "2016 Q3",
+                "series": "Goods",
+                "value": 124466
+            },
+            {
+                "date": "2016 Q4",
+                "series": "Goods",
+                "value": 126174
+            },
+            {
+                "date": "2017 Q1",
+                "series": "Goods",
+                "value": 127764
+            },
+            {
+                "date": "2017 Q2",
+                "series": "Goods",
+                "value": 128280
+            },
+            {
+                "date": "2017 Q3",
+                "series": "Goods",
+                "value": 131125
+            },
+            {
+                "date": "2017 Q4",
+                "series": "Goods",
+                "value": 132710
+            },
+            {
+                "date": "2018 Q1",
+                "series": "Goods",
+                "value": 133914
+            },
+            {
+                "date": "2018 Q2",
+                "series": "Goods",
+                "value": 132663
+            },
+            {
+                "date": "2018 Q3",
+                "series": "Goods",
+                "value": 135298
+            },
+            {
+                "date": "2018 Q4",
+                "series": "Goods",
+                "value": 137956
+            },
+            {
+                "date": "2019 Q1",
+                "series": "Goods",
+                "value": 137780
+            },
+            {
+                "date": "2019 Q2",
+                "series": "Goods",
+                "value": 139166
+            },
+            {
+                "date": "2019 Q3",
+                "series": "Goods",
+                "value": 139804
+            },
+            {
+                "date": "2019 Q4",
+                "series": "Goods",
+                "value": 137468
+            },
+            {
+                "date": "2020 Q1",
+                "series": "Goods",
+                "value": 132592
+            },
+            {
+                "date": "2020 Q2",
+                "series": "Goods",
+                "value": 117829
+            },
+            {
+                "date": "2020 Q3",
+                "series": "Goods",
+                "value": 138941
+            },
+            {
+                "date": "2020 Q4",
+                "series": "Goods",
+                "value": 134787
+            },
+            {
+                "date": "2021 Q1",
+                "series": "Goods",
+                "value": 129775
+            },
+            {
+                "date": "2021 Q2",
+                "series": "Goods",
+                "value": 144179
+            },
+            {
+                "date": "2021 Q3",
+                "series": "Goods",
+                "value": 141259
+            },
+            {
+                "date": "2021 Q4",
+                "series": "Goods",
+                "value": 147097
+            },
+            {
+                "date": "2022 Q1",
+                "series": "Goods",
+                "value": 150782
+            },
+            {
+                "date": "2022 Q2",
+                "series": "Goods",
+                "value": 157143
+            },
+            {
+                "date": "2022 Q3",
+                "series": "Goods",
+                "value": 160706
+            },
+            {
+                "date": "2022 Q4",
+                "series": "Goods",
+                "value": 164819
+            },
+            {
+                "date": "2023 Q1",
+                "series": "Goods",
+                "value": 166253
+            },
+            {
+                "date": "2023 Q2",
+                "series": "Goods",
+                "value": 167589
+            },
+            {
+                "date": "2023 Q3",
+                "series": "Goods",
+                "value": 165360
+            },
+            {
+                "date": "2023 Q4",
+                "series": "Goods",
+                "value": 163390
+            },
+            {
+                "date": "2024 Q1",
+                "series": "Goods",
+                "value": 164671
+            },
+            {
+                "date": "2024 Q2",
+                "series": "Goods",
+                "value": 163485
+            },
+            {
+                "date": "End of table 14b.",
+                "series": "Goods",
+                "value": null
+            },
+            {
+                "date": "COICOP identifier code",
+                "series": "Services",
+                "value": "TS"
+            },
+            {
+                "date": "CDID identifier code",
+                "series": "Services",
+                "value": "UTIN"
+            },
+            {
+                "date": 1997,
+                "series": "Services",
+                "value": 344204
+            },
+            {
+                "date": 1998,
+                "series": "Services",
+                "value": 363167
+            },
+            {
+                "date": 1999,
+                "series": "Services",
+                "value": 379322
+            },
+            {
+                "date": 2000,
+                "series": "Services",
+                "value": 399293
+            },
+            {
+                "date": 2001,
+                "series": "Services",
+                "value": 410755
+            },
+            {
+                "date": 2002,
+                "series": "Services",
+                "value": 426025
+            },
+            {
+                "date": 2003,
+                "series": "Services",
+                "value": 445531
+            },
+            {
+                "date": 2004,
+                "series": "Services",
+                "value": 471607
+            },
+            {
+                "date": 2005,
+                "series": "Services",
+                "value": 501990
+            },
+            {
+                "date": 2006,
+                "series": "Services",
+                "value": 520243
+            },
+            {
+                "date": 2007,
+                "series": "Services",
+                "value": 547784
+            },
+            {
+                "date": 2008,
+                "series": "Services",
+                "value": 564319
+            },
+            {
+                "date": 2009,
+                "series": "Services",
+                "value": 546152
+            },
+            {
+                "date": 2010,
+                "series": "Services",
+                "value": 561569
+            },
+            {
+                "date": 2011,
+                "series": "Services",
+                "value": 583090
+            },
+            {
+                "date": 2012,
+                "series": "Services",
+                "value": 608171
+            },
+            {
+                "date": 2013,
+                "series": "Services",
+                "value": 638900
+            },
+            {
+                "date": 2014,
+                "series": "Services",
+                "value": 678846
+            },
+            {
+                "date": 2015,
+                "series": "Services",
+                "value": 699316
+            },
+            {
+                "date": 2016,
+                "series": "Services",
+                "value": 736661
+            },
+            {
+                "date": 2017,
+                "series": "Services",
+                "value": 758810
+            },
+            {
+                "date": 2018,
+                "series": "Services",
+                "value": 783871
+            },
+            {
+                "date": 2019,
+                "series": "Services",
+                "value": 802800
+            },
+            {
+                "date": 2020,
+                "series": "Services",
+                "value": 673810
+            },
+            {
+                "date": 2021,
+                "series": "Services",
+                "value": 757123
+            },
+            {
+                "date": 2022,
+                "series": "Services",
+                "value": 886487
+            },
+            {
+                "date": 2023,
+                "series": "Services",
+                "value": 959871
+            },
+            {
+                "date": "End of table 14a.",
+                "series": "Services",
+                "value": null
+            },
+            {
+                "date": "Table 14b: Goods and Services, current prices, quarterly data, UK, seasonally adjusted, \u00a3 millions",
+                "series": "Services",
+                "value": null
+            },
+            {
+                "date": "Time period and codes",
+                "series": "Services",
+                "value": "Services"
+            },
+            {
+                "date": "COICOP identifier code",
+                "series": "Services",
+                "value": "TS"
+            },
+            {
+                "date": "CDID identifier code",
+                "series": "Services",
+                "value": "UTIN"
+            },
+            {
+                "date": "1997 Q1",
+                "series": "Services",
+                "value": 83542
+            },
+            {
+                "date": "1997 Q2",
+                "series": "Services",
+                "value": 86075
+            },
+            {
+                "date": "1997 Q3",
+                "series": "Services",
+                "value": 86979
+            },
+            {
+                "date": "1997 Q4",
+                "series": "Services",
+                "value": 87608
+            },
+            {
+                "date": "1998 Q1",
+                "series": "Services",
+                "value": 88788
+            },
+            {
+                "date": "1998 Q2",
+                "series": "Services",
+                "value": 90412
+            },
+            {
+                "date": "1998 Q3",
+                "series": "Services",
+                "value": 91393
+            },
+            {
+                "date": "1998 Q4",
+                "series": "Services",
+                "value": 92574
+            },
+            {
+                "date": "1999 Q1",
+                "series": "Services",
+                "value": 93696
+            },
+            {
+                "date": "1999 Q2",
+                "series": "Services",
+                "value": 94524
+            },
+            {
+                "date": "1999 Q3",
+                "series": "Services",
+                "value": 94606
+            },
+            {
+                "date": "1999 Q4",
+                "series": "Services",
+                "value": 96496
+            },
+            {
+                "date": "2000 Q1",
+                "series": "Services",
+                "value": 98461
+            },
+            {
+                "date": "2000 Q2",
+                "series": "Services",
+                "value": 99319
+            },
+            {
+                "date": "2000 Q3",
+                "series": "Services",
+                "value": 100762
+            },
+            {
+                "date": "2000 Q4",
+                "series": "Services",
+                "value": 100751
+            },
+            {
+                "date": "2001 Q1",
+                "series": "Services",
+                "value": 102300
+            },
+            {
+                "date": "2001 Q2",
+                "series": "Services",
+                "value": 102393
+            },
+            {
+                "date": "2001 Q3",
+                "series": "Services",
+                "value": 103795
+            },
+            {
+                "date": "2001 Q4",
+                "series": "Services",
+                "value": 102267
+            },
+            {
+                "date": "2002 Q1",
+                "series": "Services",
+                "value": 104591
+            },
+            {
+                "date": "2002 Q2",
+                "series": "Services",
+                "value": 105573
+            },
+            {
+                "date": "2002 Q3",
+                "series": "Services",
+                "value": 107058
+            },
+            {
+                "date": "2002 Q4",
+                "series": "Services",
+                "value": 108803
+            },
+            {
+                "date": "2003 Q1",
+                "series": "Services",
+                "value": 108939
+            },
+            {
+                "date": "2003 Q2",
+                "series": "Services",
+                "value": 110120
+            },
+            {
+                "date": "2003 Q3",
+                "series": "Services",
+                "value": 112273
+            },
+            {
+                "date": "2003 Q4",
+                "series": "Services",
+                "value": 114199
+            },
+            {
+                "date": "2004 Q1",
+                "series": "Services",
+                "value": 114731
+            },
+            {
+                "date": "2004 Q2",
+                "series": "Services",
+                "value": 117129
+            },
+            {
+                "date": "2004 Q3",
+                "series": "Services",
+                "value": 119055
+            },
+            {
+                "date": "2004 Q4",
+                "series": "Services",
+                "value": 120692
+            },
+            {
+                "date": "2005 Q1",
+                "series": "Services",
+                "value": 123583
+            },
+            {
+                "date": "2005 Q2",
+                "series": "Services",
+                "value": 124290
+            },
+            {
+                "date": "2005 Q3",
+                "series": "Services",
+                "value": 126283
+            },
+            {
+                "date": "2005 Q4",
+                "series": "Services",
+                "value": 127834
+            },
+            {
+                "date": "2006 Q1",
+                "series": "Services",
+                "value": 127685
+            },
+            {
+                "date": "2006 Q2",
+                "series": "Services",
+                "value": 129106
+            },
+            {
+                "date": "2006 Q3",
+                "series": "Services",
+                "value": 131315
+            },
+            {
+                "date": "2006 Q4",
+                "series": "Services",
+                "value": 132137
+            },
+            {
+                "date": "2007 Q1",
+                "series": "Services",
+                "value": 132609
+            },
+            {
+                "date": "2007 Q2",
+                "series": "Services",
+                "value": 136736
+            },
+            {
+                "date": "2007 Q3",
+                "series": "Services",
+                "value": 139305
+            },
+            {
+                "date": "2007 Q4",
+                "series": "Services",
+                "value": 139134
+            },
+            {
+                "date": "2008 Q1",
+                "series": "Services",
+                "value": 142165
+            },
+            {
+                "date": "2008 Q2",
+                "series": "Services",
+                "value": 141453
+            },
+            {
+                "date": "2008 Q3",
+                "series": "Services",
+                "value": 141670
+            },
+            {
+                "date": "2008 Q4",
+                "series": "Services",
+                "value": 139031
+            },
+            {
+                "date": "2009 Q1",
+                "series": "Services",
+                "value": 137372
+            },
+            {
+                "date": "2009 Q2",
+                "series": "Services",
+                "value": 136562
+            },
+            {
+                "date": "2009 Q3",
+                "series": "Services",
+                "value": 136310
+            },
+            {
+                "date": "2009 Q4",
+                "series": "Services",
+                "value": 135908
+            },
+            {
+                "date": "2010 Q1",
+                "series": "Services",
+                "value": 135560
+            },
+            {
+                "date": "2010 Q2",
+                "series": "Services",
+                "value": 140446
+            },
+            {
+                "date": "2010 Q3",
+                "series": "Services",
+                "value": 142295
+            },
+            {
+                "date": "2010 Q4",
+                "series": "Services",
+                "value": 143268
+            },
+            {
+                "date": "2011 Q1",
+                "series": "Services",
+                "value": 144889
+            },
+            {
+                "date": "2011 Q2",
+                "series": "Services",
+                "value": 144900
+            },
+            {
+                "date": "2011 Q3",
+                "series": "Services",
+                "value": 145504
+            },
+            {
+                "date": "2011 Q4",
+                "series": "Services",
+                "value": 147797
+            },
+            {
+                "date": "2012 Q1",
+                "series": "Services",
+                "value": 148938
+            },
+            {
+                "date": "2012 Q2",
+                "series": "Services",
+                "value": 150699
+            },
+            {
+                "date": "2012 Q3",
+                "series": "Services",
+                "value": 153502
+            },
+            {
+                "date": "2012 Q4",
+                "series": "Services",
+                "value": 155032
+            },
+            {
+                "date": "2013 Q1",
+                "series": "Services",
+                "value": 155700
+            },
+            {
+                "date": "2013 Q2",
+                "series": "Services",
+                "value": 158913
+            },
+            {
+                "date": "2013 Q3",
+                "series": "Services",
+                "value": 161485
+            },
+            {
+                "date": "2013 Q4",
+                "series": "Services",
+                "value": 162802
+            },
+            {
+                "date": "2014 Q1",
+                "series": "Services",
+                "value": 165679
+            },
+            {
+                "date": "2014 Q2",
+                "series": "Services",
+                "value": 169131
+            },
+            {
+                "date": "2014 Q3",
+                "series": "Services",
+                "value": 172402
+            },
+            {
+                "date": "2014 Q4",
+                "series": "Services",
+                "value": 171634
+            },
+            {
+                "date": "2015 Q1",
+                "series": "Services",
+                "value": 172795
+            },
+            {
+                "date": "2015 Q2",
+                "series": "Services",
+                "value": 173837
+            },
+            {
+                "date": "2015 Q3",
+                "series": "Services",
+                "value": 175524
+            },
+            {
+                "date": "2015 Q4",
+                "series": "Services",
+                "value": 177160
+            },
+            {
+                "date": "2016 Q1",
+                "series": "Services",
+                "value": 180105
+            },
+            {
+                "date": "2016 Q2",
+                "series": "Services",
+                "value": 183143
+            },
+            {
+                "date": "2016 Q3",
+                "series": "Services",
+                "value": 186682
+            },
+            {
+                "date": "2016 Q4",
+                "series": "Services",
+                "value": 186731
+            },
+            {
+                "date": "2017 Q1",
+                "series": "Services",
+                "value": 187881
+            },
+            {
+                "date": "2017 Q2",
+                "series": "Services",
+                "value": 189261
+            },
+            {
+                "date": "2017 Q3",
+                "series": "Services",
+                "value": 190217
+            },
+            {
+                "date": "2017 Q4",
+                "series": "Services",
+                "value": 191451
+            },
+            {
+                "date": "2018 Q1",
+                "series": "Services",
+                "value": 193526
+            },
+            {
+                "date": "2018 Q2",
+                "series": "Services",
+                "value": 194926
+            },
+            {
+                "date": "2018 Q3",
+                "series": "Services",
+                "value": 196825
+            },
+            {
+                "date": "2018 Q4",
+                "series": "Services",
+                "value": 198594
+            },
+            {
+                "date": "2019 Q1",
+                "series": "Services",
+                "value": 198915
+            },
+            {
+                "date": "2019 Q2",
+                "series": "Services",
+                "value": 199995
+            },
+            {
+                "date": "2019 Q3",
+                "series": "Services",
+                "value": 201017
+            },
+            {
+                "date": "2019 Q4",
+                "series": "Services",
+                "value": 202873
+            },
+            {
+                "date": "2020 Q1",
+                "series": "Services",
+                "value": 197423
+            },
+            {
+                "date": "2020 Q2",
+                "series": "Services",
+                "value": 139582
+            },
+            {
+                "date": "2020 Q3",
+                "series": "Services",
+                "value": 169311
+            },
+            {
+                "date": "2020 Q4",
+                "series": "Services",
+                "value": 167494
+            },
+            {
+                "date": "2021 Q1",
+                "series": "Services",
+                "value": 165583
+            },
+            {
+                "date": "2021 Q2",
+                "series": "Services",
+                "value": 186399
+            },
+            {
+                "date": "2021 Q3",
+                "series": "Services",
+                "value": 202253
+            },
+            {
+                "date": "2021 Q4",
+                "series": "Services",
+                "value": 202888
+            },
+            {
+                "date": "2022 Q1",
+                "series": "Services",
+                "value": 210606
+            },
+            {
+                "date": "2022 Q2",
+                "series": "Services",
+                "value": 220412
+            },
+            {
+                "date": "2022 Q3",
+                "series": "Services",
+                "value": 223593
+            },
+            {
+                "date": "2022 Q4",
+                "series": "Services",
+                "value": 231876
+            },
+            {
+                "date": "2023 Q1",
+                "series": "Services",
+                "value": 236262
+            },
+            {
+                "date": "2023 Q2",
+                "series": "Services",
+                "value": 239380
+            },
+            {
+                "date": "2023 Q3",
+                "series": "Services",
+                "value": 240866
+            },
+            {
+                "date": "2023 Q4",
+                "series": "Services",
+                "value": 243363
+            },
+            {
+                "date": "2024 Q1",
+                "series": "Services",
+                "value": 247283
+            },
+            {
+                "date": "2024 Q2",
+                "series": "Services",
+                "value": 251322
+            },
+            {
+                "date": "End of table 14b.",
+                "series": "Services",
+                "value": null
+            }
+        ]
+    }
+}
